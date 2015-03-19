@@ -1,9 +1,11 @@
 import glob
 import re
 from nltk.tree import ParentedTree
+
 class SentLine(object):
     """Parsed sentence"""
     def __init__(self,line):
+        self.raw = line
         self.true_index = None
         self.index=[]
         def read_leaf(str):
@@ -31,7 +33,6 @@ class BuildCorpus(object):
         self.corpus = None
         self.build_postagged_data()
         self.build_sentence_data()
-        print 'start'
         self.fix_indexes()
 
     def build_postagged_data(self,directory='./project3/data/t-postagged-files'):
@@ -61,6 +62,9 @@ class BuildCorpus(object):
                     lines.append(SentLine(line))
                 self.sentence_data[data_name] = lines
     def fix_indexes(self):
+        """Due to the disagreement of tokenization between postagged and parsed files
+           this function will add a mapping list, to map index in parsed file to 
+           postagged file"""
         for doc_name in self.postagged_data.iterkeys():
             pos_lines = self.postagged_data[doc_name]
             sen_lines = self.sentence_data[doc_name]
@@ -68,12 +72,18 @@ class BuildCorpus(object):
                 true_index = [0 for i in range(len(sen_lines[line_index].index))]
                 sent_index = 0
                 for token_index in range(len(pos_lines[line_index].tokens)):
+                    remain =  pos_lines[line_index].tokens[token_index][0]
                     while(1):
                         if (sent_index == len(sen_lines[line_index].index)):break
-                        if (sen_lines[line_index].index[sent_index].label()\
-                            in pos_lines[line_index].tokens[token_index][0]):
+                        sen_token = sen_lines[line_index].index[sent_index].label()
+                        if (sen_token == "n't"):
+                            sen_token = sen_token[-len(remain):]
+                        if (len(sen_token) > len(remain)):
+                            break
+                        if (sen_token == remain[:len(sen_token)]):
                             true_index[sent_index] = token_index
                             sent_index += 1
+                            remain = remain[len(sen_token):]
                         else:
                             break
                 sen_lines[line_index].true_index = true_index
