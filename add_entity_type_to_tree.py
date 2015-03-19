@@ -6,9 +6,9 @@ from nltk.tree import Tree
 import copy
 
 class AddEntityToTree(object):
-    def __init__(self,data=DataSet(file='./project3/data/rel-devset.gold').data,
+    def __init__(self,data=DataSet(file='./project3/data/rel-testset.gold').data,
                       corpus=BuildCorpus(),
-                 output='./project3/data/e-parsed-files/rel-dev-parsed-data'):
+                 output='./project3/data/e-parsed-files/rel-test-parsed-data'):
         self.data = data
         self.corpus = corpus
         self.output = output
@@ -35,8 +35,15 @@ class AddEntityToTree(object):
                                              coref.second.ne,
                                              coref.second.start,
                                              coref.second.end)
+                self.make_leaves_leaves(sentence)
                 f_out.write(sentence.tree.pprint(margin=8096)+'\n')
 
+    def make_leaves_leaves(self,sentence):
+        for fake_leaf in sentence.index:
+            parent = fake_leaf.parent()
+            leaf = fake_leaf.label()
+            parent.pop()
+            parent.append(leaf)
     def add_entity_type_to_tree(self,sentence,ne,start,end):
         entity_nodes = self.get_nodes_list_by_index(sentence,start,end)
         if (len(entity_nodes) > 1):
