@@ -1,5 +1,6 @@
 import glob
 import re
+import copy
 from nltk.tree import ParentedTree
 class SentLine(object):
     """Parsed sentence"""
@@ -78,8 +79,47 @@ class BuildCorpus(object):
                             break
                 sen_lines[line_index].true_index = true_index
 
+    def prune_trees(self,dataset):
+        
+        #tree_data=copy.deepcopy(self.postagged_data)
+        for relation in dataset.data:
+            if relation.first.sent != relation.second.sent:
+                continue
+            sent = self.sentence_data[relation.document][relation.first.sent]
+            left = sent.index[sent.true_index[relation.first.start]]
+            right = sent.index[sent.true_index[relation.second.end - 1]]
+            self.tree_crop_merge(left)
+            tree = self.tree_crop_merge(right,1)
+
+    def tree_crop_merge(self,tree,dir=0):
+        parent = tree.parent()
+        child = tree
+        while parent != None:
+            index = child.parent_index()
+            if dir==0:
+                del parent[:index]
+            else:
+                del parent[index+1:]
+            if child.label() == parent.label() and len(parent) ==1:
+                subtree=parent.pop()
+                if parent.parent() == None:
+                    return subtree
+                else:
+                    parent.parent()[parent.parent_index()]=subtree
+                    child=subtree
+                    parent=subtree.parent()
+            child=parent
+            parent=parent.parent()
+        return child
+            
+
+
+
 if __name__ == '__main__':
     bc = BuildCorpus()
+    from data_reader import DataSet
+    ds = DataSet()
+    pt = bc.prune_trees(ds)
     """p = bc.postagged_data['APW20001001.2021.0521']
     t = bc.sentence_data['APW20001001.2021.0521']
     print t[3].true_index
