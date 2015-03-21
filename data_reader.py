@@ -1,5 +1,6 @@
 from nltk import ParentedTree
 from collections import Counter
+from build_corpus import BuildCorpus
 
 class DataSet(object):
     """description of class"""
@@ -83,6 +84,7 @@ class DataAnalysis():
         self.data = DataSet(data_file).data
         self.pn = self.positive_number()
         self.classes = self.classes_info()
+        self.corpus = BuildCorpus()
     def positive_number(self):
         pn = 0
         for d in self.data:
@@ -96,9 +98,41 @@ class DataAnalysis():
             if (d.label != 'no_rel'):
                 classes_dict[d.label] += 1
         return classes_dict
-    
 
+    def mention_distance(self):
+        data_counter = 0
+        distance_dict = Counter()
+        for d in self.data:
+            data_counter+=1
+            if (d.label != 'no_rel'):
+                distance = - d.first.end + d.second.start
+                if (d.first.end > d.second.start):
+                    print d.first.sent==d.second.sent,data_counter
+                distance_dict[distance] += 1
+        return distance_dict
+
+    def link_word(self):
+        link_dict = dict()
+        for key in self.classes.keys():
+            link_dict[key] = Counter()
+        for d in self.data:
+            if(d.label != 'no_rel'):
+                doc = d.document
+                start = d.first.end
+                end = d.second.start
+                sentence = self.corpus.postagged_data[doc][d.first.sent]
+                if start == end:
+                    link_dict[d.label]['--None--'] += 1
+                for token in sentence.tokens[start:end]:
+                    link_dict[d.label][token[0].lower()] += 1
+        return link_dict
 
 if __name__ == '__main__':
-    doc=Document(r"D:\Projects\ie_proj2\nopos\APW20001001.2021.0521.head.coref.raw.txt",r"D:\Projects\ie_proj2\postagged-files\APW20001001.2021.0521.head.coref.raw.pos")
-    pass
+    """doc=Document(r"D:\Projects\ie_proj2\nopos\APW20001001.2021.0521.head.coref.raw.txt",r"D:\Projects\ie_proj2\postagged-files\APW20001001.2021.0521.head.coref.raw.pos")
+    pass"""
+    da = DataAnalysis('./project3/data/rel-testset.gold')
+    ld = da.link_word()
+    for key in ld.keys():
+        print key,'--------------------------------------'
+        for token,value in ld[key].items():
+            print token,value
