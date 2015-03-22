@@ -1,6 +1,5 @@
 import glob
 import re
-import copy
 from nltk.tree import ParentedTree
 
 class SentLine(object):
@@ -89,17 +88,25 @@ class BuildCorpus(object):
                             break
                 sen_lines[line_index].true_index = true_index
 
-    def prune_trees(self,dataset):
-        
-        #tree_data=copy.deepcopy(self.postagged_data)
-        for relation in dataset.data:
-            if relation.first.sent != relation.second.sent:
-                continue
-            sent = self.sentence_data[relation.document][relation.first.sent]
-            left = sent.index[sent.true_index[relation.first.start]]
-            right = sent.index[sent.true_index[relation.second.end - 1]]
-            self.tree_crop_merge(left)
-            tree = self.tree_crop_merge(right,1)
+    def prune_trees(self,dataset,input,output):
+        with open(input,'r') as fi:
+          with open(output,'w') as fo:
+            for line,relation in zip(fi,dataset.data):
+                if relation.first.sent != relation.second.sent:
+                    continue
+                sent = self.sentence_data[relation.document][relation.first.sent]
+                sent1 = SentLine(line)
+                leftindex=relation.first.start
+                rightindex=relation.second.end - 1
+                while leftindex< len(sent.true_index)-1 and sent.true_index[leftindex] == sent.true_index[leftindex+1]:
+                    leftindex +=1
+                while rightindex< len(sent.true_index)-1 and sent.true_index[rightindex] == sent.true_index[rightindex+1]:
+                    rightindex +=1
+                left = sent1.index[leftindex]
+                right = sent1.index[rightindex]
+                self.tree_crop_merge(left)
+                tree = self.tree_crop_merge(right,1)
+                fo.write(re.subn(r'\s+',' ',re.subn(r'\(([^()]+?)\s*\)','\\1',str(tree))[0])[0] + '\n')
 
     def tree_crop_merge(self,tree,dir=0):
         parent = tree.parent()
@@ -116,8 +123,8 @@ class BuildCorpus(object):
                     return subtree
                 else:
                     parent.parent()[parent.parent_index()]=subtree
-                    child=subtree
-                    parent=subtree.parent()
+                    parent=subtree
+
             child=parent
             parent=parent.parent()
         return child
@@ -128,8 +135,9 @@ class BuildCorpus(object):
 if __name__ == '__main__':
     bc = BuildCorpus()
     from data_reader import DataSet
-    ds = DataSet()
-    pt = bc.prune_trees(ds)
+    for data in ['dev','test']:
+        ds = DataSet('project3/data/rel-{}set.gold'.format(data))
+        pt = bc.prune_trees(ds,r'project3\data\e-parsed-files\rel-{}-parsed-data'.format(data),r'project3\data\p-parsed-files\rel-{}-parsed-data'.format(data))
     """p = bc.postagged_data['APW20001001.2021.0521']
     t = bc.sentence_data['APW20001001.2021.0521']
     print t[3].true_index

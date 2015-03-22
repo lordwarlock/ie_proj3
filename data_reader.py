@@ -56,21 +56,6 @@ class Document(object):
                 poslines=filter(lambda x:x.strip() != '', f2.readlines())
                 lines=f1.readlines()
                 for line,pos in zip(lines,poslines):
-                    #positer=iter(pos.split())
-                    #tup=None
-
-                    #def read_node(str):
-                    #    try:
-                    #        if tup==None:
-                    #            tup=positer.next().split('_')
-                    #        if tup[0]==str:
-                    #            tup=None
-                    #            return tuple(tup)
-                    #        print str
-                    #        print tup
-                    #        return tup
-                    #    except StopIteration:
-                    #        return str
                         
                     tree=ParentedTree.fromstring(line,read_leaf=read_node)
                     self.sents.append(tree)
@@ -128,8 +113,7 @@ class DataAnalysis():
         return link_dict
 
 if __name__ == '__main__':
-    """doc=Document(r"D:\Projects\ie_proj2\nopos\APW20001001.2021.0521.head.coref.raw.txt",r"D:\Projects\ie_proj2\postagged-files\APW20001001.2021.0521.head.coref.raw.pos")
-    pass"""
+
     da = DataAnalysis('./project3/data/rel-testset.gold')
     ld = da.link_word()
     for key in ld.keys():
