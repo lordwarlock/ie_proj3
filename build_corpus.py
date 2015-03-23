@@ -86,7 +86,13 @@ class BuildCorpus(object):
                             remain = remain[len(sen_token):]
                         else:
                             break
+                postag_index=list(range(len(pos_lines[line_index].tokens)))
+                start = 0
+                add = 0
+                for i,j in enumerate(true_index):
+                    postag_index[j] = max(postag_index[j],i)
                 sen_lines[line_index].true_index = true_index
+                sen_lines[line_index].postag_index = postag_index
 
     def prune_trees(self,dataset,input,output):
         with open(input,'r') as fi:
@@ -98,12 +104,8 @@ class BuildCorpus(object):
                 sent1 = SentLine(line)
                 leftindex=relation.first.start
                 rightindex=relation.second.end - 1
-                while leftindex< len(sent.true_index)-1 and sent.true_index[leftindex] == sent.true_index[leftindex+1]:
-                    leftindex +=1
-                while rightindex< len(sent.true_index)-1 and sent.true_index[rightindex] == sent.true_index[rightindex+1]:
-                    rightindex +=1
-                left = sent1.index[leftindex]
-                right = sent1.index[rightindex]
+                left = sent1.index[sent.postag_index[leftindex]]
+                right = sent1.index[sent.postag_index[rightindex]]
                 self.tree_crop_merge(left)
                 tree = self.tree_crop_merge(right,1)
                 while len(tree) == 1:
