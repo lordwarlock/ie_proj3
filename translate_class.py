@@ -6,14 +6,26 @@ def translate_class(in_file = './project3/data/svm-light-files/rel-train-parsed-
     counter = 0
     for line in f_in:
         match = re.match('(.*? )(\|BT\|.*)',line)
-        if match and match.group(1).strip() == 'PHYS.Located':
+        #if match and match.group(1).strip() == 'PHYS.Located':
+        #PER-SOC 88/50 EMP-ORG 81/50
+        if match and 'EMP-ORG.Employ-Staff.reverse' in match.group(1).strip():
             f_out.write('1' + ' ' + match.group(2)+'\n')
         else:
             f_out.write('-1' + ' ' + match.group(2)+'\n')
         counter += 1
+<<<<<<< HEAD
+=======
+        #if (counter == 600): break
+>>>>>>> origin/master
     f_out.close()
     f_in.close()
 
 if __name__ == '__main__':
+<<<<<<< HEAD
     for data in ['train','dev','test']:
         translate_class('./project3/data/svm-light-files/rel-{}-parsed-data'.format(data),'./project3/data/svm-ova-light-files/rel-{}-parsed-data'.format(data))
+=======
+    translate_class()
+    translate_class('./project3/data/svm-light-files/rel-test-parsed-data',
+                    './project3/data/svm-ova-light-files/rel-test-parsed-data')
+>>>>>>> origin/master

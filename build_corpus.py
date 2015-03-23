@@ -142,8 +142,8 @@ if __name__ == '__main__':
     from output_generate import OutputGenerator
     for data in ['train','dev','test']:
         ds = DataSet('project3/data/rel-{}set.gold'.format(data))
-        pt = bc.prune_trees(ds,r'project3\data\e-parsed-files\rel-{}-parsed-data'.format(data),r'project3\data\p-parsed-files\rel-{}-parsed-data'.format(data))
-        OutputGenerator(bc).output(ds,r'project3\data\p-parsed-files\rel-{}-parsed-data'.format(data),r'project3\data\svm-light-files\rel-{}-parsed-data'.format(data))
+        pt = bc.prune_trees(ds,r'project3/data/e-parsed-files/rel-{}-parsed-data'.format(data),r'project3/data/p-parsed-files/rel-{}-parsed-data'.format(data))
+        OutputGenerator(bc).output(ds,r'project3/data/p-parsed-files/rel-{}-parsed-data'.format(data),r'project3/data/svm-light-files/rel-{}-parsed-data'.format(data))
     """p = bc.postagged_data['APW20001001.2021.0521']
     t = bc.sentence_data['APW20001001.2021.0521']
     print t[3].true_index

@@ -6,9 +6,9 @@ from nltk.tree import Tree
 import copy
 
 class AddEntityToTree(object):
-    def __init__(self,data=DataSet(file='./project3/data/rel-testset.gold').data,
+    def __init__(self,data=DataSet(file='./project3/data/rel-trainset.gold').data,
                       corpus=BuildCorpus(),
-                 output='./project3/data/e-parsed-files/rel-test-parsed-data'):
+                 output='./project3/data/e-parsed-files/rel-train-parsed-data'):
         self.data = data
         self.corpus = corpus
         self.output = output
