@@ -82,6 +82,9 @@ class DataAnalysis():
         for d in self.data:
             if (d.label != 'no_rel'):
                 classes_dict[d.label] += 1
+        sum_pos = sum(classes_dict.values())
+        for key,value in classes_dict.items():
+            classes_dict[key] = ( value + 0.0) / sum_pos
         return classes_dict
 
     def mention_distance(self):

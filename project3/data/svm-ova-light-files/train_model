@@ -1,0 +1,57 @@
+SVM-light Version V5.01-TK-1.2
+5 # kernel type
+3 # kernel parameter -d 
+1 # kernel parameter -g 
+1 # kernel parameter -s 
+1 # kernel parameter -r 
+empty# kernel parameter -u 
+0.4 # kernel parameter -L 
+1 # kernel parameter -T 
+T # kernel parameter -C 
+1 # kernel parameter -F 
+1 # kernel parameter -S 
+1.000000 # kernel parameter -D 
+3 # kernel parameter -N 
+S # kernel parameter -V 
+S # kernel parameter -W 
+0 # highest feature index 
+600 # number of training documents 
+38 # number of support vectors plus 1 
+1.0565886 # threshold b, each following line is a SV (starting with alpha*y)
+-0.66389972409387931762125845125411  |BT| (S (NP (GPE (JJ Syrian))(NN president))(ADVP (RB rarely))(VP (VBD traveled)(ADVP (LOC (RB abroad))))) |ET| 
+-0.91247404091064365783125822417787  |BT| (NP (NP (WEA (NNP rifle)))(PP (IN on)(NP (NP (NNS hundreds))(PP (IN of)(NP (NP (NNS students))(PP (IN in)(NP (DT a)(JJ common)(FAC (NN area))))))))) |ET| 
+-0.34119854840386332206492170371348  |BT| (NP (NP (PER (PRP$ his))(JJ first)(NN trip))(ADVP (LOC (RB abroad)))) |ET| 
+-0.29570773253142562664308456987783  |BT| (NP (NP (PER (NNP Assad)))(, ,)(PP (IN on)(NP (PER (PRP$ his))))) |ET| 
+-0.28684739226466937633830411868985  |BT| (NP (NP (PER (NNP Assad)))(, ,)(PP (IN on)(NP (NP (PRP$ his)(JJ first)(NN trip))(ADVP (RB abroad))(PP (IN since)(S (VP (VBG becoming)(NP (PER (NN president))))))))) |ET| 
+1  |BT| (NP (NP (PER (NNP Assad)))(, ,)(PP (IN on)(NP (NP (PRP$ his)(JJ first)(NN trip))(ADVP (LOC (RB abroad)))))) |ET| 
+1  |BT| (S (NP (PER (NN president)))(ADVP (RB rarely))(VP (VBD traveled)(ADVP (LOC (RB abroad))))) |ET| 
+1  |BT| (VP (NP (VEH (NNS planes)))(PP (TO to)(NP (GPE (NNP Baghdad))))) |ET| 
+1  |BT| (S (NP (NP (PER (NNP Solomon)))(, ,)(NP (ADVP (RB then))(CD 15))(, ,))(VP (VBD opened)(NP (NN fire))(PP (IN with)(NP (NP (DT a)(JJ sawed-off)(NNP rifle))(PP (IN on)(NP (NP (NNS hundreds))(PP (IN of)(NP (NP (NNS students))(PP (IN in)(NP (DT a)(JJ common)(FAC (NN area)))))))))))) |ET| 
+1  |BT| (NP (NP (PER (NNS students)))(PP (IN in)(NP (DT a)(JJ common)(FAC (NN area))))) |ET| 
+-0.9282515815692795602132036947296  |BT| (VP (NP (VEH (NNS planes)))(PP (TO to)(NP (GPE (NNP Baghdad))))) |ET| 
+-0.19965776313566757638184867573727  |BT| (NP (NP (PER (NN co-defendant)))(PP (IN in)(NP (PER (NNP Tommy))))) |ET| 
+-0.58295455054073685996485210125684  |BT| (S (NP (NP (PER (NNP Solomon)))(, ,)(NP (ADVP (RB then))(CD 15))(, ,))(VP (VBD opened)(NP (NN fire))(PP (IN with)(NP (NP (DT a)(JJ sawed-off)(NNP rifle))(PP (IN on)(NP (NP (NNS hundreds))(PP (IN of)(NP (PER (NNS students)))))))))) |ET| 
+-0.10886579965012911641597526113401  |BT| (S (NP (NP (PER (NNP Solomon)))(, ,)(NP (ADVP (RB then))(CD 15))(, ,))(VP (VBD opened)(NP (NN fire))(PP (IN with)(NP (DT a)(JJ sawed-off)(WEA (NNP rifle)))))) |ET| 
+-0.062925384615502455432078932062723  |BT| (NP (FAC (NN prison))(PER (NNS doctors))) |ET| 
+-0.083847182579712825623019512022438  |BT| (S (NP (PER (PRP He)))(ADVP (RB instead))(VP (VBD sent)(NP (DT a)(JJ legal)(PER (NN team))))) |ET| 
+-0.056540774185211438440656905868309  |BT| (NP (NP (PER (NN father)))(, ,)(NP (PER (NNP Hafez)(NNP Assad)))) |ET| 
+-0.041081011970372866004552747654088  |BT| (S (S (NP (PER (NN man)))(VP (VBD died)))(CC and)(S (NP (PER (NNS dozens))))) |ET| 
+-0.11017355099365380710629835903092  |BT| (NP (ADVP (LOC (RB abroad)))(PP (IN since)(S (VP (VBG becoming)(NP (PER (NN president))))))) |ET| 
+-0.016420620787751520619490719354872  |BT| (S (NP (PER (NNS leaders)))(VP (TO to)(VP (VB present)(NP (DT a)(JJ unified)(NN front))(PP (IN against)(SBAR (S (NP (GPE (NNP Israel))))))))) |ET| 
+-0.048901505973819883732467417303269  |BT| (NP (NP (PER (NNP Mubarak)))(CC and)(NP (PER (NNP Assad)))) |ET| 
+-0.015651728416982420982739299120112  |BT| (S (NP (NP (NP (PER (NN co-defendant)))(PP (IN in)(NP (NP (NNP Tommy)(POS 's))(NN case))))(, ,)(NP (NN businessman)(NNP Riccardo)(NNP Gelael))(, ,))(ADVP (RB separately))(VP (VBD admitted)(NP (PRP$ his)(NN guilt))(NP (NNP Monday))(PP (TO to)(NP (PER (NNS prosecutors)))))) |ET| 
+-0.032890540657233513499591026629787  |BT| (S (NP (PER (NNS presidents)))(VP (VBD discussed)(NP (NP (DT the)(NN situation))(PP (IN in)(NP (GPE (NNP Iraq))))))) |ET| 
+-0.022450176474489578343218809663995  |BT| (NP (PP (NP (FAC (NN building))))(SBAR (WHPP (IN in)(WHNP (WDT which)))(S (NP (CD 15)(PER (NNS people)))))) |ET| 
+-0.013687147319322389912854553983834  |BT| (S (NP (PER (NNP Assad)))(VP (VBD met)(PP (IN after)(NP (NP (DT a)(NN week))(SBAR (WHADVP (WRB when))(S (NP (NNP Russia)(, ,)(NNP France)(, ,)(GPE (NNP Jordan))))))))) |ET| 
+-0.047461382256025572146107549542648  |BT| (NP (NP (NP (PER (NN co-defendant)))(PP (IN in)(NP (NP (NNP Tommy)(POS 's))(NN case))))(, ,)(NP (PER (NN businessman)))) |ET| 
+-0.02343222115566341925974036541902  |BT| (NP (NP (PER (NNP Tommy)))(, ,)(NP (DT a)(PER (NN multimillionaire)))) |ET| 
+-0.022455614730721475125196917588255  |BT| (S (NP (NP (PER (NNP Riccardo)(NNP Gelael)))(, ,))(ADVP (RB separately))(VP (VBD admitted)(NP (PRP$ his)(NN guilt))(NP (NNP Monday))(PP (TO to)(NP (PER (NNS prosecutors)))))) |ET| 
+-0.017750886703366962338090928597012  |BT| (S (NP (PER (NNP Solomon)))(VP (MD could)(VP (VB be)(VP (VBN sentenced)(PP (TO to)(NP (QP (IN up)(TO to)(CD 211))(NNS years)))(PP (IN in)(NP (FAC (NN prison)))))))) |ET| 
+-0.016509174926836289731824081172817  |BT| (NP (NP (PER (NNS Critics)))(PP (IN of)(NP (GPE (NNP Indonesia))))) |ET| 
+-0.01106501381857618801496379035143  |BT| (NP (NP (PER (NNP Antasari)(NNP Ashar)))(, ,)(NP (PER (NN chief)))) |ET| 
+-0.010988219563903365433299441633608  |BT| (NP (NP (FAC (NN street))(NNS demonstrations))(, ,)(SBAR (WHPP (IN in)(WHNP (WDT which)))(S (S (NP (CD one)(NN man))(VP (VBD died)))(CC and)(S (NP (PER (NNS dozens))))))) |ET| 
+-0.0061805227918096949935033990186639  |BT| (S (SBAR (S (NP (PER (NN judge)))(VP (VBZ accepts)(NP (DT the)(JJ guilty-but-mentally-ill)(NN plea)))))(, ,)(NP (PER (NNP Solomon)))) |ET| 
+-0.0059035200978215232256451905357153  |BT| (NP (NP (PER (NN leader)))(PP (IN of)(NP (DT a)(NN minority)(ORG (NN government))))) |ET| 
+-0.0036803292612523907934019007370807  |BT| (S (NP (VP (SBAR (S (NP (PER (NN father)))(VP (VBD was)(ADVP (RB still))(PP (IN in)(NP (NN power)))))))(, ,))(VP (VBD had)(VP (VBN cost)(NP (DT the)(JJ Indonesian)(GPE (NN state)))))) |ET| 
+-0.0035864242525133968597650380161213  |BT| (S (NP (NP (PER (NNP Solomon)))(, ,)(NP (ADVP (RB then))(CD 15))(, ,))(VP (VBD opened)(NP (NN fire))(PP (IN with)(NP (NP (DT a)(JJ sawed-off)(NNP rifle))(PP (IN on)(NP (NP (NNS hundreds))(PP (IN of)(NP (NP (NNS students))(PP (IN in)(NP (DT a)(JJ common)(NN area)))))))))(PP (IN at)(NP (NNP Heritage)(NNP High)(NNP School)))(PP (IN in)(NP (GPE (NNP Conyers)))))) |ET| 
+-0.0065599333671625126296333974096342  |BT| (S (NP (PER (NNP Assad)))(VP (VBD met)(PP (IN after)(NP (NP (DT a)(NN week))(SBAR (WHADVP (WRB when))(S (NP (NNP Russia)(, ,)(GPE (NNP France))))))))) |ET| 
