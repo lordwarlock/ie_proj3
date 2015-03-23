@@ -11,9 +11,9 @@ def translate_class(in_file = './project3/data/svm-light-files/rel-train-parsed-
         else:
             f_out.write('-1' + ' ' + match.group(2)+'\n')
         counter += 1
-        if (counter == 600): break
     f_out.close()
     f_in.close()
 
 if __name__ == '__main__':
-    translate_class()
+    for data in ['train','dev','test']:
+        translate_class('./project3/data/svm-light-files/rel-{}-parsed-data'.format(data),'./project3/data/svm-ova-light-files/rel-{}-parsed-data'.format(data))
