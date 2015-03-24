@@ -37,7 +37,9 @@ def hint_word_detection(coref,corpus,token_distance = 3,hint_words = ['is','are'
             return True
 
     return False
-        
+def hint_comma_detection(coref,corpus):
+    return hint_word_detection(coref,corpus,hint_words = [','],token_distance=6)
+
 def hint_who_detection(coref,corpus):
     return hint_word_detection(coref,corpus,hint_words = ['who','which'],token_distance=5)
 
