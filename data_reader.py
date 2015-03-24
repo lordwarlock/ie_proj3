@@ -1,29 +1,40 @@
 from nltk import ParentedTree
 from collections import Counter
 from build_corpus import BuildCorpus
+from build_corpus import SentLine
+import re
 
 class DataSet(object):
     """description of class"""
-    def __init__(self,file='./project3/data/rel-trainset.gold',haslabel=True):
+    def __init__(self,file='./project3/data/rel-trainset.gold',haslabel=True,
+                      pt_file = './project3/data/svm-light-files/rel-train-parsed-data'):
         self.haslabel=haslabel
         self.dict={}
         self.data=[]
+        f_pt = open(pt_file,'r')
+        counter = 0
         with open(file) as f:
             for line in f:
+                counter+=1
                 values=line.split()
                 if haslabel:
                     docname=values[1]
                 else:
                     docname=values[0]
                 list=self.dict.get(docname,[])
-                coref=Coref(values,haslabel)
+                pt_line = re.search('\|BT\|(.*?)\|ET\|',f_pt.readline()).group(1)
+                try:
+                    pt_tree = SentLine(pt_line)
+                except:
+                    print counter,pt_line
+                coref=Coref(values,haslabel,pt_tree)
                 list.append(coref)
                 self.data.append(coref)
 
 
 
 class Coref(object):
-    def __init__(self,list,haslabel):
+    def __init__(self,list,haslabel,pt_tree=None):
         
         if haslabel:
             self.label = list[0]
@@ -41,7 +52,7 @@ class Coref(object):
         self.second.end = int(self.second.end)
         self.first.sent = int(self.first.sent)
         self.second.sent = int(self.second.sent)
-
+        self.pt_tree = pt_tree
 class Markable(object):
     pass
 

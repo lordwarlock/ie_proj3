@@ -2,14 +2,26 @@ import re
 import inflect
 
 def get_feature_functions():
-    return [distance]
+    return [dist_0,dist_1,dist_4,dist_6,entity_type]
 
-def distance(coref,corpus):
+def distance_n(coref,n):
     """number of word between two mentions"""
-    return coref.second.start-coref.first.end
+    diff = coref.second.start-coref.first.end
+    return diff<=n
+
+def dist_0(coref,corpus):
+    return distance_n(coref,0)
+def dist_1(coref,corpus):
+    return distance_n(coref,1)
+def dist_4(coref,corpus):
+    return distance_n(coref,4)
+def dist_6(coref,corpus):
+    return distance_n(coref,6)
 
 def entity_type(coref,corpus):
     return coref.first.ne+'-'+coref.second.ne
+
+
 
 def hint_word_detection(coref,corpus,token_distance = 3,hint_words = ['is','are','was','were','be']):
     """if two mentions are linked by certain word"""

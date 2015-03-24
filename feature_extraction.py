@@ -85,8 +85,10 @@ class FeatureExtraction(object):
 if __name__=='__main__':
     f_ex=FeatureExtraction(BuildCorpus())
     f_ex.extract(DataSet(r"./project3/data/rel-trainset.gold"))
-    f_ex.output_feat(r"weka-trainset.arff",f_ex.weka_output)
+    f_ex.output_feat(r"./training-files/rel-maxent.train",f_ex.mallet_output)
+    #f_ex.output_feat(r"weka-trainset.arff",f_ex.weka_output)
     print f_ex.weka_attr
     f_ex=FeatureExtraction(BuildCorpus())
     f_ex.extract(DataSet(r"./project3/data/rel-testset.gold"))
-    f_ex.output_feat(r"weka-testset.arff",f_ex.weka_output)
+    f_ex.output_feat(r"./training-files/rel-maxent.test",f_ex.mallet_output)
+    #f_ex.output_feat(r"weka-testset.arff",f_ex.weka_output)
