@@ -151,9 +151,71 @@ def hint_for_detection(coref,corpus):
 def hint_who_detection(coref,corpus):
     return hint_word_detection(coref,corpus,hint_words = ['who','which'],token_distance=6)
 
+
+def chunk_between(coref,corpus):
+    chunkline=corpus.chunk_data[coref.document][coref.first.sent]
+    posline=corpus.sentence_data[coref.document][coref.first.sent]
+    chunks=chunkline.chunks_between(posline.postag_index[coref.first.end],posline.postag_index[coref.second.start])
+    return chunkline,chunks
+
+def chunk_before(coref,corpus):
+    chunkline=corpus.chunk_data[coref.document][coref.first.sent]
+    posline=corpus.sentence_data[coref.document][coref.first.sent]
+    chunks=chunkline.chunks_before(posline.postag_index[coref.first.start])
+    return chunkline,chunks
+
+def chunk_after(coref,corpus):
+    chunkline=corpus.chunk_data[coref.document][coref.first.sent]
+    posline=corpus.sentence_data[coref.document][coref.first.sent]
+    chunks=chunkline.chunks_after(posline.postag_index[coref.second.start])
+    return chunkline,chunks
+
+def chunk_hbnull(coref,corpus):
+    chunkline,chunks=chunk_between(coref,corpus)
+    return len(chunks) > 0
+
+def chunk_hbfl(coref,corpus):
+    chunkline,chunks=chunk_between(coref,corpus)
+    print chunks
+    return chunkline.words[chunks[0][0]].heads if len(chunks) ==1 else 'None'
+
+def chunk_hbf(coref,corpus):
+    chunkline,chunks=chunk_between(coref,corpus)
+    print chunks
+    return chunkline.words[chunks[0][0]].heads if len(chunks) >1 else 'None'
+
+def chunk_hbl(coref,corpus):
+    chunkline,chunks=chunk_between(coref,corpus)
+    print chunks
+    return chunkline.words[chunks[-1][0]].heads if len(chunks) >1 else 'None'
+
+
+def chunk_m1f(coref,corpus):
+    chunkline,chunks=chunk_before(coref,corpus)
+    print chunks
+    return chunkline.words[chunks[-1][0]].heads if len(chunks) >0 else 'None'
+
+def chunk_m2l(coref,corpus):
+    chunkline,chunks=chunk_before(coref,corpus)
+    print chunks
+    return chunkline.words[chunks[-2][0]].heads if len(chunks) >1 else 'None'
+
+
+
+def chunk_m2f(coref,corpus):
+    chunkline,chunks=chunk_after(coref,corpus)
+    print chunks
+    return chunkline.words[chunks[0][0]].heads if len(chunks) >0 else 'None'
+
+def chunk_m2l(coref,corpus):
+    chunkline,chunks=chunk_after(coref,corpus)
+    print chunks
+    return chunkline.words[chunks[1][0]].heads if len(chunks) >1 else 'None'
+
+
 if __name__ == '__main__':
     from data_reader import *
     from feature_extraction import FeatureExtraction
     from build_corpus import BuildCorpus
     f_ex=FeatureExtraction(BuildCorpus())
-    f_ex.test(DataSet(r"./project3/data/rel-trainset.gold"),head_word_m1)
+    f_ex.test(DataSet(r"./project3/data/rel-trainset.gold"),chunk_hbfl)

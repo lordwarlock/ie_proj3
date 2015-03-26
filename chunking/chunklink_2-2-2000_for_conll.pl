@@ -240,24 +240,23 @@ foreach $file (@ARGV) {                     # loop: for each treebank file
     else {
 	die "file not defined!\n";
     }
-#    if ($file =~ /\/wsj_([0-9]+)\.mrg$/) {  # extract file number
-#	$filenumber=$1;
-	$filenumber=$file;
- #   }
-#  else {
-#	die "$file does not match!\n";
- #   }
+    if ($file =~ /\\([^\\]+?)\./) {  # extract file number
+	$filenumber=$1;
+    }
+    else {
+	$filenumber=$file
+    }
     print STDERR "$filenumber ";
     $sentence='';                           # initialize sentence string
     $sentence_number=0;                     # initialize sentence counter
     while (defined($sentence=<INPUT>)) {    # loop: until end of file
 	$result=start_read();               # read sentence into $result
-	#if (defined($result->{function})    # delete outermost parentheses
-	#    && $result->{function} eq 'NOLABEL' 
-	#    && @{$result->{daughters}}==1)
-	#    {
-	#	$result=$result->{daughters}->[0];
-	#    }
+	if (defined($result->{function})    # delete outermost parentheses
+	    && $result->{function} eq 'NOLABEL' 
+	    && @{$result->{daughters}}==1)
+	    {
+		$result=$result->{daughters}->[0];
+	    }
 
 # set the word counter within file or within sentence
 	if ($word_enumerate eq 'file')
@@ -302,12 +301,13 @@ sub start_read {
     while ($sentence!~/^\s*\((.*)$/ 
 	   && defined($sentence=<INPUT>)) {};
     chop($sentence);
+	$sentence = "( " . $sentence . " )";
 # consumes first opening bracket of sentence
 # calls read_sentence to read input until corresponding closing bracket is found
     if ($sentence=~/^\s*\((.*)$/)
     { 
-	#$sentence=$1;
-	$depth=0;
+	$sentence=$1;
+	$depth=1;
 	$sentence_number++;
 	$chunk_number=0; 
 	undef %corefs;

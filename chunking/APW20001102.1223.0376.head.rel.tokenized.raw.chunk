@@ -1,0 +1,107 @@
+#arguments: IOB tag: BeginEndCombined, word numbering: file
+#columns: file_id sent_id word_id iob_inner word heads head_ids iob_chain
+ APW20001102  1  0 B-NP    APW20001102.1223.0376 STORY             2 B-S/B-NP/B-NP
+ APW20001102  1  1 I-NP    NEWS            STORY             2 I-S/I-NP/I-NP
+ APW20001102  1  2 E-NP    STORY           13:27:23          4 I-S/I-NP/E-NP
+ APW20001102  1  3 B-NP    2000-11-02      13:27:23          4 I-S/I-NP
+ APW20001102  1  4 E-NP    13:27:23        ???             ???        E-S/E-NP
+
+ APW20001102  2  5 C-NP    Israel-Explosion ???             ???        C-S/C-NP
+
+ APW20001102  3  6 B-NP    Explosion       Rocks             7 B-S/B-NP/B-NP
+ APW20001102  3  7 E-NP    Rocks           Market            9 I-S/I-NP/E-NP
+ APW20001102  3  8 B-NP    Jerusalem       Market            9 I-S/I-NP
+ APW20001102  3  9 E-NP    Market          ???             ???        E-S/E-NP
+
+ APW20001102  4 10 C-NP    JERUSALEM       _                14 B-S/B-S/B-S/B-NP/C-NP
+ APW20001102  4 11 O       [               ???             ???        I-S/I-S/I-S/I-NP/B-PRN
+ APW20001102  4 12 C-NP    AP              ???             ???        I-S/I-S/I-S/I-NP/I-PRN/C-NP
+ APW20001102  4 13 O       ]               ???             ???        I-S/I-S/I-S/E-NP/E-PRN
+ APW20001102  4 14 C-VP    _               _                14 I-S/I-S/I-S/B-VP
+ APW20001102  4 15 B-NP    A               bomb             17 I-S/I-S/I-S/I-VP/B-SBAR/B-S/B-NP
+ APW20001102  4 16 I-NP    car             bomb             17 I-S/I-S/I-S/I-VP/I-SBAR/I-S/I-NP
+ APW20001102  4 17 E-NP    bomb            exploded         18 I-S/I-S/I-S/I-VP/I-SBAR/I-S/E-NP
+ APW20001102  4 18 C-VP    exploded        _                14 I-S/I-S/I-S/I-VP/I-SBAR/I-S/B-VP
+ APW20001102  4 19 C-NP    Thursday        exploded         18 I-S/I-S/I-S/I-VP/I-SBAR/I-S/I-VP/C-NP
+ APW20001102  4 20 C-PP    in              exploded         18 I-S/I-S/I-S/I-VP/I-SBAR/I-S/I-VP/B-PP
+ APW20001102  4 21 B-NP    a               market           24 I-S/I-S/I-S/I-VP/I-SBAR/I-S/I-VP/I-PP/B-NP/B-NP
+ APW20001102  4 22 I-NP    crowded         market           24 I-S/I-S/I-S/I-VP/I-SBAR/I-S/I-VP/I-PP/I-NP/I-NP
+ APW20001102  4 23 I-NP    outdoor         market           24 I-S/I-S/I-S/I-VP/I-SBAR/I-S/I-VP/I-PP/I-NP/I-NP
+ APW20001102  4 24 E-NP    market          in               20 I-S/I-S/I-S/I-VP/I-SBAR/I-S/I-VP/I-PP/I-NP/E-NP
+ APW20001102  4 25 C-PP    in              market           24 I-S/I-S/I-S/I-VP/I-SBAR/I-S/I-VP/I-PP/I-NP/B-PP
+ APW20001102  4 26 B-NP    the             heart            27 I-S/I-S/I-S/I-VP/I-SBAR/I-S/I-VP/I-PP/I-NP/I-PP/B-NP/B-NP
+ APW20001102  4 27 E-NP    heart           in               25 I-S/I-S/I-S/I-VP/I-SBAR/I-S/I-VP/I-PP/I-NP/I-PP/I-NP/E-NP
+ APW20001102  4 28 C-PP    of              heart            27 I-S/I-S/I-S/I-VP/I-SBAR/I-S/I-VP/I-PP/I-NP/I-PP/I-NP/B-PP
+ APW20001102  4 29 C-NP    Jerusalem       of               28 I-S/I-S/I-S/I-VP/I-SBAR/I-S/I-VP/E-PP/E-NP/E-PP/E-NP/E-PP/C-NP
+ APW20001102  4 30 O       COMMA           exploded         18 I-S/I-S/I-S/I-VP/I-SBAR/I-S/I-VP
+ APW20001102  4 31 C-VP    killing         exploded         18 I-S/I-S/I-S/I-VP/I-SBAR/I-S/I-VP/B-S/B-VP
+ APW20001102  4 32 B-NP    at              people           35 I-S/I-S/I-S/I-VP/I-SBAR/I-S/I-VP/I-S/I-VP/B-NP
+ APW20001102  4 33 I-NP    least           people           35 I-S/I-S/I-S/I-VP/I-SBAR/I-S/I-VP/I-S/I-VP/I-NP
+ APW20001102  4 34 I-NP    two             people           35 I-S/I-S/I-S/I-VP/I-SBAR/I-S/I-VP/I-S/I-VP/I-NP
+ APW20001102  4 35 E-NP    people          killing          31 I-S/I-S/E-S/E-VP/E-SBAR/E-S/E-VP/E-S/E-VP/E-NP
+ APW20001102  4 36 O       COMMA           _                14 I-S/I-S
+ APW20001102  4 37 C-NP    police          _                14 I-S/I-S/C-NP
+ APW20001102  4 38 C-VP    said            _                14 I-S/I-S/C-VP
+ APW20001102  4 39 O       .               _                14 E-S/E-S
+
+ APW20001102  5 40 C-NP    Ambulances      raced            41 B-S/B-S/C-NP
+ APW20001102  5 41 C-VP    raced           raced            41 I-S/I-S/B-VP
+ APW20001102  5 42 C-PP    to              raced            41 I-S/I-S/I-VP/B-PP
+ APW20001102  5 43 B-NP    the             market           46 I-S/I-S/I-VP/I-PP/B-NP/B-NP
+ APW20001102  5 44 I-NP    Mahane          market           46 I-S/I-S/I-VP/I-PP/I-NP/I-NP
+ APW20001102  5 45 I-NP    Yehuda          market           46 I-S/I-S/I-VP/I-PP/I-NP/I-NP
+ APW20001102  5 46 E-NP    market          to               42 I-S/I-S/I-VP/I-PP/I-NP/E-NP
+ APW20001102  5 47 O       COMMA           market           46 I-S/I-S/I-VP/I-PP/I-NP
+ APW20001102  5 48 C-NP    which           market           46 I-S/I-S/I-VP/I-PP/I-NP/B-SBAR/C-WHNP
+ APW20001102  5 49 C-VP    sells           which            48 I-S/I-S/I-VP/I-PP/I-NP/I-SBAR/B-S/B-VP
+ APW20001102  5 50 B-NP    food            clothing         54 I-S/I-S/I-VP/I-PP/I-NP/I-SBAR/I-S/I-VP/B-NP/B-NP
+ APW20001102  5 51 I-NP    COMMA           clothing         54 I-S/I-S/I-VP/I-PP/I-NP/I-SBAR/I-S/I-VP/I-NP/I-NP
+ APW20001102  5 52 I-NP    vegetables      clothing         54 I-S/I-S/I-VP/I-PP/I-NP/I-SBAR/I-S/I-VP/I-NP/I-NP
+ APW20001102  5 53 I-NP    and             clothing         54 I-S/I-S/I-VP/I-PP/I-NP/I-SBAR/I-S/I-VP/I-NP/I-NP
+ APW20001102  5 54 E-NP    clothing        sells            49 I-S/I-S/I-VP/I-PP/I-NP/I-SBAR/I-S/I-VP/I-NP/E-NP
+ APW20001102  5 55 C-PP    in              clothing         54 I-S/I-S/I-VP/I-PP/I-NP/I-SBAR/I-S/I-VP/I-NP/B-PP
+ APW20001102  5 56 B-NP    Jewish          Jerusalem        58 I-S/I-S/I-VP/I-PP/I-NP/I-SBAR/I-S/I-VP/I-NP/I-PP/B-NP
+ APW20001102  5 57 I-NP    west            Jerusalem        58 I-S/I-S/I-VP/I-PP/I-NP/I-SBAR/I-S/I-VP/I-NP/I-PP/I-NP
+ APW20001102  5 58 E-NP    Jerusalem       in               55 I-S/I-S/E-VP/E-PP/E-NP/E-SBAR/E-S/E-VP/E-NP/E-PP/E-NP
+ APW20001102  5 59 O       .               raced            41 E-S/E-S
+
+ APW20001102  6 60 B-NP    Huge            plumes           61 B-S/B-S/B-NP/B-NP
+ APW20001102  6 61 E-NP    plumes          rose             65 I-S/I-S/I-NP/E-NP
+ APW20001102  6 62 C-PP    of              plumes           61 I-S/I-S/I-NP/B-PP
+ APW20001102  6 63 B-NP    black           smoke            64 I-S/I-S/I-NP/I-PP/B-NP
+ APW20001102  6 64 E-NP    smoke           of               62 I-S/I-S/E-NP/E-PP/E-NP
+ APW20001102  6 65 C-VP    rose            rose             65 I-S/I-S/B-VP
+ APW20001102  6 66 C-PP    into            rose             65 I-S/I-S/I-VP/B-PP
+ APW20001102  6 67 B-NP    the             sky              68 I-S/I-S/I-VP/I-PP/B-NP
+ APW20001102  6 68 E-NP    sky             into             66 I-S/I-S/E-VP/E-PP/E-NP
+ APW20001102  6 69 O       .               rose             65 E-S/E-S
+
+ APW20001102  7 70 B-NP    The             blast            71 B-S/B-S/B-NP
+ APW20001102  7 71 E-NP    blast           came             72 I-S/I-S/E-NP
+ APW20001102  7 72 C-VP    came            came             72 I-S/I-S/B-VP
+ APW20001102  7 73 B-SBAR  shortly         before           74 I-S/I-S/I-VP/B-SBAR
+ APW20001102  7 74 E-SBAR  before          came             72 I-S/I-S/I-VP/I-SBAR
+ APW20001102  7 75 B-NP    Israeli         Arafat           84 I-S/I-S/I-VP/I-SBAR/B-S/B-NP
+ APW20001102  7 76 I-NP    Prime           Arafat           84 I-S/I-S/I-VP/I-SBAR/I-S/I-NP
+ APW20001102  7 77 I-NP    Minister        Arafat           84 I-S/I-S/I-VP/I-SBAR/I-S/I-NP
+ APW20001102  7 78 I-NP    Ehud            Arafat           84 I-S/I-S/I-VP/I-SBAR/I-S/I-NP
+ APW20001102  7 79 I-NP    Barak           Arafat           84 I-S/I-S/I-VP/I-SBAR/I-S/I-NP
+ APW20001102  7 80 I-NP    and             Arafat           84 I-S/I-S/I-VP/I-SBAR/I-S/I-NP
+ APW20001102  7 81 I-NP    Palestinian     Arafat           84 I-S/I-S/I-VP/I-SBAR/I-S/I-NP
+ APW20001102  7 82 I-NP    leader          Arafat           84 I-S/I-S/I-VP/I-SBAR/I-S/I-NP
+ APW20001102  7 83 I-NP    Yasser          Arafat           84 I-S/I-S/I-VP/I-SBAR/I-S/I-NP
+ APW20001102  7 84 E-NP    Arafat          scheduled        86 I-S/I-S/I-VP/I-SBAR/I-S/E-NP
+ APW20001102  7 85 B-VP    were            scheduled        86 I-S/I-S/I-VP/I-SBAR/I-S/B-VP
+ APW20001102  7 86 E-VP    scheduled       before           74 I-S/I-S/I-VP/I-SBAR/I-S/I-VP
+ APW20001102  7 87 B-VP    to              make             88 I-S/I-S/I-VP/I-SBAR/I-S/I-VP/B-S/B-VP
+ APW20001102  7 88 E-VP    make            scheduled        86 I-S/I-S/I-VP/I-SBAR/I-S/I-VP/I-S/I-VP
+ APW20001102  7 89 B-NP    separate        announcements    90 I-S/I-S/I-VP/I-SBAR/I-S/I-VP/I-S/I-VP/B-NP/B-NP
+ APW20001102  7 90 E-NP    announcements   make             88 I-S/I-S/I-VP/I-SBAR/I-S/I-VP/I-S/I-VP/I-NP/E-NP
+ APW20001102  7 91 C-PP    of              announcements    90 I-S/I-S/I-VP/I-SBAR/I-S/I-VP/I-S/I-VP/I-NP/B-PP
+ APW20001102  7 92 C-NP    steps           of               91 I-S/I-S/I-VP/I-SBAR/I-S/I-VP/I-S/I-VP/I-NP/I-PP/B-NP/C-NP
+ APW20001102  7 93 C-PP    toward          steps            92 I-S/I-S/I-VP/I-SBAR/I-S/I-VP/I-S/I-VP/I-NP/I-PP/I-NP/B-PP
+ APW20001102  7 94 B-NP    a               cease-fire       95 I-S/I-S/I-VP/I-SBAR/I-S/I-VP/I-S/I-VP/I-NP/I-PP/I-NP/I-PP/B-NP
+ APW20001102  7 95 E-NP    cease-fire      toward           93 I-S/I-S/E-VP/E-SBAR/E-S/E-VP/E-S/E-VP/E-NP/E-PP/E-NP/E-PP/E-NP
+ APW20001102  7 96 O       .               came             72 E-S/E-S
+
+

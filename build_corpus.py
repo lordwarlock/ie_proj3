@@ -13,6 +13,74 @@ class SentLine(object):
             self.index.append(leaf_node)
             return leaf_node
         self.tree = ParentedTree.fromstring(line,read_leaf=read_leaf)
+
+class ChunkWord(object):
+    """Chunk word"""
+    def __init__(self,line):
+        self.doc,self.sent_id,self.word_id,self.iob_inner,self.word,self.heads,self.head_ids,self.iob_chain=line.split()
+        self.sent_id=int(self.sent_id)
+        self.word_id=int(self.word_id)
+
+
+class ChunkSent(object):
+    def __init__(self,words):
+        self.chunks=[]
+        self.chunk_mapping=[]
+        self.words=words
+        chunk=-1
+        for i,word in enumerate(words):
+            if word.iob_inner.startswith('B'):
+                chunk+=1
+                self.chunk_mapping.append(chunk)
+                start = i
+            elif word.iob_inner.startswith('E'):
+                self.chunk_mapping.append(chunk)
+                self.chunks.append((start,i+1))
+            elif word.iob_inner.startswith('C'):
+                chunk+=1
+                self.chunk_mapping.append(chunk)
+                self.chunks.append((i,i+1))
+            elif word.iob_inner.startswith('I'):
+                self.chunk_mapping.append(chunk)
+            else:
+                self.chunk_mapping.append(-1)
+    
+    def chunks_between(self,first,second):
+        if self.chunk_mapping[first] != -1:
+            first=self.chunk_mapping[first] + 1
+        else:
+            while self.chunk_mapping[first] == -1:
+                first += 1
+            first=self.chunk_mapping[first]
+
+        if self.chunk_mapping[second] != -1:
+            second=self.chunk_mapping[second] - 1
+        else:
+            while self.chunk_mapping[second] == -1:
+                second -= 1
+            second=self.chunk_mapping[second]
+
+        return self.chunks[first:second+1]
+
+    def chunks_before(self,index):
+        if self.chunk_mapping[index] != -1:
+            index=self.chunks[index] -1
+        else:
+            while self.chunk_mapping[index] == -1:
+                index -= 1
+            index=self.chunk_mapping[index]
+        return self.chunks[:inde+1]
+
+    def chunks_after(self,index):
+        if self.chunk_mapping[index] != -1:
+            index=self.chunks[index] +1
+        else:
+            while self.chunk_mapping[index] == -1:
+                index += 1
+            index=self.chunk_mapping[index]
+
+        return self.chunks[index:]
+
 class PosLine(object):
     """store tokens with pos tag"""
     def __init__(self,line):
@@ -30,7 +98,9 @@ class BuildCorpus(object):
     def __init__(self):
         self.postagged_data = dict()
         self.sentence_data = dict()
+        self.chunk_data = dict()
         self.corpus = None
+        self.build_chunk_data()
         self.build_postagged_data()
         self.build_sentence_data()
         self.fix_indexes()
@@ -61,6 +131,32 @@ class BuildCorpus(object):
                     if line == '\n':continue
                     lines.append(SentLine(line))
                 self.sentence_data[data_name] = lines
+
+    def build_chunk_data(self,directory='./chunking'):
+        """store parsed sentence into a dictionary where the key is document name"""
+        sentence_files = glob.glob(directory+'/*.chunk')
+        for sentence_file in sentence_files:
+            with open(sentence_file,'r') as f_sent:
+                match = re.match(r'.*[/|\\](.*?)\.head\.rel\.tokenized\.raw\.chunk',sentence_file)
+                data_name = match.group(1)
+                lines = []
+                words = []
+                sentid = 1
+                for line in f_sent:
+                    if line == '\n' or line.startswith('#'):continue
+                    word=ChunkWord(line)
+                    if word.sent_id != sentid:
+                        sent=ChunkSent(words)
+                        lines.append(sent)
+                        words=[]
+                    sentid=word.sent_id
+                    words.append(word)
+
+                sent=ChunkSent(words)
+                lines.append(sent)
+                self.chunk_data[data_name] = lines
+
+
     def fix_indexes(self):
         """Due to the disagreement of tokenization between postagged and parsed files
            this function will add a mapping list, to map index in parsed file to 
