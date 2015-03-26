@@ -152,7 +152,9 @@ class DataAnalysis():
             production_dict[key] = Counter()
         for d in self.data:
             if d.label == 'no_rel': continue
-            production_dict[d.label][self.get_root_production(d)] += 1
+            prod_prod,height = self.get_root_production(d)
+            production_dict[d.label][prod_prod] += 1
+            production_dict[d.label][height] += 1
         return production_dict
 
     def get_root_production(self,data):
@@ -160,7 +162,7 @@ class DataAnalysis():
         curr_node = pt.index[0]
         while curr_node.parent() != None:
             curr_node = curr_node.parent()
-        return curr_node[0].label()+'-'+curr_node[-1].label() 
+        return curr_node[0].label()+'-'+curr_node[-1].label(),curr_node.height()
 if __name__ == '__main__':
 
     da = DataAnalysis('./project3/data/rel-testset.gold')

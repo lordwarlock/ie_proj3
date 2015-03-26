@@ -2,7 +2,7 @@ import re
 import inflect
 
 def get_feature_functions():
-    return [dist_0,dist_1,dist_4,dist_6,entity_type,
+    return [dist_0,dist_1,dist_4,dist_6,entity_type,tree_height,
             hint_comma_detection,hint_of_detection,hint_and_detection,
             hint_s_detection,hint_the_detection,hint_from_detection,hint_in_detection,
             hint_at_detection,hint_like_detection,hint_for_detection,
@@ -12,6 +12,16 @@ def get_feature_functions():
             #svm_PHYS_Part_Whole,
             #svm_EMP_ORG_Subsidiary,svm_EMP_ORG_Subsidiary_reverse,
             #svm_PER_SOC_Family,svm_PER_SOC_Business]
+
+def dumn(coref,corpus):
+    return True
+
+def tree_height(coref,corpus):
+    pt = coref.pt_tree
+    curr_node = pt.index[0]
+    while curr_node.parent() != None:
+        curr_node = curr_node.parent()
+    return curr_node.height()
 
 def distance_n(coref,n):
     """number of word between two mentions"""
