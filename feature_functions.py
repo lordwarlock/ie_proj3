@@ -46,9 +46,10 @@ def dist_6(coref,corpus):
 
 def head_word(document,mention,corpus):
     list=corpus.postagged_data[document][mention.sent].tokens[mention.start:mention.end]
-    hasprp=map(lambda x:x[1]=='IN',list).index(True)
-    if hasprp:
-        return list[hasprp -1][0]
+    hasprp= map(lambda x:x[1]=='IN',list)
+
+    if True in hasprp:
+        return list[hasprp.index(True) -1][0]
     else:
         return list[-1][0]
 
