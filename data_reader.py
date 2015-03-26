@@ -56,7 +56,6 @@ class Document(object):
                 poslines=filter(lambda x:x.strip() != '', f2.readlines())
                 lines=f1.readlines()
                 for line,pos in zip(lines,poslines):
-                        
                     tree=ParentedTree.fromstring(line,read_leaf=read_node)
                     self.sents.append(tree)
 

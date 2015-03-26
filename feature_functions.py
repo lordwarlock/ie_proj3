@@ -8,6 +8,21 @@ def distance(coref,corpus):
     """number of word between two mentions"""
     return coref.second.start-coref.first.end
 
+def head_word(document,mention,corpus):
+    list=corpus.postagged_data[document][mention.sent].tokens[mention.start:mention.end]
+    hasprp=map(lambda x:x[1]=='IN',list).index(True)
+    if hasprp:
+        return list[hasprp -1][0]
+    else:
+        return list[-1][0]
+
+def head_word_m1(coref,corpus):
+    return head_word(coref.document,coref.first,corpus)
+
+def head_word_m2(coref,corpus):
+    return head_word(coref.document,coref.second,corpus)
+
+
 def entity_type(coref,corpus):
     return coref.first.ne+'-'+coref.second.ne
 
@@ -34,4 +49,4 @@ if __name__ == '__main__':
     from feature_extraction import FeatureExtraction
     from build_corpus import BuildCorpus
     f_ex=FeatureExtraction(BuildCorpus())
-    f_ex.test(DataSet(r"./project2/data/coref-trainset.gold"),appositive)
+    f_ex.test(DataSet(r"./project3/data/rel-trainset.gold"),head_word_m1)
