@@ -28,17 +28,17 @@ if __name__ == '__main__':
             splitted = line.split()
             tag = splitted[0]
             print tag
-            o_file = '/Users/zheng/documents/ie/ie_proj3/project3/data/svm-ova-light-files/results-1/log-{}'.format(tag)
+            o_file = '/Users/zheng/documents/ie/ie_proj3/project3/data/svm-ova-light-files/results-t/log-{}'.format(tag)
             f_o = open(o_file,'w')
             for data in ['train','dev','test']:
                 translate_class('./project3/data/svm-light-files/rel-{}-parsed-data'.format(data),'./project3/data/svm-ova-light-files/rel-{}-parsed-data'.format(data),tag)
             call(['/Users/zheng/documents/tools/svm-light-TK-1.2/svm-light-TK-1.2.1/svm_learn',
-                  '-t','5','-D','0',
+                  '-t','5',
                   '/Users/zheng/documents/ie/ie_proj3/project3/data/svm-ova-light-files/rel-train-parsed-data',
                   '/Users/zheng/documents/ie/ie_proj3/project3/data/svm-ova-light-files/train_model'])
 
             call(['/Users/zheng/documents/tools/svm-light-TK-1.2/svm-light-TK-1.2.1/svm_classify',
-                  '/Users/zheng/documents/ie/ie_proj3/project3/data/svm-ova-light-files/rel-test-parsed-data',
+                  '/Users/zheng/documents/ie/ie_proj3/project3/data/svm-ova-light-files/rel-train-parsed-data',
                   '/Users/zheng/documents/ie/ie_proj3/project3/data/svm-ova-light-files/train_model',
-                  '/Users/zheng/documents/ie/ie_proj3/project3/data/svm-ova-light-files/results-1/{}'.format(tag)],
+                  '/Users/zheng/documents/ie/ie_proj3/project3/data/svm-ova-light-files/results-t/{}'.format(tag)],
                   stdout=f_o)

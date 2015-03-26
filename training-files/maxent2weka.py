@@ -62,7 +62,10 @@ def get_data_text(in_file,out_file,classes,feat_dict,feature):
             feat,value = get_feat_value(pair)
             feature.append(feat)
             value_list.append(value)
-            feat_dict[feat] = set([value])
+            if feat in feat_dict:
+                feat_dict[feat] = feat_dict[feat].union(set([value]))
+            else:
+                feat_dict[feat] = set([value])
         output_buffer += ','.join(value_list) + ','+line[0]+'\n'
 
         for line in f_i:
