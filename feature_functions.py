@@ -176,18 +176,19 @@ def chunk_hbnull(coref,corpus):
 
 def chunk_hbfl(coref,corpus):
     chunkline,chunks=chunk_between(coref,corpus)
-    print chunks
     return chunkline.words[chunks[0][0]].heads if len(chunks) ==1 else 'None'
 
 def chunk_hbf(coref,corpus):
     chunkline,chunks=chunk_between(coref,corpus)
-    print chunks
     return chunkline.words[chunks[0][0]].heads if len(chunks) >1 else 'None'
 
 def chunk_hbl(coref,corpus):
     chunkline,chunks=chunk_between(coref,corpus)
-    print chunks
     return chunkline.words[chunks[-1][0]].heads if len(chunks) >1 else 'None'
+
+def chunk_hbo(coref,corpus):
+    chunkline,chunks=chunk_between(coref,corpus)
+    return '_'.join([chunkline.words[chunk[0]].heads for chunk in chunks[1:-1]]) if len(chunks) >2 else 'None'
 
 
 def chunk_m1f(coref,corpus):
