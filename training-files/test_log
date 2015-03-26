@@ -1,0 +1,3 @@
+use logistic
+precision = 0.492537313433 recall = 0.126679462572 f1 = 0.201526717557
+features: dist_0 dist_1 dist_4 dist_6 entity_type

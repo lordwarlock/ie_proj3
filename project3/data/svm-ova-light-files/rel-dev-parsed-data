@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-1 |BT| (NP (NP (PER (NN judge))) (PP (IN in) (NP (GPE (NNP Delaware))))) |ET|
-=======
 -1 |BT| (NP (NP (PER (NN judge))) (PP (IN in) (NP (GPE (NNP Delaware))))) |ET|
->>>>>>> origin/master
 -1 |BT| (S (NP (NP (PER (NN judge))) (PP (IN in) (NP (NNP Delaware)))) (, ,) (PP (IN in) (NP (NP (DT a) (NN decision)) (VP (VBN made) (S (ADJP (JJ public) (PP (IN on) (NP (NNP Tuesday)))))))) (, ,) (VP (VBD held) (SBAR (IN that) (S (NP (CD one) (ORG (NN company))))))) |ET|
 -1 |BT| (S (NP (NP (PER (NN judge))) (PP (IN in) (NP (NNP Delaware)))) (, ,) (PP (IN in) (NP (NP (DT a) (NN decision)) (VP (VBN made) (S (ADJP (JJ public) (PP (IN on) (NP (NNP Tuesday)))))))) (, ,) (VP (VBD held) (SBAR (IN that) (S (NP (NP (CD one) (NN company) (POS 's)) (JJ corporate) (NN tax) (NN shelter)) (VP (VP (VBD was) (NP (DT a) (NN sham))) (CC and) (VP (VBD noted) (SBAR (IN that) (S (NP (CD 85) (JJ other) (JJ large) (ORG (NNS corporations))))))))))) |ET|
 -1 |BT| (S (NP (PP (NP (GPE (NNP Delaware))))) (, ,) (PP (IN in) (NP (NP (DT a) (NN decision)) (VP (VBN made) (S (ADJP (JJ public) (PP (IN on) (NP (NNP Tuesday)))))))) (, ,) (VP (VBD held) (SBAR (IN that) (S (NP (CD one) (ORG (NN company))))))) |ET|
@@ -32,11 +28,7 @@
 -1 |BT| (S (NP (NP (PER (NNP Judge)) (NNP Murray) (NNP Schwartz)) (PP (IN in) (NP (NP (NNP Wilmington)) (, ,) (NP (NNP Del.)) (, ,)))) (VP (VBD ruled) (SBAR (IN that) (S (NP (NNP Camelot) (NNP Music)) (VP (MD could) (RB not) (VP (VB deduct) (NP (NP (NN interest)) (PP (IN on) (NP (NP (NNS loans)) (SBAR (S (NP (ORG (PRP it)))))))))))))) |ET|
 -1 |BT| (S (NP (NP (PER (NNP Judge)) (NNP Murray) (NNP Schwartz)) (PP (IN in) (NP (NP (NNP Wilmington)) (, ,) (NP (NNP Del.)) (, ,)))) (VP (VBD ruled) (SBAR (IN that) (S (NP (NNP Camelot) (NNP Music)) (VP (MD could) (RB not) (VP (VB deduct) (NP (NP (NN interest)) (PP (IN on) (NP (NP (NNS loans)) (SBAR (S (NP (PRP it)) (VP (VBD took) (PRT (RP out)) (PP (IN against) (NP (NP (NN life) (NN insurance)) (PP (IN on) (NP (ORG (PRP$ its)))))))))))))))))) |ET|
 -1 |BT| (S (NP (NP (PER (NNP Judge)) (NNP Murray) (NNP Schwartz)) (PP (IN in) (NP (NP (NNP Wilmington)) (, ,) (NP (NNP Del.)) (, ,)))) (VP (VBD ruled) (SBAR (IN that) (S (NP (NNP Camelot) (NNP Music)) (VP (MD could) (RB not) (VP (VB deduct) (NP (NP (NN interest)) (PP (IN on) (NP (NP (NNS loans)) (SBAR (S (NP (PRP it)) (VP (VBD took) (PRT (RP out)) (PP (IN against) (NP (NP (NN life) (NN insurance)) (PP (IN on) (NP (PRP$ its) (CD 1,430) (PER (NNS employees)))))))))))))))))) |ET|
-<<<<<<< HEAD
-1 |BT| (NP (NP (PER (NNP Murray) (NNP Schwartz))) (PP (IN in) (NP (GPE (NNP Wilmington))))) |ET|
-=======
 -1 |BT| (NP (NP (PER (NNP Murray) (NNP Schwartz))) (PP (IN in) (NP (GPE (NNP Wilmington))))) |ET|
->>>>>>> origin/master
 -1 |BT| (NP (NP (PER (NNP Murray) (NNP Schwartz))) (PP (IN in) (NP (NP (NNP Wilmington)) (, ,) (NP (GPE (NNP Del.)))))) |ET|
 -1 |BT| (S (NP (NP (PER (NNP Murray) (NNP Schwartz))) (PP (IN in) (NP (NP (NNP Wilmington)) (, ,) (NP (NNP Del.)) (, ,)))) (VP (VBD ruled) (SBAR (IN that) (S (NP (ORG (NNP Camelot) (NNP Music))))))) |ET|
 -1 |BT| (S (NP (NP (PER (NNP Murray) (NNP Schwartz))) (PP (IN in) (NP (NP (NNP Wilmington)) (, ,) (NP (NNP Del.)) (, ,)))) (VP (VBD ruled) (SBAR (IN that) (S (NP (NNP Camelot) (NNP Music)) (VP (MD could) (RB not) (VP (VB deduct) (NP (NP (NN interest)) (PP (IN on) (NP (NP (NNS loans)) (SBAR (S (NP (ORG (PRP it)))))))))))))) |ET|
@@ -63,7 +55,7 @@
 -1 |BT| (NP (NP (ORG (NNP Trans) (NNP World) (NNP Entertainment))) (, ,) (SBAR (WHNP (ORG (WDT which))))) |ET|
 -1 |BT| (NP (NP (ORG (NNP Trans) (NNP World) (NNP Entertainment))) (, ,) (SBAR (WHNP (WDT which)) (S (VP (VBD bought) (NP (DT the) (ORG (NN company))))))) |ET|
 -1 |BT| (SBAR (WHNP (ORG (WDT which))) (S (VP (VBD bought) (NP (DT the) (ORG (NN company)))))) |ET|
--1 |BT| (NP (NP (ORG (JJ many))) (PP (IN of) (NP (DT the) (JJ other) (CD 85) (ORG (NNS companies))))) |ET|
+1 |BT| (NP (NP (ORG (JJ many))) (PP (IN of) (NP (DT the) (JJ other) (CD 85) (ORG (NNS companies))))) |ET|
 -1 |BT| (NP (NP (ORG (JJ many))) (PP (IN of) (NP (DT the) (JJ other) (CD 85) (NNS companies))) (, ,) (SBAR (WHNP (ORG (WDT which))))) |ET|
 -1 |BT| (NP (NP (ORG (JJ many))) (PP (IN of) (NP (DT the) (JJ other) (CD 85) (NNS companies))) (, ,) (SBAR (WHNP (WDT which)) (S (NP (DT the) (PER (NN judge)))))) |ET|
 -1 |BT| (NP (NP (ORG (JJ many))) (PP (IN of) (NP (DT the) (JJ other) (CD 85) (NNS companies))) (, ,) (SBAR (WHNP (WDT which)) (S (NP (DT the) (NN judge)) (VP (VBD did) (RB not) (VP (VB identify) (PP (IN by) (NP (NN name))) (, ,) (SBAR (IN because) (S (NP (PER (PRP$ his)))))))))) |ET|
@@ -164,11 +156,7 @@
 -1 |BT| (NP (NP (PER (NNP John) (NNP Sullivan))) (, ,) (NP (ORG (NNP Trans) (NNP World) (NNP Entertainment)))) |ET|
 -1 |BT| (NP (NP (PER (NNP John) (NNP Sullivan))) (, ,) (NP (NP (NNP Trans) (NNP World) (NNP Entertainment) (POS 's)) (JJ chief) (JJ financial) (PER (NN officer)))) |ET|
 -1 |BT| (S (NP (NP (PER (NNP John) (NNP Sullivan))) (, ,) (NP (NP (NNP Trans) (NNP World) (NNP Entertainment) (POS 's)) (JJ chief) (JJ financial) (NN officer)) (, ,)) (VP (VBD said) (SBAR (IN that) (S (SBAR (IN if) (S (NP (DT the) (NN decision)) (VP (VBD stood)))) (NP (PRP it)) (VP (MD would) (VP (VB cost) (NP (DT the) (ORG (NN company))))))))) |ET|
-<<<<<<< HEAD
 -1 |BT| (NP (NP (ORG (NNP Trans) (NNP World) (NNP Entertainment) (POS 's))) (JJ chief) (JJ financial) (PER (NN officer))) |ET|
-=======
-1 |BT| (NP (NP (ORG (NNP Trans) (NNP World) (NNP Entertainment) (POS 's))) (JJ chief) (JJ financial) (PER (NN officer))) |ET|
->>>>>>> origin/master
 -1 |BT| (S (NP (NP (NP (ORG (NNP Trans) (NNP World) (NNP Entertainment) (POS 's))) (JJ chief) (JJ financial) (NN officer)) (, ,)) (VP (VBD said) (SBAR (IN that) (S (SBAR (IN if) (S (NP (DT the) (NN decision)) (VP (VBD stood)))) (NP (PRP it)) (VP (MD would) (VP (VB cost) (NP (DT the) (ORG (NN company))))))))) |ET|
 -1 |BT| (S (NP (NP (PER (NN officer))) (, ,)) (VP (VBD said) (SBAR (IN that) (S (SBAR (IN if) (S (NP (DT the) (NN decision)) (VP (VBD stood)))) (NP (PRP it)) (VP (MD would) (VP (VB cost) (NP (DT the) (ORG (NN company))))))))) |ET|
 -1 |BT| (PER (S (NP (PRP I)) (VP (VBP 'm) (ADJP (JJ surprised) (PP (IN by) (NP (DT the) (NN ruling)))))) (, ,) ('' '') (NP (PER (NNP Sullivan)))) |ET|
@@ -216,7 +204,7 @@
 -1 |BT| (S (NP (PER (NNP Letterman))) (VP (VBD quizzed) (NP (DT an) (PER (NN audience))))) |ET|
 -1 |BT| (S (NP (PER (NNP Letterman))) (VP (VBD quizzed) (NP (DT an) (NN audience) (PER (NN member))))) |ET|
 -1 |BT| (S (NP (PER (NNP Letterman))) (VP (VBD quizzed) (NP (NP (DT an) (NN audience) (NN member)) (PP (IN about) (NP (GPE (NNP Texas))))))) |ET|
--1 |BT| (NP (PER (NN audience)) (PER (NN member))) |ET|
+1 |BT| (NP (PER (NN audience)) (PER (NN member))) |ET|
 -1 |BT| (NP (NP (PER (NN audience)) (NN member)) (PP (IN about) (NP (GPE (NNP Texas))))) |ET|
 -1 |BT| (NP (NP (PER (NN member))) (PP (IN about) (NP (GPE (NNP Texas))))) |ET|
 -1 |BT| (S (NP (PER (PRP He))) (VP (VBD showed) (NP (NP (NN footage)) (PP (IN of) (NP (DT the) (PER (NN governor))))))) |ET|
@@ -261,11 +249,7 @@
 -1 |BT| (NP (NP (ORG (NNP Navy)) (NN ship)) (PP (IN in) (NP (GPE (NNP Yemen))))) |ET|
 -1 |BT| (NP (NP (NP (ORG (NNP Navy)) (NN ship)) (PP (IN in) (NP (NNP Yemen)))) (, ,) (NP (NP (NN violence)) (PP (IN in) (NP (LOC (DT the) (NNP Middle) (NNP East)))))) |ET|
 -1 |BT| (NP (PP (NP (NP (NP (ORG (NNP Navy)) (NN ship)) (PP (IN in) (NP (NNP Yemen)))) (, ,) (NP (NP (NN violence)) (PP (IN in) (NP (DT the) (NNP Middle) (NNP East)))) (CC and) (NP (NN pollution)))) (PP (IN in) (NP (GPE (NNP Texas))))) |ET|
-<<<<<<< HEAD
-1 |BT| (NP (NP (VEH (NN ship))) (PP (IN in) (NP (GPE (NNP Yemen))))) |ET|
-=======
 -1 |BT| (NP (NP (VEH (NN ship))) (PP (IN in) (NP (GPE (NNP Yemen))))) |ET|
->>>>>>> origin/master
 -1 |BT| (NP (NP (NP (VEH (NN ship))) (PP (IN in) (NP (NNP Yemen)))) (, ,) (NP (NP (NN violence)) (PP (IN in) (NP (LOC (DT the) (NNP Middle) (NNP East)))))) |ET|
 -1 |BT| (NP (PP (NP (NP (NP (VEH (NN ship))) (PP (IN in) (NP (NNP Yemen)))) (, ,) (NP (NP (NN violence)) (PP (IN in) (NP (DT the) (NNP Middle) (NNP East)))) (CC and) (NP (NN pollution)))) (PP (IN in) (NP (GPE (NNP Texas))))) |ET|
 -1 |BT| (NP (NP (PP (NP (GPE (NNP Yemen))))) (, ,) (NP (NP (NN violence)) (PP (IN in) (NP (LOC (DT the) (NNP Middle) (NNP East)))))) |ET|
@@ -353,11 +337,7 @@
 -1 |BT| (VP (NP (NP (NP (PER (NNP Bush)) (POS 's)) (NN plan)) (PP (IN for) (NP (NN oil) (NN drilling)))) (PP (IN in) (NP (DT a) (NN nature))) (S (VP (FAC (VB preserve))))) |ET|
 -1 |BT| (VP (NP (NP (NP (PER (NNP Bush)) (POS 's)) (NN plan)) (PP (IN for) (NP (NN oil) (NN drilling)))) (PP (IN in) (NP (DT a) (NN nature))) (S (VP (VB preserve) (PP (IN in) (NP (GPE (NNP Alaska))))))) |ET|
 -1 |BT| (VP (NP (NP (NP (PER (NNP Bush)) (POS 's)) (NN plan)) (PP (IN for) (NP (NN oil) (NN drilling)))) (PP (IN in) (NP (DT a) (NN nature))) (S (VP (VP (VB preserve) (PP (IN in) (NP (NNP Alaska)))) (CC and) (VP (VB smog) (PP (IN in) (NP (GPE (NNP Texas)))))))) |ET|
-<<<<<<< HEAD
-1 |BT| (VP (FAC (VB preserve)) (PP (IN in) (NP (GPE (NNP Alaska))))) |ET|
-=======
 -1 |BT| (VP (FAC (VB preserve)) (PP (IN in) (NP (GPE (NNP Alaska))))) |ET|
->>>>>>> origin/master
 -1 |BT| (VP (VP (FAC (VB preserve)) (PP (IN in) (NP (NNP Alaska)))) (CC and) (VP (VB smog) (PP (IN in) (NP (GPE (NNP Texas)))))) |ET|
 -1 |BT| (VP (VP (PP (NP (GPE (NNP Alaska))))) (CC and) (VP (VB smog) (PP (IN in) (NP (GPE (NNP Texas)))))) |ET|
 -1 |BT| (S (S (VP (SBAR (S (VP (PP (NP (GPE (NNP Texas))))))))) (, ,) ('' '') (NP (DT the) (PER (NN host)))) |ET|
@@ -375,7 +355,7 @@
 -1 |BT| (NP (NP (PER (NNS investors))) (, ,) (SBAR (WHNP (NP (PER (DT many)))))) |ET|
 -1 |BT| (NP (NP (PER (NNS investors))) (, ,) (SBAR (WHNP (NP (DT many)) (WHPP (IN of) (WHNP (PER (WP whom))))))) |ET|
 -1 |BT| (NP (NP (PER (NNS investors))) (, ,) (SBAR (WHNP (NP (DT many)) (WHPP (IN of) (WHNP (WP whom)))) (S (VP (VB buy) (NP (PER (PRP$ their))))))) |ET|
--1 |BT| (WHNP (NP (PER (DT many))) (WHPP (IN of) (WHNP (PER (WP whom))))) |ET|
+1 |BT| (WHNP (NP (PER (DT many))) (WHPP (IN of) (WHNP (PER (WP whom))))) |ET|
 -1 |BT| (SBAR (WHNP (NP (PER (DT many))) (WHPP (IN of) (WHNP (WP whom)))) (S (VP (VB buy) (NP (PER (PRP$ their)))))) |ET|
 -1 |BT| (SBAR (WHNP (WHPP (WHNP (PER (WP whom))))) (S (VP (VB buy) (NP (PER (PRP$ their)))))) |ET|
 -1 |BT| (S (NP (PER (NNS investors))) (VP (VBP own) (NP (NP (NNS funds)) (VP (VBG containing) (NP (JJ many) (ADJP (LOC (NNP Middle) (NNP Eastern)))))))) |ET|
@@ -428,21 +408,12 @@
 -1 |BT| (S (NP (SBAR (S (VP (S (VP (PP (NP (PER (NNS terrorists)))))))))) (VP (VBD blew) (NP (NP (DT a) (NN hole)) (PP (IN in) (NP (DT a) (NNP United) (NNPS States) (NN warship))) (PP (IN in) (NP (GPE (NNP Yemen))))))) |ET|
 -1 |BT| (GPE (NNP United) (NNPS States) (VEH (NN warship))) |ET|
 -1 |BT| (NP (PP (NP (GPE (NNP United) (NNPS States) (NN warship)))) (PP (IN in) (NP (GPE (NNP Yemen))))) |ET|
-<<<<<<< HEAD
-1 |BT| (NP (PP (NP (VEH (NN warship)))) (PP (IN in) (NP (GPE (NNP Yemen))))) |ET|
+-1 |BT| (NP (PP (NP (VEH (NN warship)))) (PP (IN in) (NP (GPE (NNP Yemen))))) |ET|
 -1 |BT| (NP (GPE (NNP Israeli)) (CC and) (GPE (NNP Palestinian))) |ET|
 -1 |BT| (NP (GPE (NNP Israeli)) (CC and) (NNP Palestinian) (PER (NNS leaders))) |ET|
 -1 |BT| (S (NP (GPE (NNP Israeli)) (CC and) (NNP Palestinian) (NNS leaders)) (VP (VBD agreed) (PP (TO to) (NP (NP (DT the) (NNS terms)) (PP (IN of) (NP (DT a) (NN cease-fire))))) (PP (IN after) (NP (NP (NNS clashes)) (PP (IN in) (NP (LOC (DT the) (NNP West) (NNP Bank)))))))) |ET|
 -1 |BT| (S (NP (GPE (NNP Israeli)) (CC and) (NNP Palestinian) (NNS leaders)) (VP (VBD agreed) (PP (TO to) (NP (NP (DT the) (NNS terms)) (PP (IN of) (NP (DT a) (NN cease-fire))))) (PP (IN after) (NP (NP (NNS clashes)) (PP (IN in) (NP (NP (DT the) (NNP West) (NNP Bank)) (CC and) (NP (LOC (DT the) (NNP Gaza) (NNP Strip))))))))) |ET|
 -1 |BT| (NP (GPE (NNP Palestinian)) (PER (NNS leaders))) |ET|
-=======
--1 |BT| (NP (PP (NP (VEH (NN warship)))) (PP (IN in) (NP (GPE (NNP Yemen))))) |ET|
--1 |BT| (NP (GPE (NNP Israeli)) (CC and) (GPE (NNP Palestinian))) |ET|
-1 |BT| (NP (GPE (NNP Israeli)) (CC and) (NNP Palestinian) (PER (NNS leaders))) |ET|
--1 |BT| (S (NP (GPE (NNP Israeli)) (CC and) (NNP Palestinian) (NNS leaders)) (VP (VBD agreed) (PP (TO to) (NP (NP (DT the) (NNS terms)) (PP (IN of) (NP (DT a) (NN cease-fire))))) (PP (IN after) (NP (NP (NNS clashes)) (PP (IN in) (NP (LOC (DT the) (NNP West) (NNP Bank)))))))) |ET|
--1 |BT| (S (NP (GPE (NNP Israeli)) (CC and) (NNP Palestinian) (NNS leaders)) (VP (VBD agreed) (PP (TO to) (NP (NP (DT the) (NNS terms)) (PP (IN of) (NP (DT a) (NN cease-fire))))) (PP (IN after) (NP (NP (NNS clashes)) (PP (IN in) (NP (NP (DT the) (NNP West) (NNP Bank)) (CC and) (NP (LOC (DT the) (NNP Gaza) (NNP Strip))))))))) |ET|
-1 |BT| (NP (GPE (NNP Palestinian)) (PER (NNS leaders))) |ET|
->>>>>>> origin/master
 -1 |BT| (S (NP (GPE (NNP Palestinian)) (NNS leaders)) (VP (VBD agreed) (PP (TO to) (NP (NP (DT the) (NNS terms)) (PP (IN of) (NP (DT a) (NN cease-fire))))) (PP (IN after) (NP (NP (NNS clashes)) (PP (IN in) (NP (LOC (DT the) (NNP West) (NNP Bank)))))))) |ET|
 -1 |BT| (S (NP (GPE (NNP Palestinian)) (NNS leaders)) (VP (VBD agreed) (PP (TO to) (NP (NP (DT the) (NNS terms)) (PP (IN of) (NP (DT a) (NN cease-fire))))) (PP (IN after) (NP (NP (NNS clashes)) (PP (IN in) (NP (NP (DT the) (NNP West) (NNP Bank)) (CC and) (NP (LOC (DT the) (NNP Gaza) (NNP Strip))))))))) |ET|
 -1 |BT| (S (NP (PER (NNS leaders))) (VP (VBD agreed) (PP (TO to) (NP (NP (DT the) (NNS terms)) (PP (IN of) (NP (DT a) (NN cease-fire))))) (PP (IN after) (NP (NP (NNS clashes)) (PP (IN in) (NP (LOC (DT the) (NNP West) (NNP Bank)))))))) |ET|
@@ -564,11 +535,7 @@
 -1 |BT| (NP (PRP$ Your) (PER (NN controller))) |ET|
 -1 |BT| (PER (NP (PRP$ Your) (NN controller)) (VP (MD can) (VP (VB provide) (NP (NP (NNS lists)) (PP (TO to) (NP (PER (PRP you)))))))) |ET|
 -1 |BT| (S (NP (PER (NN controller))) (VP (MD can) (VP (VB provide) (NP (NP (NNS lists)) (PP (TO to) (NP (PER (PRP you)))))))) |ET|
-<<<<<<< HEAD
 -1 |BT| (NP (ORG (NN branch)) (PER (NNS managers))) |ET|
-=======
-1 |BT| (NP (ORG (NN branch)) (PER (NNS managers))) |ET|
->>>>>>> origin/master
 -1 |BT| (S (NP (VP (PP (NP (ORG (NN branch)) (NNS managers)))) (, ,) ('' '')) (VP (VBD concerned) (NP (ORG (NNPS Associates))))) |ET|
 -1 |BT| (S (NP (VP (PP (NP (ORG (NN branch)) (NNS managers)))) (, ,) ('' '')) (VP (VBD concerned) (NP (NP (NP (NNPS Associates) (POS ')) (NN practice)) (PP (IN of) (S (VP (VBG acquiring) (NP (PER (NN consumer))))))))) |ET|
 -1 |BT| (S (NP (VP (PP (NP (ORG (NN branch)) (NNS managers)))) (, ,) ('' '')) (VP (VBD concerned) (NP (NP (NP (NNPS Associates) (POS ')) (NN practice)) (PP (IN of) (S (VP (VBG acquiring) (NP (NP (NN consumer) (NNS loans)) (VP (VBN made) (PP (IN by) (NP (PER (NP (JJ other) (NNS lenders)) (CC or) (NP (NNS retailers))))))))))))) |ET|
@@ -607,11 +574,7 @@
 -1 |BT| (SBAR (WHNP (PER (WP who))) (S (VP (MD will) (VP (VB join) (NP (ORG (NNP Citigroup))))))) |ET|
 -1 |BT| (SBAR (WHNP (PER (WP who))) (S (VP (MD will) (VP (VB join) (NP (NNP Citigroup)) (PP (IN as) (NP (DT a) (NN vice) (PER (NN chairman)))))))) |ET|
 -1 |BT| (S (NP (NP (PP (NP (SBAR (WHNP (PER (WP who))) (S (VP (MD will) (VP (VB join) (NP (NNP Citigroup)) (PP (IN as) (NP (NP (DT a) (NN vice) (NN chairman)) (PP (IN after) (NP (DT the) (NN merger)))))))))))) (, ,)) (VP (VBD cited) (NP (NP (DT the) (JJ strong) (JJ cultural) (NNS similarities)) (PP (IN between) (NP (DT the) (ORG (NNS companies))))))) |ET|
-<<<<<<< HEAD
 -1 |BT| (VP (NP (ORG (NNP Citigroup))) (PP (IN as) (NP (DT a) (NN vice) (PER (NN chairman))))) |ET|
-=======
-1 |BT| (VP (NP (ORG (NNP Citigroup))) (PP (IN as) (NP (DT a) (NN vice) (PER (NN chairman))))) |ET|
->>>>>>> origin/master
 -1 |BT| (S (NP (NP (PP (NP (SBAR (S (VP (NP (ORG (NNP Citigroup))) (PP (IN as) (NP (NP (DT a) (NN vice) (NN chairman)) (PP (IN after) (NP (DT the) (NN merger))))))))))) (, ,)) (VP (VBD cited) (NP (NP (DT the) (JJ strong) (JJ cultural) (NNS similarities)) (PP (IN between) (NP (DT the) (ORG (NNS companies))))))) |ET|
 -1 |BT| (S (NP (NP (PP (NP (SBAR (S (VP (PP (NP (NP (PER (NN chairman))) (PP (IN after) (NP (DT the) (NN merger))))))))))) (, ,)) (VP (VBD cited) (NP (NP (DT the) (JJ strong) (JJ cultural) (NNS similarities)) (PP (IN between) (NP (DT the) (ORG (NNS companies))))))) |ET|
 -1 |BT| (NP (NP (PER (NNP Marge) (NNP Magner))) (, ,) (NP (DT a) (ORG (NNP Citigroup)))) |ET|
@@ -622,11 +585,7 @@
 -1 |BT| (NP (NP (PER (NNP Marge) (NNP Magner))) (, ,) (NP (NP (DT a) (NNP Citigroup) (NN executive)) (SBAR (WHNP (WP who)) (S (ADVP (RB previously)) (VP (VBD oversaw) (NP (NP (NNP Citigroup) (POS 's)) (NN consumer) (NN finance) (ORG (NN business)))))))) |ET|
 -1 |BT| (S (NP (NP (PER (NNP Marge) (NNP Magner))) (, ,) (NP (NP (DT a) (NNP Citigroup) (NN executive)) (SBAR (WHNP (WP who)) (S (ADVP (RB previously)) (VP (VBD oversaw) (NP (NP (NNP Citigroup) (POS 's)) (NN consumer) (NN finance) (NN business)))))) (, ,)) (VP (VBD stressed) (SBAR (WHNP (WP what)) (S (NP (PER (PRP she))))))) |ET|
 -1 |BT| (S (NP (NP (PER (NNP Marge) (NNP Magner))) (, ,) (NP (NP (DT a) (NNP Citigroup) (NN executive)) (SBAR (WHNP (WP who)) (S (ADVP (RB previously)) (VP (VBD oversaw) (NP (NP (NNP Citigroup) (POS 's)) (NN consumer) (NN finance) (NN business)))))) (, ,)) (VP (VBD stressed) (SBAR (WHNP (WP what)) (S (NP (PRP she)) (VP (VBD said) (SBAR (S (VP (VBD were) (NP (NP (JJ big) (NNS differences)) (, ,) (ADVP (RB particularly))) (PP (IN in) (SBAR (WHADVP (WRB how)) (S (NP (DT the) (NNS sales) (PER (NN staff)))))))))))))) |ET|
-<<<<<<< HEAD
 -1 |BT| (NP (ORG (NNP Citigroup)) (PER (NN executive))) |ET|
-=======
-1 |BT| (NP (ORG (NNP Citigroup)) (PER (NN executive))) |ET|
->>>>>>> origin/master
 -1 |BT| (NP (NP (ORG (NNP Citigroup)) (NN executive)) (SBAR (WHNP (PER (WP who))))) |ET|
 -1 |BT| (NP (NP (ORG (NNP Citigroup)) (NN executive)) (SBAR (WHNP (WP who)) (S (ADVP (RB previously)) (VP (VBD oversaw) (NP (ORG (NNP Citigroup))))))) |ET|
 -1 |BT| (NP (NP (ORG (NNP Citigroup)) (NN executive)) (SBAR (WHNP (WP who)) (S (ADVP (RB previously)) (VP (VBD oversaw) (NP (NP (NNP Citigroup) (POS 's)) (PER (NN consumer))))))) |ET|
@@ -901,22 +860,14 @@
 -1 |BT| (S (PP (NP (PER (PRP$ his)) (JJ 75th) (NN birthday))) (PRN (, ,) (S (NP (PRP he)) (VP (VBD told) (NP (NP (DT an) (NN audience)) (PP (IN of) (NP (NNS pilgrims)))) (PP (IN at) (NP (NNP St.) (NNP Peter) (POS 's))) (, ,) (S (VP (VBG referring) (PP (TO to) (NP (NNP God))))))) (, ,)) (`` ``) (NP (PRP I)) (VP (VBP leave) (NP (PRP it)) (PP (TO to) (NP (PRP him))) (S (VP (TO to) (VP (VB decide) (SBAR (WHADVP (WRB when) (CC and) (WRB how)) (S (NP (PRP he)) (VP (VBZ wants) (S (VP (TO to) (VP (VB relieve) (NP (PER (PRP me)))))))))))))) |ET|
 -1 |BT| (S (NP (PER (PRP he))) (VP (VBD told) (NP (DT an) (PER (NN audience))))) |ET|
 -1 |BT| (S (NP (PER (PRP he))) (VP (VBD told) (NP (NP (DT an) (NN audience)) (PP (IN of) (NP (PER (NNS pilgrims))))))) |ET|
-<<<<<<< HEAD
-1 |BT| (S (NP (PER (PRP he))) (VP (VBD told) (NP (NP (DT an) (NN audience)) (PP (IN of) (NP (NNS pilgrims)))) (PP (IN at) (NP (FAC (NNP St.) (NNP Peter) (POS 's)))))) |ET|
-=======
 -1 |BT| (S (NP (PER (PRP he))) (VP (VBD told) (NP (NP (DT an) (NN audience)) (PP (IN of) (NP (NNS pilgrims)))) (PP (IN at) (NP (FAC (NNP St.) (NNP Peter) (POS 's)))))) |ET|
->>>>>>> origin/master
 -1 |BT| (S (NP (PER (PRP he))) (VP (VBD told) (NP (NP (DT an) (NN audience)) (PP (IN of) (NP (NNS pilgrims)))) (PP (IN at) (NP (NNP St.) (NNP Peter) (POS 's))) (, ,) (S (VP (VBG referring) (PP (TO to) (NP (PER (NNP God)))))))) |ET|
 -1 |BT| (PER (PRN (S (NP (PER (PRP he))) (VP (VBD told) (NP (NP (DT an) (NN audience)) (PP (IN of) (NP (NNS pilgrims)))) (PP (IN at) (NP (NNP St.) (NNP Peter) (POS 's))) (, ,) (S (VP (VBG referring) (PP (TO to) (NP (NNP God))))))) (, ,)) (`` ``) (NP (PRP I))) |ET|
 -1 |BT| (S (PRN (S (NP (PER (PRP he))) (VP (VBD told) (NP (NP (DT an) (NN audience)) (PP (IN of) (NP (NNS pilgrims)))) (PP (IN at) (NP (NNP St.) (NNP Peter) (POS 's))) (, ,) (S (VP (VBG referring) (PP (TO to) (NP (NNP God))))))) (, ,)) (`` ``) (NP (PRP I)) (VP (VBP leave) (NP (PRP it)) (PP (TO to) (NP (PER (PRP him)))))) |ET|
 -1 |BT| (S (PRN (S (NP (PER (PRP he))) (VP (VBD told) (NP (NP (DT an) (NN audience)) (PP (IN of) (NP (NNS pilgrims)))) (PP (IN at) (NP (NNP St.) (NNP Peter) (POS 's))) (, ,) (S (VP (VBG referring) (PP (TO to) (NP (NNP God))))))) (, ,)) (`` ``) (NP (PRP I)) (VP (VBP leave) (NP (PRP it)) (PP (TO to) (NP (PRP him))) (S (VP (TO to) (VP (VB decide) (SBAR (WHADVP (WRB when) (CC and) (WRB how)) (S (NP (PER (PRP he)))))))))) |ET|
 -1 |BT| (S (PRN (S (NP (PER (PRP he))) (VP (VBD told) (NP (NP (DT an) (NN audience)) (PP (IN of) (NP (NNS pilgrims)))) (PP (IN at) (NP (NNP St.) (NNP Peter) (POS 's))) (, ,) (S (VP (VBG referring) (PP (TO to) (NP (NNP God))))))) (, ,)) (`` ``) (NP (PRP I)) (VP (VBP leave) (NP (PRP it)) (PP (TO to) (NP (PRP him))) (S (VP (TO to) (VP (VB decide) (SBAR (WHADVP (WRB when) (CC and) (WRB how)) (S (NP (PRP he)) (VP (VBZ wants) (S (VP (TO to) (VP (VB relieve) (NP (PER (PRP me)))))))))))))) |ET|
 -1 |BT| (NP (NP (PER (NN audience))) (PP (IN of) (NP (PER (NNS pilgrims))))) |ET|
-<<<<<<< HEAD
-1 |BT| (VP (NP (NP (PER (NN audience))) (PP (IN of) (NP (NNS pilgrims)))) (PP (IN at) (NP (FAC (NNP St.) (NNP Peter) (POS 's))))) |ET|
-=======
 -1 |BT| (VP (NP (NP (PER (NN audience))) (PP (IN of) (NP (NNS pilgrims)))) (PP (IN at) (NP (FAC (NNP St.) (NNP Peter) (POS 's))))) |ET|
->>>>>>> origin/master
 -1 |BT| (VP (NP (NP (PER (NN audience))) (PP (IN of) (NP (NNS pilgrims)))) (PP (IN at) (NP (NNP St.) (NNP Peter) (POS 's))) (, ,) (S (VP (VBG referring) (PP (TO to) (NP (PER (NNP God))))))) |ET|
 -1 |BT| (PER (PRN (S (VP (NP (NP (PER (NN audience))) (PP (IN of) (NP (NNS pilgrims)))) (PP (IN at) (NP (NNP St.) (NNP Peter) (POS 's))) (, ,) (S (VP (VBG referring) (PP (TO to) (NP (NNP God))))))) (, ,)) (`` ``) (NP (PRP I))) |ET|
 -1 |BT| (S (PRN (S (VP (NP (NP (PER (NN audience))) (PP (IN of) (NP (NNS pilgrims)))) (PP (IN at) (NP (NNP St.) (NNP Peter) (POS 's))) (, ,) (S (VP (VBG referring) (PP (TO to) (NP (NNP God))))))) (, ,)) (`` ``) (NP (PRP I)) (VP (VBP leave) (NP (PRP it)) (PP (TO to) (NP (PER (PRP him)))))) |ET|
@@ -1083,10 +1034,10 @@
 -1 |BT| (S (NP (ORG (NNP Democratic) (NNP Party))) (VP (VBZ has) (ADVP (RB also)) (VP (VBN been) (VP (VBG running) (NP (NNS commercials)) (PP (IN in) (NP (NP (NNS cities)) (PP (IN like) (NP (NP (NNP Seattle)) (, ,) (NP (NP (NNP Des) (NNP Moines)) (, ,) (NP (NNP Iowa)) (, ,)) (CC and) (NP (GPE (NNP Tampa))))))))))) |ET|
 -1 |BT| (S (NP (ORG (NNP Democratic) (NNP Party))) (VP (VBZ has) (ADVP (RB also)) (VP (VBN been) (VP (VBG running) (NP (NNS commercials)) (PP (IN in) (NP (NP (NNS cities)) (PP (IN like) (NP (NP (NNP Seattle)) (, ,) (NP (NP (NNP Des) (NNP Moines)) (, ,) (NP (NNP Iowa)) (, ,)) (CC and) (NP (NP (NNP Tampa)) (, ,) (NP (GPE (NNP Fla.)))))))))))) |ET|
 -1 |BT| (S (NP (ORG (NNP Democratic) (NNP Party))) (VP (VBZ has) (ADVP (RB also)) (VP (VBN been) (VP (VBG running) (NP (NNS commercials)) (PP (IN in) (NP (NP (NNS cities)) (PP (IN like) (NP (NP (NNP Seattle)) (, ,) (NP (NP (NNP Des) (NNP Moines)) (, ,) (NP (NNP Iowa)) (, ,)) (CC and) (NP (NP (NNP Tampa)) (, ,) (NP (NNP Fla.)) (, ,)))))) (S (VP (TO to) (VP (VB attack) (NP (DT the) (PER (NN governor)))))))))) |ET|
--1 |BT| (NP (NP (GPE (NNS cities))) (PP (IN like) (NP (GPE (NNP Seattle))))) |ET|
--1 |BT| (NP (NP (GPE (NNS cities))) (PP (IN like) (NP (NP (NNP Seattle)) (, ,) (NP (GPE (NNP Des) (NNP Moines)))))) |ET|
+1 |BT| (NP (NP (GPE (NNS cities))) (PP (IN like) (NP (GPE (NNP Seattle))))) |ET|
+1 |BT| (NP (NP (GPE (NNS cities))) (PP (IN like) (NP (NP (NNP Seattle)) (, ,) (NP (GPE (NNP Des) (NNP Moines)))))) |ET|
 -1 |BT| (NP (NP (GPE (NNS cities))) (PP (IN like) (NP (NP (NNP Seattle)) (, ,) (NP (NP (NNP Des) (NNP Moines)) (, ,) (NP (GPE (NNP Iowa))))))) |ET|
--1 |BT| (NP (NP (GPE (NNS cities))) (PP (IN like) (NP (NP (NNP Seattle)) (, ,) (NP (NP (NNP Des) (NNP Moines)) (, ,) (NP (NNP Iowa)) (, ,)) (CC and) (NP (GPE (NNP Tampa)))))) |ET|
+1 |BT| (NP (NP (GPE (NNS cities))) (PP (IN like) (NP (NP (NNP Seattle)) (, ,) (NP (NP (NNP Des) (NNP Moines)) (, ,) (NP (NNP Iowa)) (, ,)) (CC and) (NP (GPE (NNP Tampa)))))) |ET|
 -1 |BT| (NP (NP (GPE (NNS cities))) (PP (IN like) (NP (NP (NNP Seattle)) (, ,) (NP (NP (NNP Des) (NNP Moines)) (, ,) (NP (NNP Iowa)) (, ,)) (CC and) (NP (NP (NNP Tampa)) (, ,) (NP (GPE (NNP Fla.))))))) |ET|
 -1 |BT| (VP (PP (NP (NP (GPE (NNS cities))) (PP (IN like) (NP (NP (NNP Seattle)) (, ,) (NP (NP (NNP Des) (NNP Moines)) (, ,) (NP (NNP Iowa)) (, ,)) (CC and) (NP (NP (NNP Tampa)) (, ,) (NP (NNP Fla.)) (, ,)))))) (S (VP (TO to) (VP (VB attack) (NP (DT the) (PER (NN governor))))))) |ET|
 -1 |BT| (NP (NP (GPE (NNP Seattle))) (, ,) (NP (GPE (NNP Des) (NNP Moines)))) |ET|
@@ -1320,11 +1271,7 @@
 -1 |BT| (S (NP (PER (NNP Bush)) (NN campaign)) (VP (VBD took) (NP (NN issue)) (PP (IN with) (NP (DT that) (NN assertion))) (, ,) (S (VP (VBG declaring) (PP (IN in) (NP (DT a) (NN statement) (SBAR (IN that) (S (NP (DT the) (NN governor)) (VP (VBD had) (VP (VBN visited) (S (NP (GPE (NNS colonias)))))))))))))) |ET|
 -1 |BT| (S (NP (ORG (NN campaign))) (VP (VBD took) (NP (NN issue)) (PP (IN with) (NP (DT that) (NN assertion))) (, ,) (S (VP (VBG declaring) (PP (IN in) (NP (DT a) (NN statement) (SBAR (IN that) (S (NP (DT the) (PER (NN governor))))))))))) |ET|
 -1 |BT| (S (NP (ORG (NN campaign))) (VP (VBD took) (NP (NN issue)) (PP (IN with) (NP (DT that) (NN assertion))) (, ,) (S (VP (VBG declaring) (PP (IN in) (NP (DT a) (NN statement) (SBAR (IN that) (S (NP (DT the) (NN governor)) (VP (VBD had) (VP (VBN visited) (S (NP (GPE (NNS colonias)))))))))))))) |ET|
-<<<<<<< HEAD
-1 |BT| (S (NP (PER (NN governor))) (VP (VBD had) (VP (VBN visited) (S (NP (GPE (NNS colonias))))))) |ET|
-=======
 -1 |BT| (S (NP (PER (NN governor))) (VP (VBD had) (VP (VBN visited) (S (NP (GPE (NNS colonias))))))) |ET|
->>>>>>> origin/master
 -1 |BT| (S (NP (PER (NNP Tamara) (NNP Maschino))) (, ,) (PP (IN for) (NP (NN example))) (, ,) (NP (DT a) (PER (NN resident)))) |ET|
 -1 |BT| (S (NP (PER (NNP Tamara) (NNP Maschino))) (, ,) (PP (IN for) (NP (NN example))) (, ,) (NP (NP (DT a) (NN resident)) (PP (IN of) (NP (GPE (DT the) (JJ Clear) (NNP Lake)))))) |ET|
 -1 |BT| (S (NP (PER (NNP Tamara) (NNP Maschino))) (, ,) (PP (IN for) (NP (NN example))) (, ,) (NP (NP (DT a) (NN resident)) (PP (IN of) (NP (DT the) (JJ Clear) (NNP Lake) (GPE (NN area)))))) |ET|
@@ -1448,21 +1395,12 @@
 -1 |BT| (NP (NP (PER (NNP Andrew))) (, ,) (SBAR (WHNP (PER (WP who))))) |ET|
 -1 |BT| (NP (NP (PER (NNP Andrew))) (, ,) (SBAR (WHNP (WP who)) (S (VP (VBD traveled) (PP (TO to) (NP (GPE (NNP Maine)))))))) |ET|
 -1 |BT| (NP (NP (PER (NNP Andrew))) (, ,) (SBAR (WHNP (WP who)) (S (VP (VBD traveled) (PP (TO to) (NP (NNP Maine))) (NP (NNP Monday)) (S (VP (TO to) (VP (VB show) (NP (NP (DT the) (NN video)) (PP (TO to) (NP (PER (NNS reporters) (CC and) (NNS voters)))))))))))) |ET|
-<<<<<<< HEAD
-1 |BT| (NP (NP (PER (NNP Andrew))) (, ,) (SBAR (WHNP (WP who)) (S (VP (VBD traveled) (PP (TO to) (NP (NNP Maine))) (NP (NNP Monday)) (S (VP (TO to) (VP (VB show) (NP (NP (DT the) (NN video)) (PP (TO to) (NP (NNS reporters) (CC and) (NNS voters)))) (PP (IN at) (NP (DT a) (NN community) (FAC (NN center))))))))))) |ET|
--1 |BT| (NP (NP (PER (NNP Andrew))) (, ,) (SBAR (WHNP (WP who)) (S (VP (VBD traveled) (PP (TO to) (NP (NNP Maine))) (NP (NNP Monday)) (S (VP (TO to) (VP (VB show) (NP (NP (DT the) (NN video)) (PP (TO to) (NP (NNS reporters) (CC and) (NNS voters)))) (PP (IN at) (NP (NP (DT a) (NN community) (NN center)) (PP (IN in) (NP (GPE (NNP Portland))))))))))))) |ET|
--1 |BT| (NP (NP (PER (NNP Andrew))) (, ,) (SBAR (WHNP (WP who)) (S (VP (VBD traveled) (PP (TO to) (NP (NNP Maine))) (NP (NNP Monday)) (S (VP (TO to) (VP (VB show) (NP (NP (DT the) (NN video)) (PP (TO to) (NP (NNS reporters) (CC and) (NNS voters)))) (PP (IN at) (NP (NP (DT a) (NN community) (NN center)) (PP (PP (IN in) (NP (NNP Portland))) (CC and) (PP (IN on) (NP (DT a) (ORG (NN college)))))))))))))) |ET|
-1 |BT| (NP (NP (PER (NNP Andrew))) (, ,) (SBAR (WHNP (WP who)) (S (VP (VBD traveled) (PP (TO to) (NP (NNP Maine))) (NP (NNP Monday)) (S (VP (TO to) (VP (VB show) (NP (NP (DT the) (NN video)) (PP (TO to) (NP (NNS reporters) (CC and) (NNS voters)))) (PP (IN at) (NP (NP (DT a) (NN community) (NN center)) (PP (PP (IN in) (NP (NNP Portland))) (CC and) (PP (IN on) (NP (DT a) (NN college) (FAC (NN campus)))))))))))))) |ET|
--1 |BT| (NP (NP (PER (NNP Andrew))) (, ,) (SBAR (WHNP (WP who)) (S (VP (VBD traveled) (PP (TO to) (NP (NNP Maine))) (NP (NNP Monday)) (S (VP (TO to) (VP (VB show) (NP (NP (DT the) (NN video)) (PP (TO to) (NP (NNS reporters) (CC and) (NNS voters)))) (PP (IN at) (NP (NP (DT a) (NN community) (NN center)) (PP (PP (IN in) (NP (NNP Portland))) (CC and) (PP (IN on) (NP (NP (DT a) (NN college) (NN campus)) (PP (IN in) (NP (GPE (NNP Bangor)))))))))))))))) |ET|
-1 |BT| (SBAR (WHNP (PER (WP who))) (S (VP (VBD traveled) (PP (TO to) (NP (GPE (NNP Maine))))))) |ET|
-=======
 -1 |BT| (NP (NP (PER (NNP Andrew))) (, ,) (SBAR (WHNP (WP who)) (S (VP (VBD traveled) (PP (TO to) (NP (NNP Maine))) (NP (NNP Monday)) (S (VP (TO to) (VP (VB show) (NP (NP (DT the) (NN video)) (PP (TO to) (NP (NNS reporters) (CC and) (NNS voters)))) (PP (IN at) (NP (DT a) (NN community) (FAC (NN center))))))))))) |ET|
 -1 |BT| (NP (NP (PER (NNP Andrew))) (, ,) (SBAR (WHNP (WP who)) (S (VP (VBD traveled) (PP (TO to) (NP (NNP Maine))) (NP (NNP Monday)) (S (VP (TO to) (VP (VB show) (NP (NP (DT the) (NN video)) (PP (TO to) (NP (NNS reporters) (CC and) (NNS voters)))) (PP (IN at) (NP (NP (DT a) (NN community) (NN center)) (PP (IN in) (NP (GPE (NNP Portland))))))))))))) |ET|
 -1 |BT| (NP (NP (PER (NNP Andrew))) (, ,) (SBAR (WHNP (WP who)) (S (VP (VBD traveled) (PP (TO to) (NP (NNP Maine))) (NP (NNP Monday)) (S (VP (TO to) (VP (VB show) (NP (NP (DT the) (NN video)) (PP (TO to) (NP (NNS reporters) (CC and) (NNS voters)))) (PP (IN at) (NP (NP (DT a) (NN community) (NN center)) (PP (PP (IN in) (NP (NNP Portland))) (CC and) (PP (IN on) (NP (DT a) (ORG (NN college)))))))))))))) |ET|
 -1 |BT| (NP (NP (PER (NNP Andrew))) (, ,) (SBAR (WHNP (WP who)) (S (VP (VBD traveled) (PP (TO to) (NP (NNP Maine))) (NP (NNP Monday)) (S (VP (TO to) (VP (VB show) (NP (NP (DT the) (NN video)) (PP (TO to) (NP (NNS reporters) (CC and) (NNS voters)))) (PP (IN at) (NP (NP (DT a) (NN community) (NN center)) (PP (PP (IN in) (NP (NNP Portland))) (CC and) (PP (IN on) (NP (DT a) (NN college) (FAC (NN campus)))))))))))))) |ET|
 -1 |BT| (NP (NP (PER (NNP Andrew))) (, ,) (SBAR (WHNP (WP who)) (S (VP (VBD traveled) (PP (TO to) (NP (NNP Maine))) (NP (NNP Monday)) (S (VP (TO to) (VP (VB show) (NP (NP (DT the) (NN video)) (PP (TO to) (NP (NNS reporters) (CC and) (NNS voters)))) (PP (IN at) (NP (NP (DT a) (NN community) (NN center)) (PP (PP (IN in) (NP (NNP Portland))) (CC and) (PP (IN on) (NP (NP (DT a) (NN college) (NN campus)) (PP (IN in) (NP (GPE (NNP Bangor)))))))))))))))) |ET|
 -1 |BT| (SBAR (WHNP (PER (WP who))) (S (VP (VBD traveled) (PP (TO to) (NP (GPE (NNP Maine))))))) |ET|
->>>>>>> origin/master
 -1 |BT| (SBAR (WHNP (PER (WP who))) (S (VP (VBD traveled) (PP (TO to) (NP (NNP Maine))) (NP (NNP Monday)) (S (VP (TO to) (VP (VB show) (NP (NP (DT the) (NN video)) (PP (TO to) (NP (PER (NNS reporters) (CC and) (NNS voters))))))))))) |ET|
 -1 |BT| (SBAR (WHNP (PER (WP who))) (S (VP (VBD traveled) (PP (TO to) (NP (NNP Maine))) (NP (NNP Monday)) (S (VP (TO to) (VP (VB show) (NP (NP (DT the) (NN video)) (PP (TO to) (NP (NNS reporters) (CC and) (NNS voters)))) (PP (IN at) (NP (DT a) (NN community) (FAC (NN center)))))))))) |ET|
 -1 |BT| (SBAR (WHNP (PER (WP who))) (S (VP (VBD traveled) (PP (TO to) (NP (NNP Maine))) (NP (NNP Monday)) (S (VP (TO to) (VP (VB show) (NP (NP (DT the) (NN video)) (PP (TO to) (NP (NNS reporters) (CC and) (NNS voters)))) (PP (IN at) (NP (NP (DT a) (NN community) (NN center)) (PP (IN in) (NP (GPE (NNP Portland)))))))))))) |ET|
@@ -1475,21 +1413,12 @@
 -1 |BT| (VP (PP (NP (GPE (NNP Maine)))) (NP (NNP Monday)) (S (VP (TO to) (VP (VB show) (NP (NP (DT the) (NN video)) (PP (TO to) (NP (NNS reporters) (CC and) (NNS voters)))) (PP (IN at) (NP (NP (DT a) (NN community) (NN center)) (PP (PP (IN in) (NP (NNP Portland))) (CC and) (PP (IN on) (NP (DT a) (ORG (NN college))))))))))) |ET|
 -1 |BT| (VP (PP (NP (GPE (NNP Maine)))) (NP (NNP Monday)) (S (VP (TO to) (VP (VB show) (NP (NP (DT the) (NN video)) (PP (TO to) (NP (NNS reporters) (CC and) (NNS voters)))) (PP (IN at) (NP (NP (DT a) (NN community) (NN center)) (PP (PP (IN in) (NP (NNP Portland))) (CC and) (PP (IN on) (NP (DT a) (NN college) (FAC (NN campus))))))))))) |ET|
 -1 |BT| (VP (PP (NP (GPE (NNP Maine)))) (NP (NNP Monday)) (S (VP (TO to) (VP (VB show) (NP (NP (DT the) (NN video)) (PP (TO to) (NP (NNS reporters) (CC and) (NNS voters)))) (PP (IN at) (NP (NP (DT a) (NN community) (NN center)) (PP (PP (IN in) (NP (NNP Portland))) (CC and) (PP (IN on) (NP (NP (DT a) (NN college) (NN campus)) (PP (IN in) (NP (GPE (NNP Bangor))))))))))))) |ET|
-<<<<<<< HEAD
-1 |BT| (VP (NP (PP (NP (PER (NNS reporters) (CC and) (NNS voters))))) (PP (IN at) (NP (DT a) (NN community) (FAC (NN center))))) |ET|
--1 |BT| (VP (NP (PP (NP (PER (NNS reporters) (CC and) (NNS voters))))) (PP (IN at) (NP (NP (DT a) (NN community) (NN center)) (PP (IN in) (NP (GPE (NNP Portland))))))) |ET|
--1 |BT| (VP (NP (PP (NP (PER (NNS reporters) (CC and) (NNS voters))))) (PP (IN at) (NP (NP (DT a) (NN community) (NN center)) (PP (PP (IN in) (NP (NNP Portland))) (CC and) (PP (IN on) (NP (DT a) (ORG (NN college)))))))) |ET|
-1 |BT| (VP (NP (PP (NP (PER (NNS reporters) (CC and) (NNS voters))))) (PP (IN at) (NP (NP (DT a) (NN community) (NN center)) (PP (PP (IN in) (NP (NNP Portland))) (CC and) (PP (IN on) (NP (DT a) (NN college) (FAC (NN campus)))))))) |ET|
--1 |BT| (VP (NP (PP (NP (PER (NNS reporters) (CC and) (NNS voters))))) (PP (IN at) (NP (NP (DT a) (NN community) (NN center)) (PP (PP (IN in) (NP (NNP Portland))) (CC and) (PP (IN on) (NP (NP (DT a) (NN college) (NN campus)) (PP (IN in) (NP (GPE (NNP Bangor)))))))))) |ET|
-1 |BT| (NP (NP (FAC (NN center))) (PP (IN in) (NP (GPE (NNP Portland))))) |ET|
-=======
 -1 |BT| (VP (NP (PP (NP (PER (NNS reporters) (CC and) (NNS voters))))) (PP (IN at) (NP (DT a) (NN community) (FAC (NN center))))) |ET|
 -1 |BT| (VP (NP (PP (NP (PER (NNS reporters) (CC and) (NNS voters))))) (PP (IN at) (NP (NP (DT a) (NN community) (NN center)) (PP (IN in) (NP (GPE (NNP Portland))))))) |ET|
 -1 |BT| (VP (NP (PP (NP (PER (NNS reporters) (CC and) (NNS voters))))) (PP (IN at) (NP (NP (DT a) (NN community) (NN center)) (PP (PP (IN in) (NP (NNP Portland))) (CC and) (PP (IN on) (NP (DT a) (ORG (NN college)))))))) |ET|
 -1 |BT| (VP (NP (PP (NP (PER (NNS reporters) (CC and) (NNS voters))))) (PP (IN at) (NP (NP (DT a) (NN community) (NN center)) (PP (PP (IN in) (NP (NNP Portland))) (CC and) (PP (IN on) (NP (DT a) (NN college) (FAC (NN campus)))))))) |ET|
 -1 |BT| (VP (NP (PP (NP (PER (NNS reporters) (CC and) (NNS voters))))) (PP (IN at) (NP (NP (DT a) (NN community) (NN center)) (PP (PP (IN in) (NP (NNP Portland))) (CC and) (PP (IN on) (NP (NP (DT a) (NN college) (NN campus)) (PP (IN in) (NP (GPE (NNP Bangor)))))))))) |ET|
 -1 |BT| (NP (NP (FAC (NN center))) (PP (IN in) (NP (GPE (NNP Portland))))) |ET|
->>>>>>> origin/master
 -1 |BT| (NP (NP (FAC (NN center))) (PP (PP (IN in) (NP (NNP Portland))) (CC and) (PP (IN on) (NP (DT a) (ORG (NN college)))))) |ET|
 -1 |BT| (NP (NP (FAC (NN center))) (PP (PP (IN in) (NP (NNP Portland))) (CC and) (PP (IN on) (NP (DT a) (NN college) (FAC (NN campus)))))) |ET|
 -1 |BT| (NP (NP (FAC (NN center))) (PP (PP (IN in) (NP (NNP Portland))) (CC and) (PP (IN on) (NP (NP (DT a) (NN college) (NN campus)) (PP (IN in) (NP (GPE (NNP Bangor)))))))) |ET|
@@ -1498,11 +1427,7 @@
 -1 |BT| (PP (PP (NP (GPE (NNP Portland)))) (CC and) (PP (IN on) (NP (NP (DT a) (NN college) (NN campus)) (PP (IN in) (NP (GPE (NNP Bangor))))))) |ET|
 -1 |BT| (NP (ORG (NN college)) (FAC (NN campus))) |ET|
 -1 |BT| (NP (NP (ORG (NN college)) (NN campus)) (PP (IN in) (NP (GPE (NNP Bangor))))) |ET|
-<<<<<<< HEAD
-1 |BT| (NP (NP (FAC (NN campus))) (PP (IN in) (NP (GPE (NNP Bangor))))) |ET|
-=======
 -1 |BT| (NP (NP (FAC (NN campus))) (PP (IN in) (NP (GPE (NNP Bangor))))) |ET|
->>>>>>> origin/master
 -1 |BT| (S (NP (PRP We)) (VP (VBD got) (S (NP (NP (CD 100) (NN percent)) (PP (IN of) (NP (DT the) (NN TV) (ORG (NNS stations)))))))) |ET|
 -1 |BT| (S (NP (PRP We)) (VP (VBD got) (S (NP (NP (CD 100) (NN percent)) (PP (IN of) (NP (NP (DT the) (NN TV) (NNS stations)) (PP (IN in) (NP (GPE (NNP Maine)))))))))) |ET|
 -1 |BT| (PER (S (NP (PRP We)) (VP (VBD got) (S (NP (NP (CD 100) (NN percent)) (PP (IN of) (NP (NP (DT the) (NN TV) (NNS stations)) (PP (IN in) (NP (NP (NNP Maine) (POS ')) (POS ')))))) (VP (TO to) (VP (VB attend) (NP (DT the) (NNS events))))))) (, ,) (NP (PER (PRP he)))) |ET|
@@ -1564,7 +1489,7 @@
 -1 |BT| (NP (NP (PER (NN chairman))) (CC and) (NP (JJ chief) (PER (NN executive)))) |ET|
 -1 |BT| (S (NP (PER (NNP Capellas))) (VP (VBD noted) (SBAR (IN that) (S (NP (DT the) (JJ strong) (NN growth)) (VP (VBD had) (VP (VBN come) (PP (IN from) (NP (DT every) (LOC (NN region)))))))))) |ET|
 -1 |BT| (S (NP (PER (NNP Capellas))) (VP (VBD noted) (SBAR (IN that) (S (NP (DT the) (JJ strong) (NN growth)) (VP (VBD had) (VP (VBN come) (PP (IN from) (NP (NP (DT every) (NN region)) (PP (IN of) (NP (DT the) (LOC (NN world)))))))))))) |ET|
--1 |BT| (NP (NP (LOC (NN region))) (PP (IN of) (NP (DT the) (LOC (NN world))))) |ET|
+1 |BT| (NP (NP (LOC (NN region))) (PP (IN of) (NP (DT the) (LOC (NN world))))) |ET|
 -1 |BT| (S (NP (PER (PRP He))) (ADVP (RB also)) (VP (VBD expressed) (NP (NN confidence) (SBAR (IN that) (S (NP (ORG (NNP Compaq)))))))) |ET|
 -1 |BT| (S (NP (PER (PRP He))) (ADVP (RB also)) (VP (VBD expressed) (NP (NN confidence) (SBAR (IN that) (S (NP (NNP Compaq)) (VP (MD would) (VP (VB meet) (NP (ORG (PRP$ its)))))))))) |ET|
 -1 |BT| (S (NP (ORG (NNP Compaq))) (VP (MD would) (VP (VB meet) (NP (ORG (PRP$ its)))))) |ET|
@@ -1580,7 +1505,7 @@
 -1 |BT| (S (NP (PP (NP (ORG (NN segment))))) (VP (VBD was) (PP (ADVP (RB well)) (IN below) (NP (DT the) (ORG (NN industry)))))) |ET|
 -1 |BT| (S (NP (PP (NP (ORG (NN business))))) (VP (VBD was) (NP (NP (NP (DT an) (NN improvement)) (PP (IN on) (NP (JJ past) (NNS quarters)))) (, ,) (CC but) (ADVP (RB below)) (NP (NP (DT the) (NN growth) (NN rate)) (PP (IN of) (NP (ORG (NNS competitors)))))))) |ET|
 -1 |BT| (S (NP (PP (NP (ORG (NN business))))) (VP (VBD was) (NP (NP (NP (DT an) (NN improvement)) (PP (IN on) (NP (JJ past) (NNS quarters)))) (, ,) (CC but) (ADVP (RB below)) (NP (NP (DT the) (NN growth) (NN rate)) (PP (IN of) (NP (NNS competitors))))) (, ,) (PP (IN like) (NP (ORG (NNP EMC)))))) |ET|
--1 |BT| (VP (NP (PP (NP (ORG (NNS competitors))))) (, ,) (PP (IN like) (NP (ORG (NNP EMC))))) |ET|
+1 |BT| (VP (NP (PP (NP (ORG (NNS competitors))))) (, ,) (PP (IN like) (NP (ORG (NNP EMC))))) |ET|
 -1 |BT| (S (NP (ORG (NNP Compaq))) (VP (VBZ is) (NP (DT the) (LOC (NN world))))) |ET|
 -1 |BT| (S (NP (ORG (NNP Compaq))) (VP (VBZ is) (NP (NP (DT the) (NN world) (POS 's)) (VBG leading) (ORG (NN maker))))) |ET|
 -1 |BT| (S (S (NP (ORG (NNP Compaq))) (VP (VBZ is) (NP (NP (NP (DT the) (NN world) (POS 's)) (VBG leading) (NN maker)) (PP (IN of) (NP (JJ personal) (NNS computers)))))) (, ,) (CC and) (S (NP (ORG (PRP$ its))))) |ET|
@@ -1608,7 +1533,7 @@
 -1 |BT| (NP (NP (ORG (NNP Compaq)) (NNS enthusiasts)) (PP (IN like) (NP (NP (NNP Kurtis) (NNP R.) (NNP King)) (, ,) (NP (NP (DT an) (NN analyst)) (PP (IN at) (NP (NP (NNP Banc)) (PP (IN of) (NP (NP (NNP America) (NNPS Securities)) (SBAR (WHNP (WP who)) (S (VP (VBZ rates) (S (NP (DT the) (ORG (NN company))))))))))))))) |ET|
 -1 |BT| (NP (NP (ORG (NNP Compaq)) (NNS enthusiasts)) (PP (IN like) (NP (NP (NNP Kurtis) (NNP R.) (NNP King)) (, ,) (NP (NP (DT an) (NN analyst)) (PP (IN at) (NP (NP (NNP Banc)) (PP (IN of) (NP (NP (NNP America) (NNPS Securities)) (SBAR (WHNP (WP who)) (S (VP (VBZ rates) (S (NP (DT the) (NN company)) (NP (DT a) (`` ``) (JJ strong) (ORG (NN buy))))))))))))))) |ET|
 -1 |BT| (S (NP (NP (ORG (NNP Compaq)) (NNS enthusiasts)) (PP (IN like) (NP (NP (NNP Kurtis) (NNP R.) (NNP King)) (, ,) (NP (NP (DT an) (NN analyst)) (PP (IN at) (NP (NP (NNP Banc)) (PP (IN of) (NP (NP (NNP America) (NNPS Securities)) (SBAR (WHNP (WP who)) (S (VP (VBZ rates) (S (NP (DT the) (NN company)) (NP (DT a) (`` ``) (JJ strong) (NN buy))))))))))) (, ,)))) ('' '') (VP (VBD said) (SBAR (S (NP (DT the) (NN quarter)) (VP (VBD validated) (NP (ORG (PRP$ their)))))))) |ET|
--1 |BT| (NP (NP (PER (NNS enthusiasts))) (PP (IN like) (NP (PER (NNP Kurtis) (NNP R.) (NNP King))))) |ET|
+1 |BT| (NP (NP (PER (NNS enthusiasts))) (PP (IN like) (NP (PER (NNP Kurtis) (NNP R.) (NNP King))))) |ET|
 -1 |BT| (NP (NP (PER (NNS enthusiasts))) (PP (IN like) (NP (NP (NNP Kurtis) (NNP R.) (NNP King)) (, ,) (NP (DT an) (PER (NN analyst)))))) |ET|
 -1 |BT| (NP (NP (PER (NNS enthusiasts))) (PP (IN like) (NP (NP (NNP Kurtis) (NNP R.) (NNP King)) (, ,) (NP (NP (DT an) (NN analyst)) (PP (IN at) (NP (ORG (NP (NNP Banc)) (PP (IN of) (NP (NNP America) (NNPS Securities)))))))))) |ET|
 -1 |BT| (NP (NP (PER (NNS enthusiasts))) (PP (IN like) (NP (NP (NNP Kurtis) (NNP R.) (NNP King)) (, ,) (NP (NP (DT an) (NN analyst)) (PP (IN at) (NP (NP (NNP Banc)) (PP (IN of) (NP (NP (NNP America) (NNPS Securities)) (SBAR (WHNP (PER (WP who)))))))))))) |ET|
@@ -1638,7 +1563,7 @@
 -1 |BT| (S (NP (PP (NP (NP (PP (NP (PP (NP (SBAR (S (VP (S (NP (ORG (NN buy)))))))))))) (, ,)))) ('' '') (VP (VBD said) (SBAR (S (NP (DT the) (NN quarter)) (VP (VBD validated) (NP (ORG (PRP$ their)))))))) |ET|
 -1 |BT| (NP (NP (PER (NNS skeptics))) (SBAR (WHNP (PER (WP who))))) |ET|
 -1 |BT| (NP (NP (PER (NNS skeptics))) (SBAR (WHNP (WP who)) (S (VP (VBD were) (RB not) (VP (VBG advising) (NP (PER (NNS clients)))))))) |ET|
--1 |BT| (S (NP (NP (PER (NNS skeptics))) (SBAR (WHNP (WP who)) (S (VP (VBD were) (RB not) (VP (VBG advising) (NP (NNS clients)) (S (VP (TO to) (VP (VB buy) (NP (DT the) (NN stock)))))))))) (, ,) (PP (IN like) (NP (PER (NNP Charles) (NNP R.) (NNP Wolf))))) |ET|
+1 |BT| (S (NP (NP (PER (NNS skeptics))) (SBAR (WHNP (WP who)) (S (VP (VBD were) (RB not) (VP (VBG advising) (NP (NNS clients)) (S (VP (TO to) (VP (VB buy) (NP (DT the) (NN stock)))))))))) (, ,) (PP (IN like) (NP (PER (NNP Charles) (NNP R.) (NNP Wolf))))) |ET|
 -1 |BT| (S (NP (NP (PER (NNS skeptics))) (SBAR (WHNP (WP who)) (S (VP (VBD were) (RB not) (VP (VBG advising) (NP (NNS clients)) (S (VP (TO to) (VP (VB buy) (NP (DT the) (NN stock)))))))))) (, ,) (PP (IN like) (NP (NP (NNP Charles) (NNP R.) (NNP Wolf)) (PP (IN at) (NP (ORG (NNP UBS) (NNP Warburg))))))) |ET|
 -1 |BT| (SBAR (WHNP (PER (WP who))) (S (VP (VBD were) (RB not) (VP (VBG advising) (NP (PER (NNS clients))))))) |ET|
 -1 |BT| (S (NP (SBAR (WHNP (PER (WP who))) (S (VP (VBD were) (RB not) (VP (VBG advising) (NP (NNS clients)) (S (VP (TO to) (VP (VB buy) (NP (DT the) (NN stock)))))))))) (, ,) (PP (IN like) (NP (PER (NNP Charles) (NNP R.) (NNP Wolf))))) |ET|
@@ -1680,11 +1605,7 @@
 -1 |BT| (NP (NP (NP (GPE (JJ British)) (NN art) (NN student)) (VP (VBG studying) (PP (IN in) (NP (NNP San) (NNP Francisco))))) (, ,) (SBAR (WHADVP (WRB where)) (S (NP (PRP she)) (VP (VBZ happens) (S (VP (TO to) (VP (VB live) (NP (NP (JJ next) (NN door)) (PP (TO to) (NP (NP (DT a) (JJ serial) (NN killer)) (PRN (-LRB- [) (NP (NNP Jeff) (NNP Fahey)) (-RRB- ])) (SBAR (WHNP (PER (WP who)))))))))))))) |ET|
 -1 |BT| (NP (NP (NP (GPE (JJ British)) (NN art) (NN student)) (VP (VBG studying) (PP (IN in) (NP (NNP San) (NNP Francisco))))) (, ,) (SBAR (WHADVP (WRB where)) (S (NP (PRP she)) (VP (VBZ happens) (S (VP (TO to) (VP (VB live) (NP (NP (JJ next) (NN door)) (PP (TO to) (NP (NP (DT a) (JJ serial) (NN killer)) (PRN (-LRB- [) (NP (NNP Jeff) (NNP Fahey)) (-RRB- ])) (SBAR (WHNP (WP who)) (S (VP (VBZ dons) (NP (NP (JJ outlandish) (NNS costumes)) (SBAR (S (VP (TO to) (VP (VB stalk) (NP (PER (PRP$ his))))))))))))))))))))) |ET|
 -1 |BT| (NP (NP (NP (GPE (JJ British)) (NN art) (NN student)) (VP (VBG studying) (PP (IN in) (NP (NNP San) (NNP Francisco))))) (, ,) (SBAR (WHADVP (WRB where)) (S (NP (PRP she)) (VP (VBZ happens) (S (VP (TO to) (VP (VB live) (NP (NP (JJ next) (NN door)) (PP (TO to) (NP (NP (DT a) (JJ serial) (NN killer)) (PRN (-LRB- [) (NP (NNP Jeff) (NNP Fahey)) (-RRB- ])) (SBAR (WHNP (WP who)) (S (VP (VBZ dons) (NP (NP (JJ outlandish) (NNS costumes)) (SBAR (S (VP (TO to) (VP (VB stalk) (NP (PRP$ his) (PER (NNS victims))))))))))))))))))))) |ET|
-<<<<<<< HEAD
-1 |BT| (NP (NP (PER (NN student))) (VP (VBG studying) (PP (IN in) (NP (GPE (NNP San) (NNP Francisco)))))) |ET|
-=======
 -1 |BT| (NP (NP (PER (NN student))) (VP (VBG studying) (PP (IN in) (NP (GPE (NNP San) (NNP Francisco)))))) |ET|
->>>>>>> origin/master
 -1 |BT| (NP (NP (NP (PER (NN student))) (VP (VBG studying) (PP (IN in) (NP (NNP San) (NNP Francisco))))) (, ,) (SBAR (WHADVP (GPE (WRB where))))) |ET|
 -1 |BT| (NP (NP (NP (PER (NN student))) (VP (VBG studying) (PP (IN in) (NP (NNP San) (NNP Francisco))))) (, ,) (SBAR (WHADVP (WRB where)) (S (NP (PER (PRP she)))))) |ET|
 -1 |BT| (NP (NP (NP (PER (NN student))) (VP (VBG studying) (PP (IN in) (NP (NNP San) (NNP Francisco))))) (, ,) (SBAR (WHADVP (WRB where)) (S (NP (PRP she)) (VP (VBZ happens) (S (VP (TO to) (VP (VB live) (NP (NP (JJ next) (NN door)) (PP (TO to) (NP (DT a) (JJ serial) (PER (NN killer)))))))))))) |ET|
@@ -1828,11 +1749,7 @@
 -1 |BT| (NP (PP (NP (GPE (NNP German)) (NNP baron))) (, ,) (ADJP (JJ complete) (PP (IN with) (NP (JJ fake) (NN beard)))) (, ,) (SBAR (S (NP (NP (VBG walking) (NN stick) (CC and) (NN kid) (NNS gloves)) (VP (VBG _) (NP (NP (DT the) (NN kind)) (PP (IN of) (NP (NP (JJ get-up) (NNS women)) (PP (IN in) (NP (GPE (NNP San) (NNP Francisco)))))))))))) |ET|
 -1 |BT| (NP (PP (NP (PER (NNP baron)))) (, ,) (ADJP (JJ complete) (PP (IN with) (NP (JJ fake) (NN beard)))) (, ,) (SBAR (S (NP (NP (VBG walking) (NN stick) (CC and) (NN kid) (NNS gloves)) (VP (VBG _) (NP (NP (DT the) (NN kind)) (PP (IN of) (NP (JJ get-up) (PER (NNS women)))))))))) |ET|
 -1 |BT| (NP (PP (NP (PER (NNP baron)))) (, ,) (ADJP (JJ complete) (PP (IN with) (NP (JJ fake) (NN beard)))) (, ,) (SBAR (S (NP (NP (VBG walking) (NN stick) (CC and) (NN kid) (NNS gloves)) (VP (VBG _) (NP (NP (DT the) (NN kind)) (PP (IN of) (NP (NP (JJ get-up) (NNS women)) (PP (IN in) (NP (GPE (NNP San) (NNP Francisco)))))))))))) |ET|
-<<<<<<< HEAD
-1 |BT| (NP (NP (PER (NNS women))) (PP (IN in) (NP (GPE (NNP San) (NNP Francisco))))) |ET|
-=======
 -1 |BT| (NP (NP (PER (NNS women))) (PP (IN in) (NP (GPE (NNP San) (NNP Francisco))))) |ET|
->>>>>>> origin/master
 -1 |BT| (S (NP (PER (PRP you))) (VP (VBP know) (NP (NP (DT the) (NN identity)) (PP (IN of) (NP (DT the) (PER (NN killer))))))) |ET|
 -1 |BT| (SBAR (SBAR (S (NP (PER (PRP you))) (VP (VBP know) (NP (NP (DT the) (NN identity)) (PP (IN of) (NP (DT the) (NN killer)))) (ADVP (RB well)) (PP (IN in) (NP (NN advance)))))) (, ,) (CC and) (SBAR (IN since) (S (NP (PER (NNP Wright)))))) |ET|
 -1 |BT| (SBAR (SBAR (S (NP (PER (PRP you))) (VP (VBP know) (NP (NP (DT the) (NN identity)) (PP (IN of) (NP (DT the) (NN killer)))) (ADVP (RB well)) (PP (IN in) (NP (NN advance)))))) (, ,) (CC and) (SBAR (IN since) (S (NP (NP (NNP Wright) (POS 's)) (NX (NX (JJ dull) (NN pouting)) (CC and) (NX (JJ slack) (NN line-reading)))) (VP (VBP make) (S (NP (PRP it)) (ADJP (JJ impossible) (S (VP (TO to) (VP (VB care) (SBAR (WHNP (WP what)) (S (VP (VBZ happens) (PP (TO to) (NP (PER (PRP$ her)))))))))))))))) |ET|
@@ -1955,11 +1872,7 @@
 -1 |BT| (S (NP (NP (PER (NNP Steven) (NNP Ballmer))) (, ,) (NP (NP (DT the) (NN company) (POS 's)) (JJ chief) (NN executive)) (, ,)) (VP (VBD said) (, ,) (`` ``) (S (NP (PRP It)) (VP (VBZ is) (ADJP (JJ clear)) (SBAR (IN that) (S (NP (NNS hackers)) (VP (VBD did) (VP (VB see) (NP (NP (DT some)) (PP (IN of) (NP (ORG (PRP$ our))))))))))))) |ET|
 -1 |BT| (S (S (NP (NP (PER (NNP Steven) (NNP Ballmer))) (, ,) (NP (NP (DT the) (NN company) (POS 's)) (JJ chief) (NN executive)) (, ,)) (VP (VBD said) (, ,) (`` ``) (S (NP (PRP It)) (VP (VBZ is) (ADJP (JJ clear)) (SBAR (IN that) (S (NP (NNS hackers)) (VP (VBD did) (VP (VB see) (NP (NP (DT some)) (PP (IN of) (NP (PRP$ our) (NN source) (NN code)))))))))))) (, ,) ('' '') (NP (ORG (NNP Reuters)))) |ET|
 -1 |BT| (S (S (NP (NP (PER (NNP Steven) (NNP Ballmer))) (, ,) (NP (NP (DT the) (NN company) (POS 's)) (JJ chief) (NN executive)) (, ,)) (VP (VBD said) (, ,) (`` ``) (S (NP (PRP It)) (VP (VBZ is) (ADJP (JJ clear)) (SBAR (IN that) (S (NP (NNS hackers)) (VP (VBD did) (VP (VB see) (NP (NP (DT some)) (PP (IN of) (NP (PRP$ our) (NN source) (NN code)))))))))))) (, ,) ('' '') (NP (ORG (NNP Reuters) (CC and) (NNP The) (NNP Associated) (NNP Press)))) |ET|
-<<<<<<< HEAD
 -1 |BT| (NP (NP (ORG (NN company)) (POS 's)) (JJ chief) (PER (NN executive))) |ET|
-=======
-1 |BT| (NP (NP (ORG (NN company)) (POS 's)) (JJ chief) (PER (NN executive))) |ET|
->>>>>>> origin/master
 -1 |BT| (S (NP (NP (NP (ORG (NN company)) (POS 's)) (JJ chief) (NN executive)) (, ,)) (VP (VBD said) (, ,) (`` ``) (S (NP (PRP It)) (VP (VBZ is) (ADJP (JJ clear)) (SBAR (IN that) (S (NP (PER (NNS hackers))))))))) |ET|
 -1 |BT| (S (NP (NP (NP (ORG (NN company)) (POS 's)) (JJ chief) (NN executive)) (, ,)) (VP (VBD said) (, ,) (`` ``) (S (NP (PRP It)) (VP (VBZ is) (ADJP (JJ clear)) (SBAR (IN that) (S (NP (NNS hackers)) (VP (VBD did) (VP (VB see) (NP (NP (DT some)) (PP (IN of) (NP (ORG (PRP$ our))))))))))))) |ET|
 -1 |BT| (S (S (NP (NP (NP (ORG (NN company)) (POS 's)) (JJ chief) (NN executive)) (, ,)) (VP (VBD said) (, ,) (`` ``) (S (NP (PRP It)) (VP (VBZ is) (ADJP (JJ clear)) (SBAR (IN that) (S (NP (NNS hackers)) (VP (VBD did) (VP (VB see) (NP (NP (DT some)) (PP (IN of) (NP (PRP$ our) (NN source) (NN code)))))))))))) (, ,) ('' '') (NP (ORG (NNP Reuters)))) |ET|
@@ -2067,11 +1980,7 @@
 -1 |BT| (VP (NP (PER (PRP them))) (PP (IN in) (NP (NP (DT the) (NNS deaths)) (PP (IN of) (NP (NP (CD 329) (NNS passengers)) (CC and) (NP (NP (NN crew) (NNS members)) (PP (IN of) (NP (DT an) (NNP Air-India) (NNP Boeing) (CD 747))) (SBAR (WHNP (WDT that)) (S (VP (VBD blew) (PRT (RP up)) (PP (IN over) (NP (DT the) (NNP Irish) (NNP Sea))) (PP (IN in) (NP (CD 1985))) (, ,) (PP (IN en) (NP (NP (NN route)) (PP (IN from) (NP (NNP Canada))) (PP (TO to) (NP (GPE (NNP London))))))))))))))) |ET|
 -1 |BT| (PER (NP (NNS passengers)) (CC and) (NP (NP (NN crew) (NNS members)) (PP (IN of) (NP (DT an) (ORG (NNP Air-India)))))) |ET|
 -1 |BT| (PER (NP (NNS passengers)) (CC and) (NP (NP (NN crew) (NNS members)) (PP (IN of) (NP (DT an) (NNP Air-India) (ORG (NNP Boeing)))))) |ET|
-<<<<<<< HEAD
-1 |BT| (PER (NP (NNS passengers)) (CC and) (NP (NP (NN crew) (NNS members)) (PP (IN of) (NP (DT an) (NNP Air-India) (NNP Boeing) (VEH (CD 747)))))) |ET|
-=======
 -1 |BT| (PER (NP (NNS passengers)) (CC and) (NP (NP (NN crew) (NNS members)) (PP (IN of) (NP (DT an) (NNP Air-India) (NNP Boeing) (VEH (CD 747)))))) |ET|
->>>>>>> origin/master
 -1 |BT| (PER (NP (NNS passengers)) (CC and) (NP (NP (NN crew) (NNS members)) (PP (IN of) (NP (DT an) (NNP Air-India) (NNP Boeing) (CD 747))) (SBAR (WHNP (VEH (WDT that)))))) |ET|
 -1 |BT| (PER (NP (NNS passengers)) (CC and) (NP (NP (NN crew) (NNS members)) (PP (IN of) (NP (DT an) (NNP Air-India) (NNP Boeing) (CD 747))) (SBAR (WHNP (WDT that)) (S (VP (VBD blew) (PRT (RP up)) (PP (IN over) (NP (LOC (DT the) (NNP Irish) (NNP Sea))))))))) |ET|
 -1 |BT| (PER (NP (NNS passengers)) (CC and) (NP (NP (NN crew) (NNS members)) (PP (IN of) (NP (DT an) (NNP Air-India) (NNP Boeing) (CD 747))) (SBAR (WHNP (WDT that)) (S (VP (VBD blew) (PRT (RP up)) (PP (IN over) (NP (DT the) (NNP Irish) (NNP Sea))) (PP (IN in) (NP (CD 1985))) (, ,) (PP (IN en) (NP (NP (NN route)) (PP (IN from) (NP (GPE (NNP Canada))))))))))) |ET|
@@ -2092,11 +2001,7 @@
 -1 |BT| (NP (PP (NP (VEH (CD 747)))) (SBAR (WHNP (WDT that)) (S (VP (VBD blew) (PRT (RP up)) (PP (IN over) (NP (DT the) (NNP Irish) (NNP Sea))) (PP (IN in) (NP (CD 1985))) (, ,) (PP (IN en) (NP (NP (NN route)) (PP (IN from) (NP (GPE (NNP Canada)))))))))) |ET|
 -1 |BT| (NP (PP (NP (VEH (CD 747)))) (SBAR (WHNP (WDT that)) (S (VP (VBD blew) (PRT (RP up)) (PP (IN over) (NP (DT the) (NNP Irish) (NNP Sea))) (PP (IN in) (NP (CD 1985))) (, ,) (PP (IN en) (NP (NP (NN route)) (PP (IN from) (NP (NNP Canada))) (PP (TO to) (NP (GPE (NNP London)))))))))) |ET|
 -1 |BT| (SBAR (WHNP (VEH (WDT that))) (S (VP (VBD blew) (PRT (RP up)) (PP (IN over) (NP (LOC (DT the) (NNP Irish) (NNP Sea))))))) |ET|
-<<<<<<< HEAD
-1 |BT| (SBAR (WHNP (VEH (WDT that))) (S (VP (VBD blew) (PRT (RP up)) (PP (IN over) (NP (DT the) (NNP Irish) (NNP Sea))) (PP (IN in) (NP (CD 1985))) (, ,) (PP (IN en) (NP (NP (NN route)) (PP (IN from) (NP (GPE (NNP Canada))))))))) |ET|
-=======
 -1 |BT| (SBAR (WHNP (VEH (WDT that))) (S (VP (VBD blew) (PRT (RP up)) (PP (IN over) (NP (DT the) (NNP Irish) (NNP Sea))) (PP (IN in) (NP (CD 1985))) (, ,) (PP (IN en) (NP (NP (NN route)) (PP (IN from) (NP (GPE (NNP Canada))))))))) |ET|
->>>>>>> origin/master
 -1 |BT| (SBAR (WHNP (VEH (WDT that))) (S (VP (VBD blew) (PRT (RP up)) (PP (IN over) (NP (DT the) (NNP Irish) (NNP Sea))) (PP (IN in) (NP (CD 1985))) (, ,) (PP (IN en) (NP (NP (NN route)) (PP (IN from) (NP (NNP Canada))) (PP (TO to) (NP (GPE (NNP London))))))))) |ET|
 -1 |BT| (VP (PP (NP (LOC (NNP Irish) (NNP Sea)))) (PP (IN in) (NP (CD 1985))) (, ,) (PP (IN en) (NP (NP (NN route)) (PP (IN from) (NP (GPE (NNP Canada))))))) |ET|
 -1 |BT| (VP (PP (NP (LOC (NNP Irish) (NNP Sea)))) (PP (IN in) (NP (CD 1985))) (, ,) (PP (IN en) (NP (NP (NN route)) (PP (IN from) (NP (NNP Canada))) (PP (TO to) (NP (GPE (NNP London))))))) |ET|
@@ -2160,11 +2065,7 @@
 -1 |BT| (NP (NP (NP (PER (NNP Sikhdom)) (POS 's)) (JJ holy) (NN site)) (, ,) (NP (NP (DT the) (NNP Golden) (NNP Temple)) (PP (IN in) (NP (GPE (NNP Amritsar)))))) |ET|
 -1 |BT| (NP (NP (FAC (NN site))) (, ,) (NP (FAC (DT the) (NNP Golden) (NNP Temple)))) |ET|
 -1 |BT| (NP (NP (FAC (NN site))) (, ,) (NP (NP (DT the) (NNP Golden) (NNP Temple)) (PP (IN in) (NP (GPE (NNP Amritsar)))))) |ET|
-<<<<<<< HEAD
-1 |BT| (NP (NP (FAC (NNP Golden) (NNP Temple))) (PP (IN in) (NP (GPE (NNP Amritsar))))) |ET|
-=======
 -1 |BT| (NP (NP (FAC (NNP Golden) (NNP Temple))) (PP (IN in) (NP (GPE (NNP Amritsar))))) |ET|
->>>>>>> origin/master
 -1 |BT| (S (NP (FAC (NN temple))) (VP (VBD had) (VP (VBN become) (NP (DT a) (FAC (NN center)))))) |ET|
 -1 |BT| (S (NP (FAC (NN temple))) (VP (VBD had) (VP (VBN become) (NP (DT a) (NN center)) (PP (IN for) (NP (PER (NNS radicals))))))) |ET|
 -1 |BT| (S (NP (FAC (NN temple))) (VP (VBD had) (VP (VBN become) (NP (DT a) (NN center)) (PP (IN for) (NP (NP (NNS radicals)) (VP (VBG seeking) (NP (DT an) (JJ independent) (PER (NNP Sikh))))))))) |ET|
@@ -2200,11 +2101,7 @@
 -1 |BT| (NP (GPE (NN issue)) (SBAR (IN that) (S (VP (VBN polarized) (NP (DT the) (NNP Sikh) (NN diaspora)) (PP (IN around) (NP (DT the) (LOC (NN world)))))))) |ET|
 -1 |BT| (NP (PER (NNP Sikh)) (PER (NN diaspora))) |ET|
 -1 |BT| (VP (NP (PER (NNP Sikh)) (NN diaspora)) (PP (IN around) (NP (DT the) (LOC (NN world))))) |ET|
-<<<<<<< HEAD
-1 |BT| (VP (NP (PER (NN diaspora))) (PP (IN around) (NP (DT the) (LOC (NN world))))) |ET|
-=======
 -1 |BT| (VP (NP (PER (NN diaspora))) (PP (IN around) (NP (DT the) (LOC (NN world))))) |ET|
->>>>>>> origin/master
 -1 |BT| (NP (PER (NNP Malik)) (CC and) (PER (NNP Bagri))) |ET|
 -1 |BT| (NP (NP (PER (NNP Malik)) (CC and) (NNP Bagri)) (, ,) (SBAR (WHNP (PER (WP who))))) |ET|
 -1 |BT| (NP (NP (PER (NNP Malik)) (CC and) (NNP Bagri)) (, ,) (SBAR (WHNP (WP who)) (S (VP (VBP are) (DT both) (NP (PER (NNPS Sikhs))))))) |ET|
@@ -2332,11 +2229,7 @@
 -1 |BT| (VP (PP (NP (PER (PRP$ his)) (NN wheelchair))) (PP (IN in) (NP (PER (PRP$ his))))) |ET|
 -1 |BT| (VP (PP (NP (PER (PRP$ his)) (NN wheelchair))) (PP (IN in) (NP (PRP$ his) (FAC (NN garage))))) |ET|
 -1 |BT| (VP (PP (NP (VEH (NN wheelchair)))) (PP (IN in) (NP (PER (PRP$ his))))) |ET|
-<<<<<<< HEAD
-1 |BT| (VP (PP (NP (VEH (NN wheelchair)))) (PP (IN in) (NP (PRP$ his) (FAC (NN garage))))) |ET|
-=======
 -1 |BT| (VP (PP (NP (VEH (NN wheelchair)))) (PP (IN in) (NP (PRP$ his) (FAC (NN garage))))) |ET|
->>>>>>> origin/master
 -1 |BT| (NP (PER (PRP$ his)) (FAC (NN garage))) |ET|
 -1 |BT| (S (S (VP (NP (PP (NP (ORG (NN police)) (NN investigation)))))) (, ,) ('' '') (NP (PER (NNP Constable)))) |ET|
 -1 |BT| (S (S (VP (NP (PP (NP (ORG (NN police)) (NN investigation)))))) (, ,) ('' '') (NP (PER (NNP Constable) (NNP Cate) (NNP Galliford)))) |ET|
@@ -2366,11 +2259,7 @@
 -1 |BT| (NP (NP (PER (NNP Beverly) (NNP Busson))) (, ,) (NP (NP (DT the) (NNPS Mounties) (POS ')) (VBG commanding) (PER (NN officer)))) |ET|
 -1 |BT| (NP (NP (PER (NNP Beverly) (NNP Busson))) (, ,) (NP (NP (NP (DT the) (NNPS Mounties) (POS ')) (VBG commanding) (NN officer)) (PP (IN in) (NP (GPE (NNP Vancouver)))))) |ET|
 -1 |BT| (S (NP (NP (PER (NNP Beverly) (NNP Busson))) (, ,) (NP (NP (NP (DT the) (NNPS Mounties) (POS ')) (VBG commanding) (NN officer)) (PP (IN in) (NP (NNP Vancouver)))) (, ,)) (VP (VBD told) (NP (DT the) (NN news) (NN conference)) (, ,) (`` ``) (S (NP (DT This)) (VP (VBZ has) (VP (VBN been) (NP (DT a) (LOC (NNP worldwide)))))))) |ET|
-<<<<<<< HEAD
 -1 |BT| (NP (NP (PER (NNPS Mounties)) (POS ')) (VBG commanding) (PER (NN officer))) |ET|
-=======
-1 |BT| (NP (NP (PER (NNPS Mounties)) (POS ')) (VBG commanding) (PER (NN officer))) |ET|
->>>>>>> origin/master
 -1 |BT| (NP (NP (NP (PER (NNPS Mounties)) (POS ')) (VBG commanding) (NN officer)) (PP (IN in) (NP (GPE (NNP Vancouver))))) |ET|
 -1 |BT| (S (NP (NP (NP (NP (PER (NNPS Mounties)) (POS ')) (VBG commanding) (NN officer)) (PP (IN in) (NP (NNP Vancouver)))) (, ,)) (VP (VBD told) (NP (DT the) (NN news) (NN conference)) (, ,) (`` ``) (S (NP (DT This)) (VP (VBZ has) (VP (VBN been) (NP (DT a) (LOC (NNP worldwide)))))))) |ET|
 -1 |BT| (NP (NP (PER (NN officer))) (PP (IN in) (NP (GPE (NNP Vancouver))))) |ET|
@@ -2394,7 +2283,7 @@
 -1 |BT| (VP (NP (PP (NP (GPE (JJ Indian)) (NN origin)))) (, ,) (NP (PER (JJS most)))) |ET|
 -1 |BT| (VP (NP (PP (NP (GPE (JJ Indian)) (NN origin)))) (, ,) (NP (NP (JJS most)) (PP (IN of) (NP (PER (PRP them)))))) |ET|
 -1 |BT| (VP (NP (PP (NP (GPE (JJ Indian)) (NN origin)))) (, ,) (NP (NP (JJS most)) (PP (IN of) (NP (PRP them) (PER (NNPS Sikhs)))))) |ET|
--1 |BT| (NP (NP (PER (JJS most))) (PP (IN of) (NP (PER (PRP them))))) |ET|
+1 |BT| (NP (NP (PER (JJS most))) (PP (IN of) (NP (PER (PRP them))))) |ET|
 -1 |BT| (NP (NP (PER (JJS most))) (PP (IN of) (NP (PRP them) (PER (NNPS Sikhs))))) |ET|
 -1 |BT| (NP (PER (PRP them)) (PER (NNPS Sikhs))) |ET|
 -1 |BT| (S (NP (PER (NNPS Sikhs))) (VP (VBP serve) (PP (IN in) (NP (ORG (NNP Parliament)))))) |ET|
@@ -2423,7 +2312,7 @@
 -1 |BT| (SBAR (WHADVP (LOC (WRB where))) (S (NP (NP (NN half)) (PP (IN of) (NP (DT the) (GPE (NN nation))))))) |ET|
 -1 |BT| (SBAR (WHADVP (LOC (WRB where))) (S (NP (NP (NN half)) (PP (IN of) (NP (NP (DT the) (NN nation) (POS 's)) (PER (NNPS Indo-Canadians))))))) |ET|
 -1 |BT| (NP (NP (PER (NN half))) (PP (IN of) (NP (DT the) (GPE (NN nation))))) |ET|
--1 |BT| (NP (NP (PER (NN half))) (PP (IN of) (NP (NP (DT the) (NN nation) (POS 's)) (PER (NNPS Indo-Canadians))))) |ET|
+1 |BT| (NP (NP (PER (NN half))) (PP (IN of) (NP (NP (DT the) (NN nation) (POS 's)) (PER (NNPS Indo-Canadians))))) |ET|
 -1 |BT| (NP (NP (GPE (NN nation)) (POS 's)) (PER (NNPS Indo-Canadians))) |ET|
 -1 |BT| (NP (NP (PER (NNP Sikh))) (, ,) (NP (PER (NNP Ujjal) (NNP Dosanjh)))) |ET|
 -1 |BT| (S (NP (NP (PER (NNP Sikh))) (, ,) (NP (NNP Ujjal) (NNP Dosanjh)) (, ,)) (VP (VBD became) (NP (PER (NN premier))))) |ET|
@@ -2445,11 +2334,7 @@
 -1 |BT| (NP (NP (PP (NP (GPE (NNP British) (NNP Columbia))))) (CC and) (NP (NP (NNP Canada) (POS 's)) (JJ first) (JJ nonwhite) (JJ provincial) (PER (NN premier)))) |ET|
 -1 |BT| (NP (NP (GPE (NNP Canada)) (POS 's)) (JJ first) (JJ nonwhite) (GPE (JJ provincial))) |ET|
 -1 |BT| (NP (NP (GPE (NNP Canada)) (POS 's)) (JJ first) (JJ nonwhite) (JJ provincial) (PER (NN premier))) |ET|
-<<<<<<< HEAD
 -1 |BT| (NP (GPE (JJ provincial)) (PER (NN premier))) |ET|
-=======
-1 |BT| (NP (GPE (JJ provincial)) (PER (NN premier))) |ET|
->>>>>>> origin/master
 -1 |BT| (NP (NP (PER (NNP Dosanjh))) (, ,) (NP (DT a) (PER (JJ moderate)))) |ET|
 -1 |BT| (S (NP (NP (PER (NNP Dosanjh))) (, ,) (NP (DT a) (JJ moderate)) (, ,)) (VP (VBD paid) (NP (NP (DT a) (NN price)) (PP (IN for) (S (VP (VBG speaking) (PRT (RP out)))))) (PP (IN against) (NP (PER (NNP Sikh)))))) |ET|
 -1 |BT| (S (NP (NP (PER (NNP Dosanjh))) (, ,) (NP (DT a) (JJ moderate)) (, ,)) (VP (VBD paid) (NP (NP (DT a) (NN price)) (PP (IN for) (S (VP (VBG speaking) (PRT (RP out)))))) (PP (IN against) (NP (NP (NNP Sikh) (NN extremism)) (SBAR (WHNP (WDT that)) (S (VP (VBD gripped) (NP (DT the) (GPE (NNP Vancouver)))))))))) |ET|
@@ -2576,11 +2461,7 @@
 -1 |BT| (S (NP (PER (NN shareholder))) (VP (MD might) (VP (VB conclude) (SBAR (IN that) (S (NP (NP (NP (NNP America) (NNP Online) (POS 's)) (NN chairman)) (, ,) (NP (NNP Stephen) (NNP Case)) (, ,)) (VP (VBD had) (VP (VBN bamboozled) (NP (PRP$ his) (NNP Time) (NNP Warner) (PER (NN counterpart)))))))))) |ET|
 -1 |BT| (S (NP (PER (NN shareholder))) (VP (MD might) (VP (VB conclude) (SBAR (IN that) (S (NP (NP (NP (NNP America) (NNP Online) (POS 's)) (NN chairman)) (, ,) (NP (NNP Stephen) (NNP Case)) (, ,)) (VP (VBD had) (VP (VBN bamboozled) (NP (NP (PRP$ his) (NNP Time) (NNP Warner) (NN counterpart)) (, ,) (NP (PER (NNP Gerald) (NNP Levin))))))))))) |ET|
 -1 |BT| (S (NP (PER (NN shareholder))) (VP (MD might) (VP (VB conclude) (SBAR (IN that) (S (NP (NP (NP (NNP America) (NNP Online) (POS 's)) (NN chairman)) (, ,) (NP (NNP Stephen) (NNP Case)) (, ,)) (VP (VBD had) (VP (VBN bamboozled) (NP (NP (PRP$ his) (NNP Time) (NNP Warner) (NN counterpart)) (, ,) (NP (NNP Gerald) (NNP Levin)) (, ,)) (PP (IN into) (S (VP (VBG taking) (NP (ORG (NNP AOL))))))))))))) |ET|
-<<<<<<< HEAD
 -1 |BT| (NP (NP (ORG (NNP America) (NNP Online) (POS 's))) (PER (NN chairman))) |ET|
-=======
-1 |BT| (NP (NP (ORG (NNP America) (NNP Online) (POS 's))) (PER (NN chairman))) |ET|
->>>>>>> origin/master
 -1 |BT| (NP (NP (NP (ORG (NNP America) (NNP Online) (POS 's))) (NN chairman)) (, ,) (NP (PER (NNP Stephen) (NNP Case)))) |ET|
 -1 |BT| (S (NP (NP (NP (ORG (NNP America) (NNP Online) (POS 's))) (NN chairman)) (, ,) (NP (NNP Stephen) (NNP Case)) (, ,)) (VP (VBD had) (VP (VBN bamboozled) (NP (PER (PRP$ his)))))) |ET|
 -1 |BT| (S (NP (NP (NP (ORG (NNP America) (NNP Online) (POS 's))) (NN chairman)) (, ,) (NP (NNP Stephen) (NNP Case)) (, ,)) (VP (VBD had) (VP (VBN bamboozled) (NP (ORG (PRP$ his) (NNP Time) (NNP Warner)))))) |ET|
@@ -2602,11 +2483,7 @@
 -1 |BT| (NP (PER (PRP$ his)) (NNP Time) (NNP Warner) (PER (NN counterpart))) |ET|
 -1 |BT| (NP (NP (PER (PRP$ his)) (NNP Time) (NNP Warner) (NN counterpart)) (, ,) (NP (PER (NNP Gerald) (NNP Levin)))) |ET|
 -1 |BT| (VP (NP (NP (PER (PRP$ his)) (NNP Time) (NNP Warner) (NN counterpart)) (, ,) (NP (NNP Gerald) (NNP Levin)) (, ,)) (PP (IN into) (S (VP (VBG taking) (NP (ORG (NNP AOL))))))) |ET|
-<<<<<<< HEAD
 -1 |BT| (ORG (NNP Time) (NNP Warner) (PER (NN counterpart))) |ET|
-=======
-1 |BT| (ORG (NNP Time) (NNP Warner) (PER (NN counterpart))) |ET|
->>>>>>> origin/master
 -1 |BT| (NP (NP (ORG (NNP Time) (NNP Warner) (NN counterpart))) (, ,) (NP (PER (NNP Gerald) (NNP Levin)))) |ET|
 -1 |BT| (VP (NP (NP (ORG (NNP Time) (NNP Warner) (NN counterpart))) (, ,) (NP (NNP Gerald) (NNP Levin)) (, ,)) (PP (IN into) (S (VP (VBG taking) (NP (ORG (NNP AOL))))))) |ET|
 -1 |BT| (NP (NP (PER (NN counterpart))) (, ,) (NP (PER (NNP Gerald) (NNP Levin)))) |ET|
@@ -2892,7 +2769,7 @@
 -1 |BT| (S (NP (PER (NNP Schreiber))) (VP (VBD said) (SBAR (S (NP (NP (DT the) (NN question)) (PP (IN of) (SBAR (IN whether) (S (NP (PER (NNP Levin))))))))))) |ET|
 -1 |BT| (S (NP (PER (NNP Schreiber))) (VP (VBD said) (SBAR (S (NP (NP (DT the) (NN question)) (PP (IN of) (SBAR (IN whether) (S (NP (NNP Levin)) (VP (MD could) (VP (VB have) (VP (VBN negotiated) (NP (NP (DT a) (JJR better) (NN deal)) (PP (IN with) (NP (ORG (NNP America) (NNP Online)))))))))))))))) |ET|
 -1 |BT| (S (NP (PER (NNP Levin))) (VP (MD could) (VP (VB have) (VP (VBN negotiated) (NP (NP (DT a) (JJR better) (NN deal)) (PP (IN with) (NP (ORG (NNP America) (NNP Online))))))))) |ET|
--1 |BT| (NP (NP (ORG (NNS companies))) (PP (IN like) (NP (ORG (NNP Comcast))))) |ET|
+1 |BT| (NP (NP (ORG (NNS companies))) (PP (IN like) (NP (ORG (NNP Comcast))))) |ET|
 -1 |BT| (S (NP (PP (NP (NP (ORG (NNS companies))) (PP (IN like) (NP (NNP Comcast)))))) (VP (VBP have) (VP (VBN fallen) (NP (QP (CD 15) (NN percent) (CC or) (JJR more))) (NP (DT this) (NN year)) (, ,) (SBAR (IN while) (S (NP (JJ big) (NNS media) (ORG (NNS companies)))))))) |ET|
 -1 |BT| (S (NP (PP (NP (PP (NP (ORG (NNP Comcast))))))) (VP (VBP have) (VP (VBN fallen) (NP (QP (CD 15) (NN percent) (CC or) (JJR more))) (NP (DT this) (NN year)) (, ,) (SBAR (IN while) (S (NP (JJ big) (NNS media) (ORG (NNS companies)))))))) |ET|
 -1 |BT| (ORG (NNP Time) (NNP Warner) (PER (NNS shareholders))) |ET|
@@ -2905,11 +2782,7 @@
 -1 |BT| (S (NP (PER (PRP He))) (VP (VBZ 's) (ADJP (JJ angry) (PP (IN about) (NP (NP (NNS ways)) (SBAR (WHPP (IN in) (WHNP (WDT which))) (S (S (NP (JJ individual) (NNS investors)) (VP (VBP are) (ADJP (RB badly) (VBN treated)))) (, ,) (CC and) (S (NP (PER (PRP he))))))))))) |ET|
 -1 |BT| (S (S (NP (PER (NNS investors))) (VP (VBP are) (ADJP (RB badly) (VBN treated)))) (, ,) (CC and) (S (NP (PER (PRP he))))) |ET|
 -1 |BT| (S (NP (PER (NNP Levitt))) (VP (MD will) (VP (VB disclose) (SBAR (WHNP (WP what)) (S (VP (MD may) (VP (VB be) (NP (NP (DT the) (JJ final) (NNS initiatives)) (PP (IN of) (NP (PER (PRP$ his)))))))))))) |ET|
-<<<<<<< HEAD
 -1 |BT| (NP (ORG (NNP SEC)) (PER (NN chairman))) |ET|
-=======
-1 |BT| (NP (ORG (NNP SEC)) (PER (NN chairman))) |ET|
->>>>>>> origin/master
 -1 |BT| (NP (NP (ORG (NNP SEC)) (NN chairman)) (VP (VBN named) (PP (IN by) (NP (DT the) (JJ next) (PER (NN president)))))) |ET|
 -1 |BT| (S (S (ADJP (SBAR (S (VP (PP (NP (NP (ORG (NNP SEC)) (NN chairman)) (VP (VBN named) (PP (IN by) (NP (DT the) (JJ next) (NN president))))))))))) (, ,) (NP (PER (PRP he)))) |ET|
 -1 |BT| (S (S (ADJP (SBAR (S (VP (PP (NP (NP (ORG (NNP SEC)) (NN chairman)) (VP (VBN named) (PP (IN by) (NP (DT the) (JJ next) (NN president))))))))))) (, ,) (NP (PRP he)) (VP (VBZ is) (VP (VBG putting) (NP (NN pressure)) (PP (IN on) (NP (RB supposedly) (JJ independent) (PER (NNS directors))))))) |ET|
@@ -2973,11 +2846,7 @@
 -1 |BT| (S (NP (ORG (NN commission))) (PRN (, ,) (S (NP (PER (NNP Levitt)))))) |ET|
 -1 |BT| (S (NP (ORG (NN commission))) (PRN (, ,) (S (NP (NNP Levitt)) (VP (VBD said) (PP (IN in) (NP (NP (NNS remarks)) (VP (VBN prepared) (PP (IN for) (NP (NP (DT a) (NN speech)) (PP (IN at) (NP (FAC (NNP Fordham) (NNP University))))))))))))) |ET|
 -1 |BT| (S (NP (ORG (NN commission))) (PRN (, ,) (S (NP (NNP Levitt)) (VP (VBD said) (PP (IN in) (NP (NP (NNS remarks)) (VP (VBN prepared) (PP (IN for) (NP (NP (DT a) (NN speech)) (PP (IN at) (NP (NNP Fordham) (NNP University))))) (PP (IN on) (NP (NNP Friday)))))))) (, ,)) (VP (MD should) (`` ``) (VP (VB press) (S (NP (DT the) (ORG (NNS markets))))))) |ET|
-<<<<<<< HEAD
-1 |BT| (S (NP (PER (NNP Levitt))) (VP (VBD said) (PP (IN in) (NP (NP (NNS remarks)) (VP (VBN prepared) (PP (IN for) (NP (NP (DT a) (NN speech)) (PP (IN at) (NP (FAC (NNP Fordham) (NNP University))))))))))) |ET|
-=======
 -1 |BT| (S (NP (PER (NNP Levitt))) (VP (VBD said) (PP (IN in) (NP (NP (NNS remarks)) (VP (VBN prepared) (PP (IN for) (NP (NP (DT a) (NN speech)) (PP (IN at) (NP (FAC (NNP Fordham) (NNP University))))))))))) |ET|
->>>>>>> origin/master
 -1 |BT| (S (PRN (S (NP (PER (NNP Levitt))) (VP (VBD said) (PP (IN in) (NP (NP (NNS remarks)) (VP (VBN prepared) (PP (IN for) (NP (NP (DT a) (NN speech)) (PP (IN at) (NP (NNP Fordham) (NNP University))))) (PP (IN on) (NP (NNP Friday)))))))) (, ,)) (VP (MD should) (`` ``) (VP (VB press) (S (NP (DT the) (ORG (NNS markets))))))) |ET|
 -1 |BT| (S (PRN (S (VP (PP (NP (VP (PP (NP (PP (NP (FAC (NNP Fordham) (NNP University)))))) (PP (IN on) (NP (NNP Friday)))))))) (, ,)) (VP (MD should) (`` ``) (VP (VB press) (S (NP (DT the) (ORG (NNS markets))))))) |ET|
 -1 |BT| (S (SBAR (S (VP (NP (PER (PRP$ his)) (NN concern))))) (, ,) (VP (VB consider) (S (VP (VBG trading) (NP (NNP Thursday)) (PP (IN in) (NP (ORG (NNP Compaq) (NNP Computer)))))))) |ET|
@@ -3001,11 +2870,7 @@
 -1 |BT| (S (NP (NP (NP (PER (NNP Levitt)) (POS 's)) (NN term)) (PP (IN as) (NP (NNP SEC) (NN chairman)))) (VP (VBD included) (NP (NP (DT the) (NN reform)) (PP (IN of) (NP (DT the) (NNP Nasdaq) (ORG (NN market))))))) |ET|
 -1 |BT| (S (NP (NP (NP (PER (NNP Levitt)) (POS 's)) (NN term)) (PP (IN as) (NP (NNP SEC) (NN chairman)))) (VP (VBD included) (NP (NP (NP (DT the) (NN reform)) (PP (IN of) (NP (DT the) (NNP Nasdaq) (NN market)))) (, ,) (NP (NP (NN action)) (PP (IN on) (NP (NP (NNS abuses)) (PP (IN in) (NP (DT the) (JJ municipal) (NN bond) (ORG (NN market)))))))))) |ET|
 -1 |BT| (S (NP (NP (NP (PER (NNP Levitt)) (POS 's)) (NN term)) (PP (IN as) (NP (NNP SEC) (NN chairman)))) (VP (VBD included) (NP (NP (NP (DT the) (NN reform)) (PP (IN of) (NP (DT the) (NNP Nasdaq) (NN market)))) (, ,) (NP (NP (NN action)) (PP (IN on) (NP (NP (NNS abuses)) (PP (IN in) (NP (DT the) (JJ municipal) (NN bond) (NN market)))))) (CC and) (NP (NP (DT the) (JJ new) (NN regulation)) (SBAR (S (VP (TO to) (VP (VB bar) (NP (JJ selective) (ORG (JJ corporate))))))))))) |ET|
-<<<<<<< HEAD
 -1 |BT| (NP (ORG (NNP SEC)) (PER (NN chairman))) |ET|
-=======
-1 |BT| (NP (ORG (NNP SEC)) (PER (NN chairman))) |ET|
->>>>>>> origin/master
 -1 |BT| (S (NP (PP (NP (ORG (NNP SEC)) (NN chairman)))) (VP (VBD included) (NP (NP (DT the) (NN reform)) (PP (IN of) (NP (DT the) (ORG (NNP Nasdaq))))))) |ET|
 -1 |BT| (S (NP (PP (NP (ORG (NNP SEC)) (NN chairman)))) (VP (VBD included) (NP (NP (DT the) (NN reform)) (PP (IN of) (NP (DT the) (NNP Nasdaq) (ORG (NN market))))))) |ET|
 -1 |BT| (S (NP (PP (NP (ORG (NNP SEC)) (NN chairman)))) (VP (VBD included) (NP (NP (NP (DT the) (NN reform)) (PP (IN of) (NP (DT the) (NNP Nasdaq) (NN market)))) (, ,) (NP (NP (NN action)) (PP (IN on) (NP (NP (NNS abuses)) (PP (IN in) (NP (DT the) (JJ municipal) (NN bond) (ORG (NN market)))))))))) |ET|
@@ -3236,7 +3101,7 @@
 -1 |BT| (S (NP (PP (NP (PER (NNS conservatives))))) (PRN (, ,) ('' '') (S (NP (PER (PRP he)))))) |ET|
 -1 |BT| (S (NP (PP (NP (PER (NNS conservatives))))) (PRN (, ,) ('' '') (S (NP (PRP he)) (VP (VBD said))) (, ,)) (`` ``) (VP (VBZ is) (S (VP (TO to) (VP (VB get) (ADJP (JJ rid) (PP (IN of) (NP (PER (NNP Al) (NNP Gore)))))))))) |ET|
 -1 |BT| (S (PRN (S (NP (PER (PRP he))) (VP (VBD said))) (, ,)) (`` ``) (VP (VBZ is) (S (VP (TO to) (VP (VB get) (ADJP (JJ rid) (PP (IN of) (NP (PER (NNP Al) (NNP Gore)))))))))) |ET|
--1 |BT| (NP (NP (PER (JJ Many))) (PP (IN of) (NP (PER (DT those))))) |ET|
+1 |BT| (NP (NP (PER (JJ Many))) (PP (IN of) (NP (PER (DT those))))) |ET|
 -1 |BT| (NP (NP (PER (JJ Many))) (PP (IN of) (NP (NP (DT those)) (SBAR (WHNP (PER (WP who))))))) |ET|
 -1 |BT| (NP (NP (PER (JJ Many))) (PP (IN of) (NP (NP (DT those)) (SBAR (WHNP (WP who)) (S (VP (MD will) (VP (VB vote) (PP (IN for) (NP (PER (PRP him))))))))))) |ET|
 -1 |BT| (S (NP (NP (PER (JJ Many))) (PP (IN of) (NP (NP (DT those)) (SBAR (WHNP (WP who)) (S (VP (MD will) (VP (VB vote) (PP (IN for) (NP (PRP him)))))))))) (PRN (, ,) (S (NP (PER (NNP Buchanan)))))) |ET|
@@ -3340,11 +3205,7 @@
 -1 |BT| (NP (NP (GPE (NNP Woodland) (NNP Hills))) (, ,) (NP (GPE (NNP Calif)))) |ET|
 -1 |BT| (NP (NP (PER (NNP Shenson))) (, ,) (SBAR (WHNP (PER (WP who))))) |ET|
 -1 |BT| (NP (NP (PER (NNP Shenson))) (, ,) (SBAR (WHNP (WP who)) (S (VP (VBD was) (VP (VBN born) (PP (IN in) (NP (GPE (NNP San) (NNP Francisco))))))))) |ET|
-<<<<<<< HEAD
-1 |BT| (S (NP (NP (PER (NNP Shenson))) (, ,) (SBAR (WHNP (WP who)) (S (VP (VBD was) (VP (VBN born) (PP (IN in) (NP (NNP San) (NNP Francisco))))))) (, ,)) (VP (VBD was) (VP (VBG working) (PP (IN in) (NP (GPE (NNP London))))))) |ET|
-=======
 -1 |BT| (S (NP (NP (PER (NNP Shenson))) (, ,) (SBAR (WHNP (WP who)) (S (VP (VBD was) (VP (VBN born) (PP (IN in) (NP (NNP San) (NNP Francisco))))))) (, ,)) (VP (VBD was) (VP (VBG working) (PP (IN in) (NP (GPE (NNP London))))))) |ET|
->>>>>>> origin/master
 -1 |BT| (S (NP (NP (PER (NNP Shenson))) (, ,) (SBAR (WHNP (WP who)) (S (VP (VBD was) (VP (VBN born) (PP (IN in) (NP (NNP San) (NNP Francisco))))))) (, ,)) (VP (VBD was) (VP (VBG working) (PP (IN in) (NP (NNP London))) (PP (IN as) (NP (DT a) (NN film) (PER (NN producer))))))) |ET|
 -1 |BT| (S (NP (NP (PER (NNP Shenson))) (, ,) (SBAR (WHNP (WP who)) (S (VP (VBD was) (VP (VBN born) (PP (IN in) (NP (NNP San) (NNP Francisco))))))) (, ,)) (VP (VBD was) (VP (VBG working) (PP (IN in) (NP (NNP London))) (PP (IN as) (NP (NP (DT a) (NN film) (NN producer) (NN _)) (ADVP (RBS most) (RB notably)) (PP (IN of) (`` ``) (NP (DT The) (NNP Mouse) (IN That) (NNP Roared))))) (, ,) ('' '') (PP (IN with) (S (NP (PER (NNP Peter) (NNS Sellers)))))))) |ET|
 -1 |BT| (S (NP (NP (PER (NNP Shenson))) (, ,) (SBAR (WHNP (WP who)) (S (VP (VBD was) (VP (VBN born) (PP (IN in) (NP (NNP San) (NNP Francisco))))))) (, ,)) (VP (VBD was) (VP (VBG working) (PP (IN in) (NP (NNP London))) (PP (IN as) (NP (NP (DT a) (NN film) (NN producer) (NN _)) (ADVP (RBS most) (RB notably)) (PP (IN of) (`` ``) (NP (DT The) (NNP Mouse) (IN That) (NNP Roared))))) (, ,) ('' '') (PP (IN with) (S (NP (NNP Peter) (NNS Sellers)) (VP (VBG _) (SBAR (WHADVP (WRB when)) (S (NP (PER (PRP he))))))))))) |ET|
@@ -3472,8 +3333,8 @@
 -1 |BT| (S (NP (PER (PRP He))) (VP (VBZ is) (VP (VBN survived) (PP (IN by) (NP (NP (CD two) (NNS sons)) (, ,) (NP (NP (NNP Richard) (CC and) (NNP Douglas)) (: ;) (NP (NP (DT a) (NN sister)) (, ,) (NP (PER (NNP Irma) (NNP Levin)))))))))) |ET|
 -1 |BT| (S (NP (PER (PRP He))) (VP (VBZ is) (VP (VBN survived) (PP (IN by) (NP (NP (CD two) (NNS sons)) (, ,) (NP (NP (NNP Richard) (CC and) (NNP Douglas)) (: ;) (NP (NP (DT a) (NN sister)) (, ,) (NP (NP (NNP Irma) (NNP Levin)) (PP (IN of) (NP (GPE (NNP San) (NNP Francisco)))))))))))) |ET|
 -1 |BT| (S (NP (PER (PRP He))) (VP (VBZ is) (VP (VBN survived) (PP (IN by) (NP (NP (CD two) (NNS sons)) (, ,) (NP (NP (NNP Richard) (CC and) (NNP Douglas)) (: ;) (NP (NP (DT a) (NN sister)) (, ,) (NP (NP (NNP Irma) (NNP Levin)) (PP (IN of) (NP (NNP San) (NNP Francisco))))) (: ;) (CC and) (NP (CD four) (PER (NNS grandchildren))))))))) |ET|
--1 |BT| (NP (NP (PER (NNS sons))) (, ,) (NP (PER (NNP Richard)))) |ET|
--1 |BT| (NP (NP (PER (NNS sons))) (, ,) (NP (NNP Richard) (CC and) (PER (NNP Douglas)))) |ET|
+1 |BT| (NP (NP (PER (NNS sons))) (, ,) (NP (PER (NNP Richard)))) |ET|
+1 |BT| (NP (NP (PER (NNS sons))) (, ,) (NP (NNP Richard) (CC and) (PER (NNP Douglas)))) |ET|
 -1 |BT| (NP (NP (PER (NNS sons))) (, ,) (NP (NP (NNP Richard) (CC and) (NNP Douglas)) (: ;) (NP (DT a) (PER (NN sister))))) |ET|
 -1 |BT| (NP (NP (PER (NNS sons))) (, ,) (NP (NP (NNP Richard) (CC and) (NNP Douglas)) (: ;) (NP (NP (DT a) (NN sister)) (, ,) (NP (PER (NNP Irma) (NNP Levin)))))) |ET|
 -1 |BT| (NP (NP (PER (NNS sons))) (, ,) (NP (NP (NNP Richard) (CC and) (NNP Douglas)) (: ;) (NP (NP (DT a) (NN sister)) (, ,) (NP (NP (NNP Irma) (NNP Levin)) (PP (IN of) (NP (GPE (NNP San) (NNP Francisco)))))))) |ET|
@@ -3532,11 +3393,7 @@
 -1 |BT| (S (NP (PER (NNP Bush))) (VP (VBD charted) (PP (IN over) (NP (PER (PRP$ his)))))) |ET|
 -1 |BT| (S (NP (SBAR (S (NP (PER (NNP Bush))) (VP (VBD charted) (PP (IN over) (NP (PRP$ his) (JJ final) (NNS hours))) (PP (IN on) (NP (NP (DT the) (NN campaign) (NN trail)) (, ,) (VP (VBD plotted) (PP (IN with) (NP (NP (ADJP (RB as) (JJ much)) (NN concern)) (PP (IN for) (NP (NN symbolism))))) (PP (IN as) (PP (IN for) (NP (JJ raw) (JJ electoral) (NN arithmetic))))) (, ,))))))) (VP (VBD left) (NP (NP (DT no) (NN doubt)) (PP (IN about) (SBAR (WHADVP (WRB where)) (S (NP (PER (PRP he))))))))) |ET|
 -1 |BT| (S (NP (SBAR (S (VP (PP (NP (PER (PRP$ his)) (JJ final) (NNS hours))) (PP (IN on) (NP (NP (DT the) (NN campaign) (NN trail)) (, ,) (VP (VBD plotted) (PP (IN with) (NP (NP (ADJP (RB as) (JJ much)) (NN concern)) (PP (IN for) (NP (NN symbolism))))) (PP (IN as) (PP (IN for) (NP (JJ raw) (JJ electoral) (NN arithmetic))))) (, ,))))))) (VP (VBD left) (NP (NP (DT no) (NN doubt)) (PP (IN about) (SBAR (WHADVP (WRB where)) (S (NP (PER (PRP he))))))))) |ET|
-<<<<<<< HEAD
-1 |BT| (S (NP (PER (PRP$ His)) (JJ first) (JJ major) (NN rally)) (VP (VBD was) (PP (IN in) (NP (GPE (NNP Tennessee)))))) |ET|
-=======
 -1 |BT| (S (NP (PER (PRP$ His)) (JJ first) (JJ major) (NN rally)) (VP (VBD was) (PP (IN in) (NP (GPE (NNP Tennessee)))))) |ET|
->>>>>>> origin/master
 -1 |BT| (S (S (NP (PER (PRP$ His)) (JJ first) (JJ major) (NN rally)) (VP (VBD was) (PP (IN in) (NP (NNP Tennessee))))) (CC and) (S (NP (PER (PRP$ his))))) |ET|
 -1 |BT| (S (S (NP (PER (PRP$ His)) (JJ first) (JJ major) (NN rally)) (VP (VBD was) (PP (IN in) (NP (NNP Tennessee))))) (CC and) (S (NP (PRP$ his) (NN last)) (VP (VBD was) (VP (VBN planned) (PP (IN for) (NP (GPE (NNP Arkansas)))))))) |ET|
 -1 |BT| (S (S (NP (PER (PRP$ His)) (JJ first) (JJ major) (NN rally)) (VP (VBD was) (PP (IN in) (NP (NNP Tennessee))))) (CC and) (S (NP (PRP$ his) (NN last)) (VP (VBD was) (VP (VBN planned) (PP (IN for) (NP (NP (NNP Arkansas)) (, ,) (NP (DT the) (NN home) (GPE (NNS states))))))))) |ET|
@@ -3551,11 +3408,7 @@
 -1 |BT| (S (S (VP (PP (NP (GPE (NNP Tennessee)))))) (CC and) (S (NP (PRP$ his) (NN last)) (VP (VBD was) (VP (VBN planned) (PP (IN for) (NP (NP (NNP Arkansas)) (, ,) (NP (NP (DT the) (NN home) (NNS states)) (, ,) (ADVP (RB respectively)) (, ,) (PP (IN of) (NP (NNP Vice) (NNP President) (NP (PER (NNP Al) (NNP Gore)))))))))))) |ET|
 -1 |BT| (S (S (VP (PP (NP (GPE (NNP Tennessee)))))) (CC and) (S (NP (PRP$ his) (NN last)) (VP (VBD was) (VP (VBN planned) (PP (IN for) (NP (NP (NNP Arkansas)) (, ,) (NP (NP (DT the) (NN home) (NNS states)) (, ,) (ADVP (RB respectively)) (, ,) (PP (IN of) (NP (NNP Vice) (NNP President) (NP (NNP Al) (NNP Gore) (CC and) (PER (NNP President)))))))))))) |ET|
 -1 |BT| (S (S (VP (PP (NP (GPE (NNP Tennessee)))))) (CC and) (S (NP (PRP$ his) (NN last)) (VP (VBD was) (VP (VBN planned) (PP (IN for) (NP (NP (NNP Arkansas)) (, ,) (NP (NP (DT the) (NN home) (NNS states)) (, ,) (ADVP (RB respectively)) (, ,) (PP (IN of) (NP (NNP Vice) (NNP President) (NP (NNP Al) (NNP Gore) (CC and) (NNP President) (PER (NNP Clinton)))))))))))) |ET|
-<<<<<<< HEAD
-1 |BT| (S (NP (PER (PRP$ his)) (NN last)) (VP (VBD was) (VP (VBN planned) (PP (IN for) (NP (GPE (NNP Arkansas))))))) |ET|
-=======
 -1 |BT| (S (NP (PER (PRP$ his)) (NN last)) (VP (VBD was) (VP (VBN planned) (PP (IN for) (NP (GPE (NNP Arkansas))))))) |ET|
->>>>>>> origin/master
 -1 |BT| (S (NP (PER (PRP$ his)) (NN last)) (VP (VBD was) (VP (VBN planned) (PP (IN for) (NP (NP (NNP Arkansas)) (, ,) (NP (DT the) (NN home) (GPE (NNS states)))))))) |ET|
 -1 |BT| (S (NP (PER (PRP$ his)) (NN last)) (VP (VBD was) (VP (VBN planned) (PP (IN for) (NP (NP (NNP Arkansas)) (, ,) (NP (NP (DT the) (NN home) (NNS states)) (, ,) (ADVP (RB respectively)) (, ,) (PP (IN of) (NP (NNP Vice) (PER (NNP President)))))))))) |ET|
 -1 |BT| (S (NP (PER (PRP$ his)) (NN last)) (VP (VBD was) (VP (VBN planned) (PP (IN for) (NP (NP (NNP Arkansas)) (, ,) (NP (NP (DT the) (NN home) (NNS states)) (, ,) (ADVP (RB respectively)) (, ,) (PP (IN of) (NP (NNP Vice) (NNP President) (NP (PER (NNP Al) (NNP Gore))))))))))) |ET|
@@ -3576,11 +3429,7 @@
 -1 |BT| (PER (NNP Al) (NNP Gore) (CC and) (PER (NNP President))) |ET|
 -1 |BT| (PER (NNP Al) (NNP Gore) (CC and) (NNP President) (PER (NNP Clinton))) |ET|
 -1 |BT| (NP (PER (NNP President)) (PER (NNP Clinton))) |ET|
-<<<<<<< HEAD
 -1 |BT| (NP (GPE (NNP Texas)) (PER (NN governor))) |ET|
-=======
-1 |BT| (NP (GPE (NNP Texas)) (PER (NN governor))) |ET|
->>>>>>> origin/master
 -1 |BT| (S (NP (NP (GPE (NNP Texas)) (NN governor) (POS 's)) (NNS words)) (VP (VBD made) (S (ADJP (RB equally) (JJ clear)) (SBAR (IN that) (S (NP (PER (PRP he)))))))) |ET|
 -1 |BT| (S (NP (NP (GPE (NNP Texas)) (NN governor) (POS 's)) (NNS words)) (VP (VBD made) (S (ADJP (RB equally) (JJ clear)) (SBAR (IN that) (S (NP (PRP he)) (VP (VBD saw) (NP (PER (PRP himself))))))))) |ET|
 -1 |BT| (S (NP (NP (GPE (NNP Texas)) (NN governor) (POS 's)) (NNS words)) (VP (VBD made) (S (ADJP (RB equally) (JJ clear)) (SBAR (IN that) (S (NP (PRP he)) (VP (VBD saw) (NP (PRP himself)) (SBAR (IN as) (S (NP (DT the) (GPE (NN country))))))))))) |ET|
@@ -3659,11 +3508,7 @@
 -1 |BT| (S (S (VP (SBAR (S (VP (NP (SBAR (S (VP (ADJP (S (VP (NP (NP (NP (GPE (NNS people)) (POS 's)) (NN business)) (PP (IN above) (NP (JJ everyday) (NNS politics)))))))))))))))) (, ,) ('' '') (NP (NNP Bush)) (VP (VBD said) (PP (IN at) (NP (NP (DT a) (NN rally)) (PP (IN inside) (NP (NP (DT a) (NN hangar)) (PP (IN at) (NP (DT the) (NN airport))) (ADVP (GPE (RB here))))))))) |ET|
 -1 |BT| (S (S (VP (SBAR (S (VP (NP (SBAR (S (VP (ADJP (S (VP (NP (NP (NP (GPE (NNS people)) (POS 's)) (NN business)) (PP (IN above) (NP (JJ everyday) (NNS politics)))))))))))))))) (, ,) ('' '') (NP (NNP Bush)) (VP (VBD said) (PP (IN at) (NP (NP (DT a) (NN rally)) (PP (IN inside) (NP (NP (DT a) (NN hangar)) (PP (IN at) (NP (DT the) (NN airport))) (ADVP (RB here)) (, ,) (SBAR (WHADVP (FAC (WRB where)))))))))) |ET|
 -1 |BT| (S (S (VP (SBAR (S (VP (NP (SBAR (S (VP (ADJP (S (VP (NP (NP (NP (GPE (NNS people)) (POS 's)) (NN business)) (PP (IN above) (NP (JJ everyday) (NNS politics)))))))))))))))) (, ,) ('' '') (NP (NNP Bush)) (VP (VBD said) (PP (IN at) (NP (NP (DT a) (NN rally)) (PP (IN inside) (NP (NP (DT a) (NN hangar)) (PP (IN at) (NP (DT the) (NN airport))) (ADVP (RB here)) (, ,) (SBAR (WHADVP (WRB where)) (S (NP (PER (NNS supporters))))))))))) |ET|
-<<<<<<< HEAD
-1 |BT| (S (NP (PER (NNP Bush))) (VP (VBD said) (PP (IN at) (NP (NP (DT a) (NN rally)) (PP (IN inside) (NP (DT a) (FAC (NN hangar)))))))) |ET|
-=======
 -1 |BT| (S (NP (PER (NNP Bush))) (VP (VBD said) (PP (IN at) (NP (NP (DT a) (NN rally)) (PP (IN inside) (NP (DT a) (FAC (NN hangar)))))))) |ET|
->>>>>>> origin/master
 -1 |BT| (S (NP (PER (NNP Bush))) (VP (VBD said) (PP (IN at) (NP (NP (DT a) (NN rally)) (PP (IN inside) (NP (NP (DT a) (NN hangar)) (PP (IN at) (NP (DT the) (FAC (NN airport)))))))))) |ET|
 -1 |BT| (S (NP (PER (NNP Bush))) (VP (VBD said) (PP (IN at) (NP (NP (DT a) (NN rally)) (PP (IN inside) (NP (NP (DT a) (NN hangar)) (PP (IN at) (NP (DT the) (NN airport))) (ADVP (GPE (RB here))))))))) |ET|
 -1 |BT| (S (NP (PER (NNP Bush))) (VP (VBD said) (PP (IN at) (NP (NP (DT a) (NN rally)) (PP (IN inside) (NP (NP (DT a) (NN hangar)) (PP (IN at) (NP (DT the) (NN airport))) (ADVP (RB here)) (, ,) (SBAR (WHADVP (FAC (WRB where)))))))))) |ET|
@@ -3672,11 +3517,7 @@
 -1 |BT| (NP (NP (FAC (NN hangar))) (PP (IN at) (NP (DT the) (NN airport))) (ADVP (GPE (RB here)))) |ET|
 -1 |BT| (NP (NP (FAC (NN hangar))) (PP (IN at) (NP (DT the) (NN airport))) (ADVP (RB here)) (, ,) (SBAR (WHADVP (FAC (WRB where))))) |ET|
 -1 |BT| (NP (NP (FAC (NN hangar))) (PP (IN at) (NP (DT the) (NN airport))) (ADVP (RB here)) (, ,) (SBAR (WHADVP (WRB where)) (S (NP (PER (NNS supporters)))))) |ET|
-<<<<<<< HEAD
-1 |BT| (NP (PP (NP (FAC (NN airport)))) (ADVP (GPE (RB here)))) |ET|
-=======
 -1 |BT| (NP (PP (NP (FAC (NN airport)))) (ADVP (GPE (RB here)))) |ET|
->>>>>>> origin/master
 -1 |BT| (NP (PP (NP (FAC (NN airport)))) (ADVP (RB here)) (, ,) (SBAR (WHADVP (FAC (WRB where))))) |ET|
 -1 |BT| (NP (PP (NP (FAC (NN airport)))) (ADVP (RB here)) (, ,) (SBAR (WHADVP (WRB where)) (S (NP (PER (NNS supporters)))))) |ET|
 -1 |BT| (NP (ADVP (GPE (RB here))) (, ,) (SBAR (WHADVP (FAC (WRB where))))) |ET|
@@ -3844,26 +3685,16 @@
 -1 |BT| (S (PP (NP (GPE (NNP Arkansas)))) (, ,) (S (NP (PRP$ his) (NN campaign) (NN plane)) (VP (VBD touched) (PRT (RP down)) (PP (IN in) (NP (NP (NNP Wisconsin)) (CC and) (NP (NNP Iowa)))))) (, ,) (CC and) (S (SBAR (IN while) (S (NP (NP (DT any) (CD one)) (PP (IN of) (NP (DT those) (CD four) (NNS states)))) (VP (MD could) (VP (VB wind) (PRT (RP up)) (S (VP (VBG providing) (NP (NP (DT the) (NN key)) (PP (TO to) (NP (DT a) (NNP Bush) (NN victory)))))))))) (, ,) (NP (NN none)) (VP (VBP have) (NP (ADJP (RB as) (JJ many)) (JJ electoral) (NNS votes)) (PP (IN as) (NP (NP (JJ such) (NNS battlegrounds)) (PP (IN as) (NP (GPE (NNP Michigan))))))))) |ET|
 -1 |BT| (S (PP (NP (GPE (NNP Arkansas)))) (, ,) (S (NP (PRP$ his) (NN campaign) (NN plane)) (VP (VBD touched) (PRT (RP down)) (PP (IN in) (NP (NP (NNP Wisconsin)) (CC and) (NP (NNP Iowa)))))) (, ,) (CC and) (S (SBAR (IN while) (S (NP (NP (DT any) (CD one)) (PP (IN of) (NP (DT those) (CD four) (NNS states)))) (VP (MD could) (VP (VB wind) (PRT (RP up)) (S (VP (VBG providing) (NP (NP (DT the) (NN key)) (PP (TO to) (NP (DT a) (NNP Bush) (NN victory)))))))))) (, ,) (NP (NN none)) (VP (VBP have) (NP (ADJP (RB as) (JJ many)) (JJ electoral) (NNS votes)) (PP (IN as) (NP (NP (JJ such) (NNS battlegrounds)) (PP (IN as) (NP (NP (NNP Michigan)) (CC and) (NP (GPE (NNP Pennsylvania)))))))))) |ET|
 -1 |BT| (NP (PER (PRP$ his)) (NN campaign) (VEH (NN plane))) |ET|
-<<<<<<< HEAD
-1 |BT| (S (NP (PER (PRP$ his)) (NN campaign) (NN plane)) (VP (VBD touched) (PRT (RP down)) (PP (IN in) (NP (GPE (NNP Wisconsin)))))) |ET|
-1 |BT| (S (NP (PER (PRP$ his)) (NN campaign) (NN plane)) (VP (VBD touched) (PRT (RP down)) (PP (IN in) (NP (NP (NNP Wisconsin)) (CC and) (NP (GPE (NNP Iowa))))))) |ET|
-=======
 -1 |BT| (S (NP (PER (PRP$ his)) (NN campaign) (NN plane)) (VP (VBD touched) (PRT (RP down)) (PP (IN in) (NP (GPE (NNP Wisconsin)))))) |ET|
 -1 |BT| (S (NP (PER (PRP$ his)) (NN campaign) (NN plane)) (VP (VBD touched) (PRT (RP down)) (PP (IN in) (NP (NP (NNP Wisconsin)) (CC and) (NP (GPE (NNP Iowa))))))) |ET|
->>>>>>> origin/master
 -1 |BT| (S (S (NP (PER (PRP$ his)) (NN campaign) (NN plane)) (VP (VBD touched) (PRT (RP down)) (PP (IN in) (NP (NP (NNP Wisconsin)) (CC and) (NP (NNP Iowa)))))) (, ,) (CC and) (S (SBAR (IN while) (S (NP (DT any) (GPE (CD one))))))) |ET|
 -1 |BT| (S (S (NP (PER (PRP$ his)) (NN campaign) (NN plane)) (VP (VBD touched) (PRT (RP down)) (PP (IN in) (NP (NP (NNP Wisconsin)) (CC and) (NP (NNP Iowa)))))) (, ,) (CC and) (S (SBAR (IN while) (S (NP (NP (DT any) (CD one)) (PP (IN of) (NP (DT those) (CD four) (GPE (NNS states))))))))) |ET|
 -1 |BT| (S (S (NP (PER (PRP$ his)) (NN campaign) (NN plane)) (VP (VBD touched) (PRT (RP down)) (PP (IN in) (NP (NP (NNP Wisconsin)) (CC and) (NP (NNP Iowa)))))) (, ,) (CC and) (S (SBAR (IN while) (S (NP (NP (DT any) (CD one)) (PP (IN of) (NP (DT those) (CD four) (NNS states)))) (VP (MD could) (VP (VB wind) (PRT (RP up)) (S (VP (VBG providing) (NP (NP (DT the) (NN key)) (PP (TO to) (NP (DT a) (PER (NNP Bush))))))))))))) |ET|
 -1 |BT| (S (S (NP (PER (PRP$ his)) (NN campaign) (NN plane)) (VP (VBD touched) (PRT (RP down)) (PP (IN in) (NP (NP (NNP Wisconsin)) (CC and) (NP (NNP Iowa)))))) (, ,) (CC and) (S (SBAR (IN while) (S (NP (NP (DT any) (CD one)) (PP (IN of) (NP (DT those) (CD four) (NNS states)))) (VP (MD could) (VP (VB wind) (PRT (RP up)) (S (VP (VBG providing) (NP (NP (DT the) (NN key)) (PP (TO to) (NP (DT a) (NNP Bush) (NN victory)))))))))) (, ,) (NP (NN none)) (VP (VBP have) (NP (ADJP (RB as) (JJ many)) (JJ electoral) (NNS votes)) (PP (IN as) (NP (JJ such) (GPE (NNS battlegrounds))))))) |ET|
 -1 |BT| (S (S (NP (PER (PRP$ his)) (NN campaign) (NN plane)) (VP (VBD touched) (PRT (RP down)) (PP (IN in) (NP (NP (NNP Wisconsin)) (CC and) (NP (NNP Iowa)))))) (, ,) (CC and) (S (SBAR (IN while) (S (NP (NP (DT any) (CD one)) (PP (IN of) (NP (DT those) (CD four) (NNS states)))) (VP (MD could) (VP (VB wind) (PRT (RP up)) (S (VP (VBG providing) (NP (NP (DT the) (NN key)) (PP (TO to) (NP (DT a) (NNP Bush) (NN victory)))))))))) (, ,) (NP (NN none)) (VP (VBP have) (NP (ADJP (RB as) (JJ many)) (JJ electoral) (NNS votes)) (PP (IN as) (NP (NP (JJ such) (NNS battlegrounds)) (PP (IN as) (NP (GPE (NNP Michigan))))))))) |ET|
 -1 |BT| (S (S (NP (PER (PRP$ his)) (NN campaign) (NN plane)) (VP (VBD touched) (PRT (RP down)) (PP (IN in) (NP (NP (NNP Wisconsin)) (CC and) (NP (NNP Iowa)))))) (, ,) (CC and) (S (SBAR (IN while) (S (NP (NP (DT any) (CD one)) (PP (IN of) (NP (DT those) (CD four) (NNS states)))) (VP (MD could) (VP (VB wind) (PRT (RP up)) (S (VP (VBG providing) (NP (NP (DT the) (NN key)) (PP (TO to) (NP (DT a) (NNP Bush) (NN victory)))))))))) (, ,) (NP (NN none)) (VP (VBP have) (NP (ADJP (RB as) (JJ many)) (JJ electoral) (NNS votes)) (PP (IN as) (NP (NP (JJ such) (NNS battlegrounds)) (PP (IN as) (NP (NP (NNP Michigan)) (CC and) (NP (GPE (NNP Pennsylvania)))))))))) |ET|
-<<<<<<< HEAD
-1 |BT| (S (NP (VEH (NN plane))) (VP (VBD touched) (PRT (RP down)) (PP (IN in) (NP (GPE (NNP Wisconsin)))))) |ET|
-1 |BT| (S (NP (VEH (NN plane))) (VP (VBD touched) (PRT (RP down)) (PP (IN in) (NP (NP (NNP Wisconsin)) (CC and) (NP (GPE (NNP Iowa))))))) |ET|
-=======
 -1 |BT| (S (NP (VEH (NN plane))) (VP (VBD touched) (PRT (RP down)) (PP (IN in) (NP (GPE (NNP Wisconsin)))))) |ET|
 -1 |BT| (S (NP (VEH (NN plane))) (VP (VBD touched) (PRT (RP down)) (PP (IN in) (NP (NP (NNP Wisconsin)) (CC and) (NP (GPE (NNP Iowa))))))) |ET|
->>>>>>> origin/master
 -1 |BT| (S (S (NP (VEH (NN plane))) (VP (VBD touched) (PRT (RP down)) (PP (IN in) (NP (NP (NNP Wisconsin)) (CC and) (NP (NNP Iowa)))))) (, ,) (CC and) (S (SBAR (IN while) (S (NP (DT any) (GPE (CD one))))))) |ET|
 -1 |BT| (S (S (NP (VEH (NN plane))) (VP (VBD touched) (PRT (RP down)) (PP (IN in) (NP (NP (NNP Wisconsin)) (CC and) (NP (NNP Iowa)))))) (, ,) (CC and) (S (SBAR (IN while) (S (NP (NP (DT any) (CD one)) (PP (IN of) (NP (DT those) (CD four) (GPE (NNS states))))))))) |ET|
 -1 |BT| (S (S (NP (VEH (NN plane))) (VP (VBD touched) (PRT (RP down)) (PP (IN in) (NP (NP (NNP Wisconsin)) (CC and) (NP (NNP Iowa)))))) (, ,) (CC and) (S (SBAR (IN while) (S (NP (NP (DT any) (CD one)) (PP (IN of) (NP (DT those) (CD four) (NNS states)))) (VP (MD could) (VP (VB wind) (PRT (RP up)) (S (VP (VBG providing) (NP (NP (DT the) (NN key)) (PP (TO to) (NP (DT a) (PER (NNP Bush))))))))))))) |ET|
@@ -3883,7 +3714,7 @@
 -1 |BT| (S (S (VP (PP (NP (GPE (NNP Iowa)))))) (, ,) (CC and) (S (SBAR (IN while) (S (NP (NP (DT any) (CD one)) (PP (IN of) (NP (DT those) (CD four) (NNS states)))) (VP (MD could) (VP (VB wind) (PRT (RP up)) (S (VP (VBG providing) (NP (NP (DT the) (NN key)) (PP (TO to) (NP (DT a) (NNP Bush) (NN victory)))))))))) (, ,) (NP (NN none)) (VP (VBP have) (NP (ADJP (RB as) (JJ many)) (JJ electoral) (NNS votes)) (PP (IN as) (NP (JJ such) (GPE (NNS battlegrounds))))))) |ET|
 -1 |BT| (S (S (VP (PP (NP (GPE (NNP Iowa)))))) (, ,) (CC and) (S (SBAR (IN while) (S (NP (NP (DT any) (CD one)) (PP (IN of) (NP (DT those) (CD four) (NNS states)))) (VP (MD could) (VP (VB wind) (PRT (RP up)) (S (VP (VBG providing) (NP (NP (DT the) (NN key)) (PP (TO to) (NP (DT a) (NNP Bush) (NN victory)))))))))) (, ,) (NP (NN none)) (VP (VBP have) (NP (ADJP (RB as) (JJ many)) (JJ electoral) (NNS votes)) (PP (IN as) (NP (NP (JJ such) (NNS battlegrounds)) (PP (IN as) (NP (GPE (NNP Michigan))))))))) |ET|
 -1 |BT| (S (S (VP (PP (NP (GPE (NNP Iowa)))))) (, ,) (CC and) (S (SBAR (IN while) (S (NP (NP (DT any) (CD one)) (PP (IN of) (NP (DT those) (CD four) (NNS states)))) (VP (MD could) (VP (VB wind) (PRT (RP up)) (S (VP (VBG providing) (NP (NP (DT the) (NN key)) (PP (TO to) (NP (DT a) (NNP Bush) (NN victory)))))))))) (, ,) (NP (NN none)) (VP (VBP have) (NP (ADJP (RB as) (JJ many)) (JJ electoral) (NNS votes)) (PP (IN as) (NP (NP (JJ such) (NNS battlegrounds)) (PP (IN as) (NP (NP (NNP Michigan)) (CC and) (NP (GPE (NNP Pennsylvania)))))))))) |ET|
--1 |BT| (NP (NP (GPE (CD one))) (PP (IN of) (NP (DT those) (CD four) (GPE (NNS states))))) |ET|
+1 |BT| (NP (NP (GPE (CD one))) (PP (IN of) (NP (DT those) (CD four) (GPE (NNS states))))) |ET|
 -1 |BT| (S (NP (NP (GPE (CD one))) (PP (IN of) (NP (DT those) (CD four) (NNS states)))) (VP (MD could) (VP (VB wind) (PRT (RP up)) (S (VP (VBG providing) (NP (NP (DT the) (NN key)) (PP (TO to) (NP (DT a) (PER (NNP Bush)))))))))) |ET|
 -1 |BT| (S (SBAR (S (NP (NP (GPE (CD one))) (PP (IN of) (NP (DT those) (CD four) (NNS states)))) (VP (MD could) (VP (VB wind) (PRT (RP up)) (S (VP (VBG providing) (NP (NP (DT the) (NN key)) (PP (TO to) (NP (DT a) (NNP Bush) (NN victory)))))))))) (, ,) (NP (NN none)) (VP (VBP have) (NP (ADJP (RB as) (JJ many)) (JJ electoral) (NNS votes)) (PP (IN as) (NP (JJ such) (GPE (NNS battlegrounds)))))) |ET|
 -1 |BT| (S (SBAR (S (NP (NP (GPE (CD one))) (PP (IN of) (NP (DT those) (CD four) (NNS states)))) (VP (MD could) (VP (VB wind) (PRT (RP up)) (S (VP (VBG providing) (NP (NP (DT the) (NN key)) (PP (TO to) (NP (DT a) (NNP Bush) (NN victory)))))))))) (, ,) (NP (NN none)) (VP (VBP have) (NP (ADJP (RB as) (JJ many)) (JJ electoral) (NNS votes)) (PP (IN as) (NP (NP (JJ such) (NNS battlegrounds)) (PP (IN as) (NP (GPE (NNP Michigan)))))))) |ET|
@@ -3895,8 +3726,8 @@
 -1 |BT| (S (SBAR (S (VP (S (VP (NP (PP (NP (PER (NNP Bush)) (NN victory))))))))) (, ,) (NP (NN none)) (VP (VBP have) (NP (ADJP (RB as) (JJ many)) (JJ electoral) (NNS votes)) (PP (IN as) (NP (JJ such) (GPE (NNS battlegrounds)))))) |ET|
 -1 |BT| (S (SBAR (S (VP (S (VP (NP (PP (NP (PER (NNP Bush)) (NN victory))))))))) (, ,) (NP (NN none)) (VP (VBP have) (NP (ADJP (RB as) (JJ many)) (JJ electoral) (NNS votes)) (PP (IN as) (NP (NP (JJ such) (NNS battlegrounds)) (PP (IN as) (NP (GPE (NNP Michigan)))))))) |ET|
 -1 |BT| (S (SBAR (S (VP (S (VP (NP (PP (NP (PER (NNP Bush)) (NN victory))))))))) (, ,) (NP (NN none)) (VP (VBP have) (NP (ADJP (RB as) (JJ many)) (JJ electoral) (NNS votes)) (PP (IN as) (NP (NP (JJ such) (NNS battlegrounds)) (PP (IN as) (NP (NP (NNP Michigan)) (CC and) (NP (GPE (NNP Pennsylvania))))))))) |ET|
--1 |BT| (NP (NP (GPE (NNS battlegrounds))) (PP (IN as) (NP (GPE (NNP Michigan))))) |ET|
--1 |BT| (NP (NP (GPE (NNS battlegrounds))) (PP (IN as) (NP (NP (NNP Michigan)) (CC and) (NP (GPE (NNP Pennsylvania)))))) |ET|
+1 |BT| (NP (NP (GPE (NNS battlegrounds))) (PP (IN as) (NP (GPE (NNP Michigan))))) |ET|
+1 |BT| (NP (NP (GPE (NNS battlegrounds))) (PP (IN as) (NP (NP (NNP Michigan)) (CC and) (NP (GPE (NNP Pennsylvania)))))) |ET|
 -1 |BT| (NP (NP (GPE (NNP Michigan))) (CC and) (NP (GPE (NNP Pennsylvania)))) |ET|
 -1 |BT| (S (NP (GPE (PRP they))) (VP (VBP are) (NP (JJ genuine) (GPE (NNS tossups))))) |ET|
 -1 |BT| (S (NP (GPE (PRP they))) (VP (VBP are) (NP (NP (JJ genuine) (NNS tossups)) (SBAR (WHNP (GPE (WDT that))))))) |ET|
@@ -3967,11 +3798,7 @@
 -1 |BT| (S (NP (PER (NNP Bush))) (VP (VBD told) (NP (NP (DT a) (NN crowd)) (PP (IN of) (NP (QP (JJR more) (IN than) (CD 1,000)) (NNS people)))) (PP (IN at) (NP (NP (DT a) (NN convention) (NN center)) (PP (IN in) (NP (NP (NNP Green) (NNP Bay)) (, ,) (NP (NNP Wis.)))))) (S (`` ``) (NP (PRP I)) (VP (VBP hope) (SBAR (S (NP (PRP you)) (VP (VBP redouble) (NP (PRP$ your) (NNS efforts) (S (VP (TO to) (VP (VB make) (ADJP (JJ sure) (SBAR (S (NP (PER (NNS people))))))))))))))))) |ET|
 -1 |BT| (S (NP (PER (NNP Bush))) (VP (VBD told) (NP (NP (DT a) (NN crowd)) (PP (IN of) (NP (QP (JJR more) (IN than) (CD 1,000)) (NNS people)))) (PP (IN at) (NP (NP (DT a) (NN convention) (NN center)) (PP (IN in) (NP (NP (NNP Green) (NNP Bay)) (, ,) (NP (NNP Wis.)))))) (S (`` ``) (NP (PRP I)) (VP (VBP hope) (SBAR (S (NP (PRP you)) (VP (VBP redouble) (NP (PRP$ your) (NNS efforts) (S (VP (TO to) (VP (VB make) (ADJP (JJ sure) (SBAR (S (NP (NNS people)) (VP (VBP get) (PP (IN out) (PP (TO to) (NP (DT the) (FAC (NNS polls)))))))))))))))))))) |ET|
 -1 |BT| (NP (NP (PER (NN crowd))) (PP (IN of) (NP (QP (JJR more) (IN than) (CD 1,000)) (PER (NNS people))))) |ET|
-<<<<<<< HEAD
-1 |BT| (VP (NP (NP (PER (NN crowd))) (PP (IN of) (NP (QP (JJR more) (IN than) (CD 1,000)) (NNS people)))) (PP (IN at) (NP (DT a) (NN convention) (FAC (NN center))))) |ET|
-=======
 -1 |BT| (VP (NP (NP (PER (NN crowd))) (PP (IN of) (NP (QP (JJR more) (IN than) (CD 1,000)) (NNS people)))) (PP (IN at) (NP (DT a) (NN convention) (FAC (NN center))))) |ET|
->>>>>>> origin/master
 -1 |BT| (VP (NP (NP (PER (NN crowd))) (PP (IN of) (NP (QP (JJR more) (IN than) (CD 1,000)) (NNS people)))) (PP (IN at) (NP (NP (DT a) (NN convention) (NN center)) (PP (IN in) (NP (GPE (NNP Green) (NNP Bay))))))) |ET|
 -1 |BT| (VP (NP (NP (PER (NN crowd))) (PP (IN of) (NP (QP (JJR more) (IN than) (CD 1,000)) (NNS people)))) (PP (IN at) (NP (NP (DT a) (NN convention) (NN center)) (PP (IN in) (NP (NP (NNP Green) (NNP Bay)) (, ,) (NP (GPE (NNP Wis.)))))))) |ET|
 -1 |BT| (VP (NP (NP (PER (NN crowd))) (PP (IN of) (NP (QP (JJR more) (IN than) (CD 1,000)) (NNS people)))) (PP (IN at) (NP (NP (DT a) (NN convention) (NN center)) (PP (IN in) (NP (NP (NNP Green) (NNP Bay)) (, ,) (NP (NNP Wis.)))))) (S (PER (`` ``) (NP (PRP I))))) |ET|
@@ -3987,11 +3814,7 @@
 -1 |BT| (VP (NP (PP (NP (PER (NNS people))))) (PP (IN at) (NP (NP (DT a) (NN convention) (NN center)) (PP (IN in) (NP (NP (NNP Green) (NNP Bay)) (, ,) (NP (NNP Wis.)))))) (S (`` ``) (NP (PRP I)) (VP (VBP hope) (SBAR (S (NP (PRP you)) (VP (VBP redouble) (NP (PER (PRP$ your))))))))) |ET|
 -1 |BT| (VP (NP (PP (NP (PER (NNS people))))) (PP (IN at) (NP (NP (DT a) (NN convention) (NN center)) (PP (IN in) (NP (NP (NNP Green) (NNP Bay)) (, ,) (NP (NNP Wis.)))))) (S (`` ``) (NP (PRP I)) (VP (VBP hope) (SBAR (S (NP (PRP you)) (VP (VBP redouble) (NP (PRP$ your) (NNS efforts) (S (VP (TO to) (VP (VB make) (ADJP (JJ sure) (SBAR (S (NP (PER (NNS people)))))))))))))))) |ET|
 -1 |BT| (VP (NP (PP (NP (PER (NNS people))))) (PP (IN at) (NP (NP (DT a) (NN convention) (NN center)) (PP (IN in) (NP (NP (NNP Green) (NNP Bay)) (, ,) (NP (NNP Wis.)))))) (S (`` ``) (NP (PRP I)) (VP (VBP hope) (SBAR (S (NP (PRP you)) (VP (VBP redouble) (NP (PRP$ your) (NNS efforts) (S (VP (TO to) (VP (VB make) (ADJP (JJ sure) (SBAR (S (NP (NNS people)) (VP (VBP get) (PP (IN out) (PP (TO to) (NP (DT the) (FAC (NNS polls))))))))))))))))))) |ET|
-<<<<<<< HEAD
-1 |BT| (NP (NP (FAC (NN center))) (PP (IN in) (NP (GPE (NNP Green) (NNP Bay))))) |ET|
-=======
 -1 |BT| (NP (NP (FAC (NN center))) (PP (IN in) (NP (GPE (NNP Green) (NNP Bay))))) |ET|
->>>>>>> origin/master
 -1 |BT| (NP (NP (FAC (NN center))) (PP (IN in) (NP (NP (NNP Green) (NNP Bay)) (, ,) (NP (GPE (NNP Wis.)))))) |ET|
 -1 |BT| (VP (PP (NP (NP (FAC (NN center))) (PP (IN in) (NP (NP (NNP Green) (NNP Bay)) (, ,) (NP (NNP Wis.)))))) (S (PER (`` ``) (NP (PRP I))))) |ET|
 -1 |BT| (VP (PP (NP (NP (FAC (NN center))) (PP (IN in) (NP (NP (NNP Green) (NNP Bay)) (, ,) (NP (NNP Wis.)))))) (S (`` ``) (NP (PRP I)) (VP (VBP hope) (SBAR (S (NP (PER (PRP you)))))))) |ET|
@@ -4101,11 +3924,7 @@
 -1 |BT| (NP (NP (GPE (NNP Tennessee))) (, ,) (SBAR (WHADVP (GPE (WRB where))))) |ET|
 -1 |BT| (NP (NP (GPE (NNP Tennessee))) (, ,) (SBAR (WHADVP (WRB where)) (S (NP (PER (NNP Gore)))))) |ET|
 -1 |BT| (SBAR (WHADVP (GPE (WRB where))) (S (NP (PER (NNP Gore))))) |ET|
-<<<<<<< HEAD
 -1 |BT| (NP (GPE (NNP Texas)) (PER (NN governor))) |ET|
-=======
-1 |BT| (NP (GPE (NNP Texas)) (PER (NN governor))) |ET|
->>>>>>> origin/master
 -1 |BT| (S (NP (GPE (NNP Texas)) (NN governor)) (VP (VBD claimed) (SBAR (IN that) (S (NP (PER (NNP Gore))))))) |ET|
 -1 |BT| (S (NP (GPE (NNP Texas)) (NN governor)) (VP (VBD claimed) (SBAR (IN that) (S (NP (NP (NP (NNP Gore) (POS 's)) (NNS decades)) (PP (IN of) (NP (NP (NN experience)) (PP (IN in) (NP (GPE (NNP Washington))))))))))) |ET|
 -1 |BT| (S (NP (GPE (NNP Texas)) (NN governor)) (VP (VBD claimed) (SBAR (IN that) (S (NP (NP (NP (NNP Gore) (POS 's)) (NNS decades)) (PP (IN of) (NP (NP (NN experience)) (PP (IN in) (NP (NNP Washington)))))) (VP (VBD had) (VP (VBN estranged) (NP (PER (PRP him))))))))) |ET|
@@ -4521,11 +4340,7 @@
 -1 |BT| (S (NP (NP (PER (NNP Julie) (NNP Quastler))) (, ,) (NP (CD 28)) (, ,) (SBAR (WHNP (WP who)) (S (VP (VBD voted) (PP (IN for) (NP (NNP Nader))) (PP (IN in) (NP (NNP Portland)))))) (, ,)) (VP (VBD said) (PP (IN on) (NP (NNP Wednesday))) (SBAR (IN that) (S (NP (PRP she)) (VP (VBD was) (VP (VBG feeling) (`` ``) (NP (NP (DT a) (RB little)) (ADJP (JJ alarmed) (CC and) (JJ disappointed) ('' '))) ('' ') (SBAR (IN that) (S (NP (NNP Bush)) (VP (VBD seemed) (PP (IN on) (NP (NP (DT the) (NN brink)) (PP (IN of) (S (VP (VBG winning) (NP (NP (DT the) (NN presidency)) (VP (VBN _) (S (VP (VBG suggesting) (SBAR (IN that) (S (NP (PRP she)) (VP (VBD did) (RB not) (VP (VB accept) (NP (PER (NNP Nader))))))))))))))))))))))))) |ET|
 -1 |BT| (S (NP (NP (PER (NNP Julie) (NNP Quastler))) (, ,) (NP (CD 28)) (, ,) (SBAR (WHNP (WP who)) (S (VP (VBD voted) (PP (IN for) (NP (NNP Nader))) (PP (IN in) (NP (NNP Portland)))))) (, ,)) (VP (VBD said) (PP (IN on) (NP (NNP Wednesday))) (SBAR (IN that) (S (NP (PRP she)) (VP (VBD was) (VP (VBG feeling) (`` ``) (NP (NP (DT a) (RB little)) (ADJP (JJ alarmed) (CC and) (JJ disappointed) ('' '))) ('' ') (SBAR (IN that) (S (NP (NNP Bush)) (VP (VBD seemed) (PP (IN on) (NP (NP (DT the) (NN brink)) (PP (IN of) (S (VP (VBG winning) (NP (NP (DT the) (NN presidency)) (VP (VBN _) (S (VP (VBG suggesting) (SBAR (IN that) (S (NP (PRP she)) (VP (VBD did) (RB not) (VP (VB accept) (NP (NP (NNP Nader) (POS 's)) (NN assertion) (SBAR (IN that) (S (NP (DT the) (CD two) (ORG (NNS parties)))))))))))))))))))))))))))) |ET|
 -1 |BT| (SBAR (WHNP (PER (WP who))) (S (VP (VBD voted) (PP (IN for) (NP (PER (NNP Nader))))))) |ET|
-<<<<<<< HEAD
-1 |BT| (SBAR (WHNP (PER (WP who))) (S (VP (VBD voted) (PP (IN for) (NP (NNP Nader))) (PP (IN in) (NP (GPE (NNP Portland))))))) |ET|
-=======
 -1 |BT| (SBAR (WHNP (PER (WP who))) (S (VP (VBD voted) (PP (IN for) (NP (NNP Nader))) (PP (IN in) (NP (GPE (NNP Portland))))))) |ET|
->>>>>>> origin/master
 -1 |BT| (S (NP (SBAR (WHNP (PER (WP who))) (S (VP (VBD voted) (PP (IN for) (NP (NNP Nader))) (PP (IN in) (NP (NNP Portland)))))) (, ,)) (VP (VBD said) (PP (IN on) (NP (NNP Wednesday))) (SBAR (IN that) (S (NP (PER (PRP she))))))) |ET|
 -1 |BT| (S (NP (SBAR (WHNP (PER (WP who))) (S (VP (VBD voted) (PP (IN for) (NP (NNP Nader))) (PP (IN in) (NP (NNP Portland)))))) (, ,)) (VP (VBD said) (PP (IN on) (NP (NNP Wednesday))) (SBAR (IN that) (S (NP (PRP she)) (VP (VBD was) (VP (VBG feeling) (`` ``) (NP (NP (DT a) (RB little)) (ADJP (JJ alarmed) (CC and) (JJ disappointed) ('' '))) ('' ') (SBAR (IN that) (S (NP (PER (NNP Bush))))))))))) |ET|
 -1 |BT| (S (NP (SBAR (WHNP (PER (WP who))) (S (VP (VBD voted) (PP (IN for) (NP (NNP Nader))) (PP (IN in) (NP (NNP Portland)))))) (, ,)) (VP (VBD said) (PP (IN on) (NP (NNP Wednesday))) (SBAR (IN that) (S (NP (PRP she)) (VP (VBD was) (VP (VBG feeling) (`` ``) (NP (NP (DT a) (RB little)) (ADJP (JJ alarmed) (CC and) (JJ disappointed) ('' '))) ('' ') (SBAR (IN that) (S (NP (NNP Bush)) (VP (VBD seemed) (PP (IN on) (NP (NP (DT the) (NN brink)) (PP (IN of) (S (VP (VBG winning) (NP (NP (DT the) (NN presidency)) (VP (VBN _) (S (VP (VBG suggesting) (SBAR (IN that) (S (NP (PER (PRP she))))))))))))))))))))))) |ET|
@@ -4556,11 +4371,7 @@
 -1 |BT| (S (NP (NNP Bush)) (VP (VBZ is) (ADVP (RB probably)) (VP (VBG going) (S (VP (TO to) (VP (VB be) (NP (PRP$ our) (PER (NN president))))))))) |ET|
 -1 |BT| (PER (S (NP (NNP Bush)) (VP (VBZ is) (ADVP (RB probably)) (VP (VBG going) (S (VP (TO to) (VP (VB be) (NP (PRP$ our) (NN president)))))))) (CC and) (S (NP (PER (NNP Nader))))) |ET|
 -1 |BT| (PER (S (NP (NNP Bush)) (VP (VBZ is) (ADVP (RB probably)) (VP (VBG going) (S (VP (TO to) (VP (VB be) (NP (PRP$ our) (NN president)))))))) (CC and) (S (NP (NNP Nader)) (VP (VBD did) (RB n't) (VP (VB get) (NP (PER (PRP$ his))))))) |ET|
-<<<<<<< HEAD
 -1 |BT| (NP (GPE (PRP$ our)) (PER (NN president))) |ET|
-=======
-1 |BT| (NP (GPE (PRP$ our)) (PER (NN president))) |ET|
->>>>>>> origin/master
 -1 |BT| (S (S (VP (S (VP (NP (GPE (PRP$ our)) (NN president)))))) (CC and) (S (NP (PER (NNP Nader))))) |ET|
 -1 |BT| (S (S (VP (S (VP (NP (GPE (PRP$ our)) (NN president)))))) (CC and) (S (NP (NNP Nader)) (VP (VBD did) (RB n't) (VP (VB get) (NP (PER (PRP$ his))))))) |ET|
 -1 |BT| (S (S (VP (S (VP (NP (PER (NN president))))))) (CC and) (S (NP (PER (NNP Nader))))) |ET|
@@ -4718,11 +4529,7 @@
 -1 |BT| (VP (PP (NP (PER (NNP Nader)))) (SBAR (IN because) (S (NP (NNP Gore)) (VP (VBD had) (RB not) (VP (VBN taken) (NP (DT a) (NN stand)) (PP (IN against) (NP (NP (DT the) (NN development)) (PP (IN of) (NP (NP (DT a) (JJ commercial) (NN airport)) (PP (IN near) (NP (DT the) (LOC (NNS Everglades))))))))))))) |ET|
 -1 |BT| (S (NP (PER (NNP Gore))) (VP (VBD had) (RB not) (VP (VBN taken) (NP (DT a) (NN stand)) (PP (IN against) (NP (NP (DT the) (NN development)) (PP (IN of) (NP (DT a) (JJ commercial) (FAC (NN airport))))))))) |ET|
 -1 |BT| (S (NP (PER (NNP Gore))) (VP (VBD had) (RB not) (VP (VBN taken) (NP (DT a) (NN stand)) (PP (IN against) (NP (NP (DT the) (NN development)) (PP (IN of) (NP (NP (DT a) (JJ commercial) (NN airport)) (PP (IN near) (NP (DT the) (LOC (NNS Everglades))))))))))) |ET|
-<<<<<<< HEAD
-1 |BT| (NP (NP (FAC (NN airport))) (PP (IN near) (NP (DT the) (LOC (NNS Everglades))))) |ET|
-=======
 -1 |BT| (NP (NP (FAC (NN airport))) (PP (IN near) (NP (DT the) (LOC (NNS Everglades))))) |ET|
->>>>>>> origin/master
 -1 |BT| (S (NP (PRP I)) (VP (VBD voted) (NP (PER (PRP$ my))))) |ET|
 -1 |BT| (PER (S (NP (PRP I)) (VP (VBD voted) (NP (PRP$ my) (NN conscience)))) (, ,) ('' '') (NP (PER (PRP she)))) |ET|
 -1 |BT| (S (S (VP (NP (PER (PRP$ my)) (NN conscience)))) (, ,) ('' '') (NP (PER (PRP she)))) |ET|
@@ -4737,11 +4544,7 @@
 -1 |BT| (S (NP (NP (PER (NNP Patricia) (NNP Newell))) (, ,) (NP (NP (DT an) (NN organizer)) (PP (IN for) (NP (NNP Nader))) (PP (IN at) (NP (NP (DT the) (NNP University)) (PP (IN of) (NP (NNP Florida))) (PP (IN in) (NP (NNP Gainesville)))))) (, ,)) (VP (VBD said) (SBAR (IN that) (S (NP (NNP Nader)) (VP (VBD had) (VP (VBN won) (NP (NP (ADJP (RB far) (JJR fewer)) (NNS votes)) (PP (IN in) (NP (NNP Florida))) (SBAR (IN than) (S (NP (PRP$ his) (NNS supporters)) (VP (VBD had) (VP (VBN expected) (S (NP (NNS _)) (ADJP (JJ due)) (PRN (, ,) (S (NP (PER (PRP she))))))))))))))))) |ET|
 -1 |BT| (S (NP (NP (PER (NNP Patricia) (NNP Newell))) (, ,) (NP (NP (DT an) (NN organizer)) (PP (IN for) (NP (NNP Nader))) (PP (IN at) (NP (NP (DT the) (NNP University)) (PP (IN of) (NP (NNP Florida))) (PP (IN in) (NP (NNP Gainesville)))))) (, ,)) (VP (VBD said) (SBAR (IN that) (S (NP (NNP Nader)) (VP (VBD had) (VP (VBN won) (NP (NP (ADJP (RB far) (JJR fewer)) (NNS votes)) (PP (IN in) (NP (NNP Florida))) (SBAR (IN than) (S (NP (PRP$ his) (NNS supporters)) (VP (VBD had) (VP (VBN expected) (S (NP (NNS _)) (ADJP (JJ due)) (PRN (, ,) (S (NP (PRP she)) (VP (VBD said))) (, ,)) (S (VP (TO to) (VP (`` ``) (VB scare) (NP (NNS tactics) (POS ')) ('' ') (PP (IN by) (NP (DT the) (ORG (NNPS Democrats))))))))))))))))))) |ET|
 -1 |BT| (NP (NP (PER (NN organizer))) (PP (IN for) (NP (PER (NNP Nader))))) |ET|
-<<<<<<< HEAD
-1 |BT| (NP (NP (PER (NN organizer))) (PP (IN for) (NP (NNP Nader))) (PP (IN at) (NP (ORG (NP (DT the) (NNP University)) (PP (IN of) (NP (NNP Florida))))))) |ET|
-=======
 -1 |BT| (NP (NP (PER (NN organizer))) (PP (IN for) (NP (NNP Nader))) (PP (IN at) (NP (ORG (NP (DT the) (NNP University)) (PP (IN of) (NP (NNP Florida))))))) |ET|
->>>>>>> origin/master
 -1 |BT| (NP (NP (PER (NN organizer))) (PP (IN for) (NP (NNP Nader))) (PP (IN at) (NP (NP (DT the) (NNP University)) (PP (IN of) (NP (NNP Florida))) (PP (IN in) (NP (GPE (NNP Gainesville))))))) |ET|
 -1 |BT| (S (NP (NP (NP (PER (NN organizer))) (PP (IN for) (NP (NNP Nader))) (PP (IN at) (NP (NP (DT the) (NNP University)) (PP (IN of) (NP (NNP Florida))) (PP (IN in) (NP (NNP Gainesville)))))) (, ,)) (VP (VBD said) (SBAR (IN that) (S (NP (PER (NNP Nader))))))) |ET|
 -1 |BT| (S (NP (NP (NP (PER (NN organizer))) (PP (IN for) (NP (NNP Nader))) (PP (IN at) (NP (NP (DT the) (NNP University)) (PP (IN of) (NP (NNP Florida))) (PP (IN in) (NP (NNP Gainesville)))))) (, ,)) (VP (VBD said) (SBAR (IN that) (S (NP (NNP Nader)) (VP (VBD had) (VP (VBN won) (NP (NP (ADJP (RB far) (JJR fewer)) (NNS votes)) (PP (IN in) (NP (GPE (NNP Florida))))))))))) |ET|
@@ -4801,14 +4604,14 @@
 -1 |BT| (VP (PP (NP (PER (NN candidate)))) (SBAR (PER (IN that)))) |ET|
 -1 |BT| (VP (PP (NP (PER (NN candidate)))) (SBAR (IN that) (S (NP (PER (PRP they)))))) |ET|
 -1 |BT| (SBAR (PER (IN that)) (S (NP (PER (PRP they))))) |ET|
--1 |BT| (NP (NP (PER (NN majority))) (PP (IN of) (NP (PER (NNS women))))) |ET|
--1 |BT| (NP (NP (PER (NN majority))) (PP (IN of) (NP (NP (NNS women)) (, ,) (NP (JJR older) (PER (NNS voters)))))) |ET|
--1 |BT| (NP (NP (PER (NN majority))) (PP (IN of) (NP (NP (NNS women)) (, ,) (NP (JJR older) (NNS voters)) (, ,) (NP (PER (NNPS Democrats)))))) |ET|
+1 |BT| (NP (NP (PER (NN majority))) (PP (IN of) (NP (PER (NNS women))))) |ET|
+1 |BT| (NP (NP (PER (NN majority))) (PP (IN of) (NP (NP (NNS women)) (, ,) (NP (JJR older) (PER (NNS voters)))))) |ET|
+1 |BT| (NP (NP (PER (NN majority))) (PP (IN of) (NP (NP (NNS women)) (, ,) (NP (JJR older) (NNS voters)) (, ,) (NP (PER (NNPS Democrats)))))) |ET|
 -1 |BT| (NP (NP (PER (NN majority))) (PP (IN of) (NP (NP (NNS women)) (, ,) (NP (JJR older) (NNS voters)) (, ,) (NP (NNPS Democrats)) (, ,) (NP (PER (NNS liberals)))))) |ET|
 -1 |BT| (NP (NP (PER (NN majority))) (PP (IN of) (NP (NP (NNS women)) (, ,) (NP (JJR older) (NNS voters)) (, ,) (NP (NNPS Democrats)) (, ,) (NP (NNS liberals)) (CC and) (NP (ADJP (PER (JJ black))))))) |ET|
 -1 |BT| (NP (NP (PER (NN majority))) (PP (IN of) (NP (NP (NNS women)) (, ,) (NP (JJR older) (NNS voters)) (, ,) (NP (NNPS Democrats)) (, ,) (NP (NNS liberals)) (CC and) (NP (ADJP (JJ black) (, ,) (PER (NNP Hispanic))))))) |ET|
 -1 |BT| (NP (NP (PER (NN majority))) (PP (IN of) (NP (NP (NNS women)) (, ,) (NP (JJR older) (NNS voters)) (, ,) (NP (NNPS Democrats)) (, ,) (NP (NNS liberals)) (CC and) (NP (ADJP (JJ black) (, ,) (NNP Hispanic) (CC and) (PER (NNP Asian))))))) |ET|
--1 |BT| (NP (NP (PER (NN majority))) (PP (IN of) (NP (NP (NNS women)) (, ,) (NP (JJR older) (NNS voters)) (, ,) (NP (NNPS Democrats)) (, ,) (NP (NNS liberals)) (CC and) (NP (ADJP (JJ black) (, ,) (NNP Hispanic) (CC and) (NNP Asian)) (PER (NNS voters)))))) |ET|
+1 |BT| (NP (NP (PER (NN majority))) (PP (IN of) (NP (NP (NNS women)) (, ,) (NP (JJR older) (NNS voters)) (, ,) (NP (NNPS Democrats)) (, ,) (NP (NNS liberals)) (CC and) (NP (ADJP (JJ black) (, ,) (NNP Hispanic) (CC and) (NNP Asian)) (PER (NNS voters)))))) |ET|
 -1 |BT| (S (NP (NP (PER (NN majority))) (PP (IN of) (NP (NP (NNS women)) (, ,) (NP (JJR older) (NNS voters)) (, ,) (NP (NNPS Democrats)) (, ,) (NP (NNS liberals)) (CC and) (NP (ADJP (JJ black) (, ,) (NNP Hispanic) (CC and) (NNP Asian)) (NNS voters))))) (VP (VBD cast) (NP (PER (PRP$ their))))) |ET|
 -1 |BT| (S (NP (NP (PER (NN majority))) (PP (IN of) (NP (NP (NNS women)) (, ,) (NP (JJR older) (NNS voters)) (, ,) (NP (NNPS Democrats)) (, ,) (NP (NNS liberals)) (CC and) (NP (ADJP (JJ black) (, ,) (NNP Hispanic) (CC and) (NNP Asian)) (NNS voters))))) (VP (VBD cast) (NP (PRP$ their) (NNS ballots)) (PP (IN for) (NP (PER (NNP Al) (NNP Gore)))))) |ET|
 -1 |BT| (NP (NP (PER (NNS women))) (, ,) (NP (JJR older) (PER (NNS voters)))) |ET|
@@ -4864,15 +4667,15 @@
 -1 |BT| (S (NP (SBAR (WHNP (PER (WP who))) (S (VP (VBD received) (NP (NP (CD 2) (NN percent)) (PP (IN of) (NP (DT the) (NN vote))))))) (, ,)) (VP (VBD did) (ADVP (RBS best)) (PP (IN among) (NP (PER (NNS independents)))))) |ET|
 -1 |BT| (S (NP (SBAR (WHNP (PER (WP who))) (S (VP (VBD received) (NP (NP (CD 2) (NN percent)) (PP (IN of) (NP (DT the) (NN vote))))))) (, ,)) (VP (VBD did) (ADVP (RBS best)) (PP (IN among) (NP (NP (NNS independents)) (PRN (, ,) (ADVP (RB particularly)) (NP (JJ liberal) (PER (NNS ones)))))))) |ET|
 -1 |BT| (S (NP (SBAR (WHNP (PER (WP who))) (S (VP (VBD received) (NP (NP (CD 2) (NN percent)) (PP (IN of) (NP (DT the) (NN vote))))))) (, ,)) (VP (VBD did) (ADVP (RBS best)) (PP (PP (IN among) (NP (NP (NNS independents)) (PRN (, ,) (ADVP (RB particularly)) (NP (JJ liberal) (NNS ones)) (, ,)))) (CC and) (PP (IN among) (NP (JJ young) (PER (NNS men))))))) |ET|
--1 |BT| (NP (NP (PER (NNS independents))) (PRN (, ,) (ADVP (RB particularly)) (NP (JJ liberal) (PER (NNS ones))))) |ET|
+1 |BT| (NP (NP (PER (NNS independents))) (PRN (, ,) (ADVP (RB particularly)) (NP (JJ liberal) (PER (NNS ones))))) |ET|
 -1 |BT| (PP (PP (NP (NP (PER (NNS independents))) (PRN (, ,) (ADVP (RB particularly)) (NP (JJ liberal) (NNS ones)) (, ,)))) (CC and) (PP (IN among) (NP (JJ young) (PER (NNS men))))) |ET|
 -1 |BT| (PP (PP (NP (PRN (NP (PER (NNS ones))) (, ,)))) (CC and) (PP (IN among) (NP (JJ young) (PER (NNS men))))) |ET|
--1 |BT| (S (NP (PER (NNS groups))) (VP (VBP _) (SBAR (S (NP (PER (NNS voters))))))) |ET|
--1 |BT| (S (NP (PER (NNS groups))) (VP (VBP _) (SBAR (S (NP (NP (NP (NNS voters)) (PP (IN under) (NP (CD 65)))) (, ,) (NP (PER (NNS independents)))))))) |ET|
--1 |BT| (S (NP (PER (NNS groups))) (VP (VBP _) (SBAR (S (NP (NP (NP (NNS voters)) (PP (IN under) (NP (CD 65)))) (, ,) (NP (NNS independents)) (, ,) (NP (PER (NNS voters)))))))) |ET|
+1 |BT| (S (NP (PER (NNS groups))) (VP (VBP _) (SBAR (S (NP (PER (NNS voters))))))) |ET|
+1 |BT| (S (NP (PER (NNS groups))) (VP (VBP _) (SBAR (S (NP (NP (NP (NNS voters)) (PP (IN under) (NP (CD 65)))) (, ,) (NP (PER (NNS independents)))))))) |ET|
+1 |BT| (S (NP (PER (NNS groups))) (VP (VBP _) (SBAR (S (NP (NP (NP (NNS voters)) (PP (IN under) (NP (CD 65)))) (, ,) (NP (NNS independents)) (, ,) (NP (PER (NNS voters)))))))) |ET|
 -1 |BT| (S (NP (PER (NNS groups))) (VP (VBP _) (SBAR (S (NP (NP (NP (NNS voters)) (PP (IN under) (NP (CD 65)))) (, ,) (NP (NNS independents)) (, ,) (NP (NP (NNS voters)) (PP (IN from) (NP (DT the) (LOC (NNP Midwest)))))))))) |ET|
 -1 |BT| (S (NP (PER (NNS groups))) (VP (VBP _) (SBAR (S (NP (NP (NP (NNS voters)) (PP (IN under) (NP (CD 65)))) (, ,) (NP (NNS independents)) (, ,) (NP (NP (NNS voters)) (PP (IN from) (NP (NP (DT the) (NNP Midwest)) (CC and) (NP (DT the) (LOC (NNP West))))))))))) |ET|
--1 |BT| (S (NP (PER (NNS groups))) (VP (VBP _) (SBAR (S (NP (NP (NP (NNS voters)) (PP (IN under) (NP (CD 65)))) (, ,) (NP (NNS independents)) (, ,) (NP (NP (NNS voters)) (PP (IN from) (NP (NP (DT the) (NNP Midwest)) (CC and) (NP (DT the) (NNP West))))) (CC and) (NP (PER (NNS suburbanites)))))))) |ET|
+1 |BT| (S (NP (PER (NNS groups))) (VP (VBP _) (SBAR (S (NP (NP (NP (NNS voters)) (PP (IN under) (NP (CD 65)))) (, ,) (NP (NNS independents)) (, ,) (NP (NP (NNS voters)) (PP (IN from) (NP (NP (DT the) (NNP Midwest)) (CC and) (NP (DT the) (NNP West))))) (CC and) (NP (PER (NNS suburbanites)))))))) |ET|
 -1 |BT| (S (NP (PER (NNS groups))) (VP (VBP _) (SBAR (S (NP (NP (NP (NNS voters)) (PP (IN under) (NP (CD 65)))) (, ,) (NP (NNS independents)) (, ,) (NP (NP (NNS voters)) (PP (IN from) (NP (NP (DT the) (NNP Midwest)) (CC and) (NP (DT the) (NNP West))))) (CC and) (NP (NNS suburbanites))) (VP (VBP _) (VP (VBN divided) (NP (PER (PRP$ their))))))))) |ET|
 -1 |BT| (S (NP (PER (NNS groups))) (VP (VBP _) (SBAR (S (NP (NP (NP (NNS voters)) (PP (IN under) (NP (CD 65)))) (, ,) (NP (NNS independents)) (, ,) (NP (NP (NNS voters)) (PP (IN from) (NP (NP (DT the) (NNP Midwest)) (CC and) (NP (DT the) (NNP West))))) (CC and) (NP (NNS suburbanites))) (VP (VBP _) (VP (VBN divided) (NP (PRP$ their) (NNS votes)) (ADVP (RB almost) (RB evenly)) (PP (IN between) (NP (DT the) (CD two) (JJ major) (PER (NNS candidates)))))))))) |ET|
 -1 |BT| (NP (NP (NP (PER (NNS voters))) (PP (IN under) (NP (CD 65)))) (, ,) (NP (PER (NNS independents)))) |ET|
@@ -4888,13 +4691,8 @@
 -1 |BT| (NP (NP (PER (NNS independents))) (, ,) (NP (NP (NNS voters)) (PP (IN from) (NP (NP (DT the) (NNP Midwest)) (CC and) (NP (DT the) (NNP West))))) (CC and) (NP (PER (NNS suburbanites)))) |ET|
 -1 |BT| (S (NP (NP (PER (NNS independents))) (, ,) (NP (NP (NNS voters)) (PP (IN from) (NP (NP (DT the) (NNP Midwest)) (CC and) (NP (DT the) (NNP West))))) (CC and) (NP (NNS suburbanites))) (VP (VBP _) (VP (VBN divided) (NP (PER (PRP$ their)))))) |ET|
 -1 |BT| (S (NP (NP (PER (NNS independents))) (, ,) (NP (NP (NNS voters)) (PP (IN from) (NP (NP (DT the) (NNP Midwest)) (CC and) (NP (DT the) (NNP West))))) (CC and) (NP (NNS suburbanites))) (VP (VBP _) (VP (VBN divided) (NP (PRP$ their) (NNS votes)) (ADVP (RB almost) (RB evenly)) (PP (IN between) (NP (DT the) (CD two) (JJ major) (PER (NNS candidates))))))) |ET|
-<<<<<<< HEAD
-1 |BT| (NP (NP (PER (NNS voters))) (PP (IN from) (NP (DT the) (LOC (NNP Midwest))))) |ET|
-1 |BT| (NP (NP (PER (NNS voters))) (PP (IN from) (NP (NP (DT the) (NNP Midwest)) (CC and) (NP (DT the) (LOC (NNP West)))))) |ET|
-=======
 -1 |BT| (NP (NP (PER (NNS voters))) (PP (IN from) (NP (DT the) (LOC (NNP Midwest))))) |ET|
 -1 |BT| (NP (NP (PER (NNS voters))) (PP (IN from) (NP (NP (DT the) (NNP Midwest)) (CC and) (NP (DT the) (LOC (NNP West)))))) |ET|
->>>>>>> origin/master
 -1 |BT| (NP (NP (NP (PER (NNS voters))) (PP (IN from) (NP (NP (DT the) (NNP Midwest)) (CC and) (NP (DT the) (NNP West))))) (CC and) (NP (PER (NNS suburbanites)))) |ET|
 -1 |BT| (S (NP (NP (NP (PER (NNS voters))) (PP (IN from) (NP (NP (DT the) (NNP Midwest)) (CC and) (NP (DT the) (NNP West))))) (CC and) (NP (NNS suburbanites))) (VP (VBP _) (VP (VBN divided) (NP (PER (PRP$ their)))))) |ET|
 -1 |BT| (S (NP (NP (NP (PER (NNS voters))) (PP (IN from) (NP (NP (DT the) (NNP Midwest)) (CC and) (NP (DT the) (NNP West))))) (CC and) (NP (NNS suburbanites))) (VP (VBP _) (VP (VBN divided) (NP (PRP$ their) (NNS votes)) (ADVP (RB almost) (RB evenly)) (PP (IN between) (NP (DT the) (CD two) (JJ major) (PER (NNS candidates))))))) |ET|
@@ -4908,24 +4706,16 @@
 -1 |BT| (S (NP (PER (NNS suburbanites))) (VP (VBP _) (VP (VBN divided) (NP (PER (PRP$ their)))))) |ET|
 -1 |BT| (S (NP (PER (NNS suburbanites))) (VP (VBP _) (VP (VBN divided) (NP (PRP$ their) (NNS votes)) (ADVP (RB almost) (RB evenly)) (PP (IN between) (NP (DT the) (CD two) (JJ major) (PER (NNS candidates))))))) |ET|
 -1 |BT| (VP (NP (PER (PRP$ their)) (NNS votes)) (ADVP (RB almost) (RB evenly)) (PP (IN between) (NP (DT the) (CD two) (JJ major) (PER (NNS candidates))))) |ET|
-<<<<<<< HEAD
-1 |BT| (S (NP (PER (NNS voters))) (VP (VBG leaving) (NP (DT the) (FAC (NNS polls))))) |ET|
-=======
 -1 |BT| (S (NP (PER (NNS voters))) (VP (VBG leaving) (NP (DT the) (FAC (NNS polls))))) |ET|
->>>>>>> origin/master
 -1 |BT| (S (NP (PER (NNS voters))) (VP (VBG leaving) (NP (NP (DT the) (NNS polls)) (PRN (-LRB- [) (PP (VBG including) (NP (FAC (DT those)))))))) |ET|
 -1 |BT| (S (NP (PER (NNS voters))) (VP (VBG leaving) (NP (NP (DT the) (NNS polls)) (PRN (-LRB- [) (PP (VBG including) (NP (NP (DT those)) (PP (IN in) (NP (GPE (NNP Florida)))))))))) |ET|
 -1 |BT| (S (NP (VP (PP (NP (PP (S (NP (PER (NNS voters))) (VP (VBG leaving) (NP (NP (DT the) (NNS polls)) (PRN (-LRB- [) (PP (VBG including) (NP (NP (DT those)) (PP (IN in) (NP (NNP Florida))))) (-RRB- ]))))))))) (, ,)) (VP (VBZ shows) (SBAR (WHADVP (WRB how)) (S (NP (JJ different) (PER (NNS groups))))))) |ET|
 -1 |BT| (S (NP (VP (PP (NP (PP (S (NP (PER (NNS voters))) (VP (VBG leaving) (NP (NP (DT the) (NNS polls)) (PRN (-LRB- [) (PP (VBG including) (NP (NP (DT those)) (PP (IN in) (NP (NNP Florida))))) (-RRB- ]))))))))) (, ,)) (VP (VBZ shows) (SBAR (WHADVP (WRB how)) (S (NP (JJ different) (NNS groups)) (VP (VBP have) (VP (VBN voted) (PP (IN for) (NP (PER (NN president)))))))))) |ET|
--1 |BT| (NP (NP (FAC (NNS polls))) (PRN (-LRB- [) (PP (VBG including) (NP (FAC (DT those)))))) |ET|
+1 |BT| (NP (NP (FAC (NNS polls))) (PRN (-LRB- [) (PP (VBG including) (NP (FAC (DT those)))))) |ET|
 -1 |BT| (NP (NP (FAC (NNS polls))) (PRN (-LRB- [) (PP (VBG including) (NP (NP (DT those)) (PP (IN in) (NP (GPE (NNP Florida)))))))) |ET|
 -1 |BT| (S (NP (VP (PP (NP (PP (S (VP (NP (NP (FAC (NNS polls))) (PRN (-LRB- [) (PP (VBG including) (NP (NP (DT those)) (PP (IN in) (NP (NNP Florida))))) (-RRB- ]))))))))) (, ,)) (VP (VBZ shows) (SBAR (WHADVP (WRB how)) (S (NP (JJ different) (PER (NNS groups))))))) |ET|
 -1 |BT| (S (NP (VP (PP (NP (PP (S (VP (NP (NP (FAC (NNS polls))) (PRN (-LRB- [) (PP (VBG including) (NP (NP (DT those)) (PP (IN in) (NP (NNP Florida))))) (-RRB- ]))))))))) (, ,)) (VP (VBZ shows) (SBAR (WHADVP (WRB how)) (S (NP (JJ different) (NNS groups)) (VP (VBP have) (VP (VBN voted) (PP (IN for) (NP (PER (NN president)))))))))) |ET|
-<<<<<<< HEAD
-1 |BT| (NP (NP (FAC (DT those))) (PP (IN in) (NP (GPE (NNP Florida))))) |ET|
-=======
 -1 |BT| (NP (NP (FAC (DT those))) (PP (IN in) (NP (GPE (NNP Florida))))) |ET|
->>>>>>> origin/master
 -1 |BT| (S (NP (VP (PP (NP (PP (S (VP (NP (PRN (PP (NP (NP (FAC (DT those))) (PP (IN in) (NP (NNP Florida))))) (-RRB- ]))))))))) (, ,)) (VP (VBZ shows) (SBAR (WHADVP (WRB how)) (S (NP (JJ different) (PER (NNS groups))))))) |ET|
 -1 |BT| (S (NP (VP (PP (NP (PP (S (VP (NP (PRN (PP (NP (NP (FAC (DT those))) (PP (IN in) (NP (NNP Florida))))) (-RRB- ]))))))))) (, ,)) (VP (VBZ shows) (SBAR (WHADVP (WRB how)) (S (NP (JJ different) (NNS groups)) (VP (VBP have) (VP (VBN voted) (PP (IN for) (NP (PER (NN president)))))))))) |ET|
 -1 |BT| (S (NP (VP (PP (NP (PP (S (VP (NP (PRN (PP (NP (PP (NP (GPE (NNP Florida)))))) (-RRB- ]))))))))) (, ,)) (VP (VBZ shows) (SBAR (WHADVP (WRB how)) (S (NP (JJ different) (PER (NNS groups))))))) |ET|
@@ -4941,9 +4731,9 @@
 -1 |BT| (S (SBAR (S (NP (PP (NP (PER (NNS people))))) (VP (VBP are) (ADJP (VBN surveyed))))) (, ,) (NP (NN exit) (NNS polls)) (VP (MD can) (VP (VB help) (S (VP (VB measure) (NP (NP (NP (DT the) (NNS preferences)) (PP (IN of) (NP (NP (NP (NNS groups)) (PP (IN like) (NP (JJ Jewish) (CC or) (JJ Asian) (NNS voters)))) (CC or) (NP (JJ young) (NNS blacks))))) (CC or) (NP (NP (JJ liberal) (NNPS Republicans)) (SBAR (WHNP (WP$ whose) (NP (NN portion)) (PP (IN of) (NP (DT the) (VBG voting) (PER (NN population))))))))))))) |ET|
 -1 |BT| (NP (NP (PER (NNS groups))) (PP (IN like) (NP (PER (JJ Jewish))))) |ET|
 -1 |BT| (NP (NP (PER (NNS groups))) (PP (IN like) (NP (JJ Jewish) (CC or) (PER (JJ Asian))))) |ET|
--1 |BT| (NP (NP (PER (NNS groups))) (PP (IN like) (NP (JJ Jewish) (CC or) (JJ Asian) (PER (NNS voters))))) |ET|
--1 |BT| (NP (NP (NP (PER (NNS groups))) (PP (IN like) (NP (JJ Jewish) (CC or) (JJ Asian) (NNS voters)))) (CC or) (NP (JJ young) (PER (NNS blacks)))) |ET|
--1 |BT| (NP (NP (PP (NP (NP (NP (PER (NNS groups))) (PP (IN like) (NP (JJ Jewish) (CC or) (JJ Asian) (NNS voters)))) (CC or) (NP (JJ young) (NNS blacks))))) (CC or) (NP (JJ liberal) (PER (NNPS Republicans)))) |ET|
+1 |BT| (NP (NP (PER (NNS groups))) (PP (IN like) (NP (JJ Jewish) (CC or) (JJ Asian) (PER (NNS voters))))) |ET|
+1 |BT| (NP (NP (NP (PER (NNS groups))) (PP (IN like) (NP (JJ Jewish) (CC or) (JJ Asian) (NNS voters)))) (CC or) (NP (JJ young) (PER (NNS blacks)))) |ET|
+1 |BT| (NP (NP (PP (NP (NP (NP (PER (NNS groups))) (PP (IN like) (NP (JJ Jewish) (CC or) (JJ Asian) (NNS voters)))) (CC or) (NP (JJ young) (NNS blacks))))) (CC or) (NP (JJ liberal) (PER (NNPS Republicans)))) |ET|
 -1 |BT| (NP (NP (PP (NP (NP (NP (PER (NNS groups))) (PP (IN like) (NP (JJ Jewish) (CC or) (JJ Asian) (NNS voters)))) (CC or) (NP (JJ young) (NNS blacks))))) (CC or) (NP (NP (JJ liberal) (NNPS Republicans)) (SBAR (WHNP (PER (WP$ whose)))))) |ET|
 -1 |BT| (NP (NP (PP (NP (NP (NP (PER (NNS groups))) (PP (IN like) (NP (JJ Jewish) (CC or) (JJ Asian) (NNS voters)))) (CC or) (NP (JJ young) (NNS blacks))))) (CC or) (NP (NP (JJ liberal) (NNPS Republicans)) (SBAR (WHNP (WP$ whose) (NP (NN portion)) (PP (IN of) (NP (DT the) (VBG voting) (PER (NN population)))))))) |ET|
 -1 |BT| (NP (PER (JJ Jewish)) (CC or) (PER (JJ Asian))) |ET|
@@ -5098,15 +4888,9 @@
 -1 |BT| (NP (NP (ORG (NNP Voter) (NNP News) (NNP Service))) (VP (VBN based) (PP (IN on) (NP (NP (NNS questionnaires)) (VP (VBN completed) (PP (IN by) (NP (CD 13,279) (PER (NNS voters))))))))) |ET|
 -1 |BT| (NP (NP (ORG (NNP Voter) (NNP News) (NNP Service))) (VP (VBN based) (PP (IN on) (NP (NP (NNS questionnaires)) (VP (VBN completed) (PP (IN by) (NP (CD 13,279) (NNS voters))) (S (VP (VBG leaving) (NP (CD 300) (NN polling) (FAC (NNS places)))))))))) |ET|
 -1 |BT| (NP (NP (ORG (NNP Voter) (NNP News) (NNP Service))) (VP (VBN based) (PP (IN on) (NP (NP (NNS questionnaires)) (VP (VBN completed) (PP (IN by) (NP (CD 13,279) (NNS voters))) (S (VP (VBG leaving) (NP (CD 300) (NN polling) (NNS places)) (PP (IN around) (NP (DT the) (GPE (NN nation))))))))))) |ET|
-<<<<<<< HEAD
-1 |BT| (VP (PP (NP (PER (NNS voters)))) (S (VP (VBG leaving) (NP (CD 300) (NN polling) (FAC (NNS places)))))) |ET|
--1 |BT| (VP (PP (NP (PER (NNS voters)))) (S (VP (VBG leaving) (NP (CD 300) (NN polling) (NNS places)) (PP (IN around) (NP (DT the) (GPE (NN nation))))))) |ET|
-1 |BT| (VP (NP (FAC (NNS places))) (PP (IN around) (NP (DT the) (GPE (NN nation))))) |ET|
-=======
 -1 |BT| (VP (PP (NP (PER (NNS voters)))) (S (VP (VBG leaving) (NP (CD 300) (NN polling) (FAC (NNS places)))))) |ET|
 -1 |BT| (VP (PP (NP (PER (NNS voters)))) (S (VP (VBG leaving) (NP (CD 300) (NN polling) (NNS places)) (PP (IN around) (NP (DT the) (GPE (NN nation))))))) |ET|
 -1 |BT| (VP (NP (FAC (NNS places))) (PP (IN around) (NP (DT the) (GPE (NN nation))))) |ET|
->>>>>>> origin/master
 -1 |BT| (NP (NP (ORG (NNP Voter) (NNP News) (NNP Service))) (VP (VBN based) (PP (IN on) (NP (NP (NNS questionnaires)) (PP (IN with) (NP (CD 16,627) (PER (NNS voters)))))))) |ET|
 -1 |BT| (ORG (NP (NNP Voter) (NNP Research)) (CC and) (NP (NP (NNS Surveys)) (PP (IN with) (NP (CD 15,490) (PER (NNS voters)))))) |ET|
 -1 |BT| (NP (NP (ORG (NNP New) (NNP York) (NNP Times))) (CC and) (NP (ORG (NNP CBS) (NNP News)))) |ET|
@@ -5136,7 +4920,7 @@
 -1 |BT| (S (NP (PER (PRP they))) (VP (VBD considered) (S (NP (PER (PRP themselves)))))) |ET|
 -1 |BT| (NP (ORG (NN college)) (PER (NNS graduates))) |ET|
 -1 |BT| (S (NP (ORG (NN college)) (NNS graduates)) (VP (VBP include) (NP (PER (DT those))))) |ET|
--1 |BT| (S (NP (PER (NNS graduates))) (VP (VBP include) (NP (PER (DT those))))) |ET|
+1 |BT| (S (NP (PER (NNS graduates))) (VP (VBP include) (NP (PER (DT those))))) |ET|
 -1 |BT| (S (NP (ORG (JJ Congressional)) (NN vote)) (VP (VBZ does) (RB not) (VP (VB include) (NP (GPE (NNP New) (NNP York)))))) |ET|
 -1 |BT| (S (NP (ORG (JJ Congressional)) (NN vote)) (VP (VBZ does) (RB not) (VP (VB include) (NP (NP (NNP New) (NNP York)) (CC and) (NP (GPE (NNP California))))))) |ET|
 -1 |BT| (NP (NP (GPE (NNP New) (NNP York))) (CC and) (NP (GPE (NNP California)))) |ET|
@@ -5163,11 +4947,7 @@
 -1 |BT| (NP (PP (NP (GPE (JJ Israeli)) (NNS troops))) (SBAR (IN in) (S (NP (DT the) (NNP West) (NNP Bank)) (VP (VBD said) (SBAR (S (NP (EX there)) (VP (VBD was) (NP (NP (DT a) (JJ simple) (NN goal)) (PP (TO to) (NP (NP (DT the) (NN helicopter) (NN assassination)) (PP (IN on) (NP (NNP Thursday))) (PP (IN of) (NP (DT a) (WEA (NN gun)))))))))))))) |ET|
 -1 |BT| (NP (PP (NP (GPE (JJ Israeli)) (NNS troops))) (SBAR (IN in) (S (NP (DT the) (NNP West) (NNP Bank)) (VP (VBD said) (SBAR (S (NP (EX there)) (VP (VBD was) (NP (NP (DT a) (JJ simple) (NN goal)) (PP (TO to) (NP (NP (DT the) (NN helicopter) (NN assassination)) (PP (IN on) (NP (NNP Thursday))) (PP (IN of) (NP (DT a) (NN gun))) (NP (JJ -wielding) (JJ local) (GPE (JJ Palestinian))))))))))))) |ET|
 -1 |BT| (NP (PP (NP (GPE (JJ Israeli)) (NNS troops))) (SBAR (IN in) (S (NP (DT the) (NNP West) (NNP Bank)) (VP (VBD said) (SBAR (S (NP (EX there)) (VP (VBD was) (NP (NP (DT a) (JJ simple) (NN goal)) (PP (TO to) (NP (NP (DT the) (NN helicopter) (NN assassination)) (PP (IN on) (NP (NNP Thursday))) (PP (IN of) (NP (DT a) (NN gun))) (NP (JJ -wielding) (JJ local) (JJ Palestinian) (PER (NN leader))))))))))))) |ET|
-<<<<<<< HEAD
-1 |BT| (NP (PP (NP (PER (NNS troops)))) (SBAR (IN in) (S (NP (LOC (DT the) (NNP West) (NNP Bank)))))) |ET|
-=======
 -1 |BT| (NP (PP (NP (PER (NNS troops)))) (SBAR (IN in) (S (NP (LOC (DT the) (NNP West) (NNP Bank)))))) |ET|
->>>>>>> origin/master
 -1 |BT| (NP (PP (NP (PER (NNS troops)))) (SBAR (IN in) (S (NP (DT the) (NNP West) (NNP Bank)) (VP (VBD said) (SBAR (S (NP (EX there)) (VP (VBD was) (NP (NP (DT a) (JJ simple) (NN goal)) (PP (TO to) (NP (DT the) (VEH (NN helicopter)))))))))))) |ET|
 -1 |BT| (NP (PP (NP (PER (NNS troops)))) (SBAR (IN in) (S (NP (DT the) (NNP West) (NNP Bank)) (VP (VBD said) (SBAR (S (NP (EX there)) (VP (VBD was) (NP (NP (DT a) (JJ simple) (NN goal)) (PP (TO to) (NP (NP (DT the) (NN helicopter) (NN assassination)) (PP (IN on) (NP (NNP Thursday))) (PP (IN of) (NP (DT a) (WEA (NN gun)))))))))))))) |ET|
 -1 |BT| (NP (PP (NP (PER (NNS troops)))) (SBAR (IN in) (S (NP (DT the) (NNP West) (NNP Bank)) (VP (VBD said) (SBAR (S (NP (EX there)) (VP (VBD was) (NP (NP (DT a) (JJ simple) (NN goal)) (PP (TO to) (NP (NP (DT the) (NN helicopter) (NN assassination)) (PP (IN on) (NP (NNP Thursday))) (PP (IN of) (NP (DT a) (NN gun))) (NP (JJ -wielding) (JJ local) (GPE (JJ Palestinian))))))))))))) |ET|
@@ -5214,11 +4994,7 @@
 -1 |BT| (VP (NP (PER (NNS reporters))) (PP (IN at) (NP (NP (DT a) (NN briefing) (NNS hours)) (PP (IN after) (NP (NP (CD three) (NNS missiles)) (VP (VBN fired) (PP (IN from) (NP (NP (DT an) (NNP Apache) (NN helicopter)) (VP (VBN killed) (NP (NNP Hussein) (NNP Obaiyat)))))))))) (, ,) (ADVP (IN along) (PP (IN with) (S (NP (CD two) (JJ middle-aged) (NNS women)) (VP (VBG standing) (PP (IN near) (NP (PRP$ his) (NN van))) (PP (IN in) (NP (GPE (NNP Beit) (NNP Sahur))))))))) |ET|
 -1 |BT| (VP (NP (PER (NNS reporters))) (PP (IN at) (NP (NP (DT a) (NN briefing) (NNS hours)) (PP (IN after) (NP (NP (CD three) (NNS missiles)) (VP (VBN fired) (PP (IN from) (NP (NP (DT an) (NNP Apache) (NN helicopter)) (VP (VBN killed) (NP (NNP Hussein) (NNP Obaiyat)))))))))) (, ,) (ADVP (IN along) (PP (IN with) (S (NP (CD two) (JJ middle-aged) (NNS women)) (VP (VBG standing) (PP (IN near) (NP (PRP$ his) (NN van))) (PP (IN in) (NP (NNP Beit) (NNP Sahur))))))) (, ,) (PP (IN near) (NP (GPE (NNP Bethlehem))))) |ET|
 -1 |BT| (NP (NP (WEA (NNS missiles))) (VP (VBN fired) (PP (IN from) (NP (DT an) (VEH (NNP Apache)))))) |ET|
-<<<<<<< HEAD
-1 |BT| (NP (NP (WEA (NNS missiles))) (VP (VBN fired) (PP (IN from) (NP (DT an) (NNP Apache) (VEH (NN helicopter)))))) |ET|
-=======
 -1 |BT| (NP (NP (WEA (NNS missiles))) (VP (VBN fired) (PP (IN from) (NP (DT an) (NNP Apache) (VEH (NN helicopter)))))) |ET|
->>>>>>> origin/master
 -1 |BT| (NP (NP (WEA (NNS missiles))) (VP (VBN fired) (PP (IN from) (NP (NP (DT an) (NNP Apache) (NN helicopter)) (VP (VBN killed) (NP (PER (NNP Hussein) (NNP Obaiyat)))))))) |ET|
 -1 |BT| (VP (PP (NP (PP (NP (NP (WEA (NNS missiles))) (VP (VBN fired) (PP (IN from) (NP (NP (DT an) (NNP Apache) (NN helicopter)) (VP (VBN killed) (NP (NNP Hussein) (NNP Obaiyat)))))))))) (, ,) (ADVP (IN along) (PP (IN with) (S (NP (CD two) (JJ middle-aged) (PER (NNS women))))))) |ET|
 -1 |BT| (VP (PP (NP (PP (NP (NP (WEA (NNS missiles))) (VP (VBN fired) (PP (IN from) (NP (NP (DT an) (NNP Apache) (NN helicopter)) (VP (VBN killed) (NP (NNP Hussein) (NNP Obaiyat)))))))))) (, ,) (ADVP (IN along) (PP (IN with) (S (NP (CD two) (JJ middle-aged) (NNS women)) (VP (VBG standing) (PP (IN near) (NP (PER (PRP$ his))))))))) |ET|
@@ -5250,11 +5026,7 @@
 -1 |BT| (NP (PER (PRP$ his)) (VEH (NN van))) |ET|
 -1 |BT| (VP (PP (NP (PER (PRP$ his)) (NN van))) (PP (IN in) (NP (GPE (NNP Beit) (NNP Sahur))))) |ET|
 -1 |BT| (VP (ADVP (PP (S (VP (PP (NP (PER (PRP$ his)) (NN van))) (PP (IN in) (NP (NNP Beit) (NNP Sahur))))))) (, ,) (PP (IN near) (NP (GPE (NNP Bethlehem))))) |ET|
-<<<<<<< HEAD
-1 |BT| (VP (PP (NP (VEH (NN van)))) (PP (IN in) (NP (GPE (NNP Beit) (NNP Sahur))))) |ET|
-=======
 -1 |BT| (VP (PP (NP (VEH (NN van)))) (PP (IN in) (NP (GPE (NNP Beit) (NNP Sahur))))) |ET|
->>>>>>> origin/master
 -1 |BT| (VP (ADVP (PP (S (VP (PP (NP (VEH (NN van)))) (PP (IN in) (NP (NNP Beit) (NNP Sahur))))))) (, ,) (PP (IN near) (NP (GPE (NNP Bethlehem))))) |ET|
 -1 |BT| (VP (ADVP (PP (S (VP (PP (NP (GPE (NNP Beit) (NNP Sahur)))))))) (, ,) (PP (IN near) (NP (GPE (NNP Bethlehem))))) |ET|
 -1 |BT| (NP (NP (LOC (NNP West) (NNP Bank))) (CC and) (NP (LOC (NNP Gaza) (NNP Strip)))) |ET|
@@ -5325,11 +5097,7 @@
 -1 |BT| (S (S (VP (SBAR (S (VP (NP (PP (NP (GPE (NNP Israeli)) (NN jeep)))) (PP (IN in) (NP (DT the) (NNP Gaza) (NNP Strip))) (PP (IN near) (NP (NP (DT the) (JJ Israeli) (NN settlement)) (PP (IN of) (S (VP (VBP Gush) (NP (NNP Katif) (NNP Saturday) (NN afternoon)))))))))))) (, ,) (CC and) (S (NP (CD two) (GPE (NNP Israeli))))) |ET|
 -1 |BT| (S (S (VP (SBAR (S (VP (NP (PP (NP (GPE (NNP Israeli)) (NN jeep)))) (PP (IN in) (NP (DT the) (NNP Gaza) (NNP Strip))) (PP (IN near) (NP (NP (DT the) (JJ Israeli) (NN settlement)) (PP (IN of) (S (VP (VBP Gush) (NP (NNP Katif) (NNP Saturday) (NN afternoon)))))))))))) (, ,) (CC and) (S (NP (CD two) (NNP Israeli) (PER (NNS soldiers))))) |ET|
 -1 |BT| (S (S (VP (SBAR (S (VP (NP (PP (NP (GPE (NNP Israeli)) (NN jeep)))) (PP (IN in) (NP (DT the) (NNP Gaza) (NNP Strip))) (PP (IN near) (NP (NP (DT the) (JJ Israeli) (NN settlement)) (PP (IN of) (S (VP (VBP Gush) (NP (NNP Katif) (NNP Saturday) (NN afternoon)))))))))))) (, ,) (CC and) (S (NP (CD two) (NNP Israeli) (NNS soldiers)) (VP (VBD were) (VP (VBN wounded) (, ,) (NP (PER (CD one))))))) |ET|
-<<<<<<< HEAD
-1 |BT| (VP (NP (PP (NP (VEH (NN jeep))))) (PP (IN in) (NP (LOC (DT the) (NNP Gaza) (NNP Strip))))) |ET|
-=======
 -1 |BT| (VP (NP (PP (NP (VEH (NN jeep))))) (PP (IN in) (NP (LOC (DT the) (NNP Gaza) (NNP Strip))))) |ET|
->>>>>>> origin/master
 -1 |BT| (VP (NP (PP (NP (VEH (NN jeep))))) (PP (IN in) (NP (DT the) (NNP Gaza) (NNP Strip))) (PP (IN near) (NP (DT the) (GPE (JJ Israeli))))) |ET|
 -1 |BT| (VP (NP (PP (NP (VEH (NN jeep))))) (PP (IN in) (NP (DT the) (NNP Gaza) (NNP Strip))) (PP (IN near) (NP (DT the) (JJ Israeli) (GPE (NN settlement))))) |ET|
 -1 |BT| (VP (NP (PP (NP (VEH (NN jeep))))) (PP (IN in) (NP (DT the) (NNP Gaza) (NNP Strip))) (PP (IN near) (NP (NP (DT the) (JJ Israeli) (NN settlement)) (PP (IN of) (S (VP (GPE (VBP Gush) (NP (NNP Katif))))))))) |ET|
@@ -5356,11 +5124,11 @@
 -1 |BT| (S (S (VP (SBAR (S (VP (PP (NP (PP (S (VP (GPE (VBP Gush) (NP (NNP Katif) (NNP Saturday) (NN afternoon))))))))))))) (, ,) (CC and) (S (NP (CD two) (NNP Israeli) (NNS soldiers)) (VP (VBD were) (VP (VBN wounded) (, ,) (NP (PER (CD one))))))) |ET|
 -1 |BT| (NP (GPE (NNP Israeli)) (PER (NNS soldiers))) |ET|
 -1 |BT| (S (NP (GPE (NNP Israeli)) (NNS soldiers)) (VP (VBD were) (VP (VBN wounded) (, ,) (NP (PER (CD one)))))) |ET|
--1 |BT| (S (NP (PER (NNS soldiers))) (VP (VBD were) (VP (VBN wounded) (, ,) (NP (PER (CD one)))))) |ET|
+1 |BT| (S (NP (PER (NNS soldiers))) (VP (VBD were) (VP (VBN wounded) (, ,) (NP (PER (CD one)))))) |ET|
 -1 |BT| (S (NP (PER (NNPS Israelis))) (VP (VP (VBD retrieved)) (CC and) (VP (VBD held) (PRT (RP on)) (PP (TO to) (NP (DT the) (CD two) (PER (NNS bodies))))))) |ET|
 -1 |BT| (S (SBAR (S (NP (PER (NNPS Israelis))) (VP (VP (VBD retrieved)) (CC and) (VP (VBD held) (PRT (RP on)) (PP (TO to) (NP (DT the) (CD two) (NNS bodies))))))) (, ,) (NP (NP (DT a) (JJ large) (NN crowd)) (PP (IN of) (NP (PER (NNPS Palestinians)))))) |ET|
 -1 |BT| (S (SBAR (S (VP (PP (NP (PER (NNS bodies))))))) (, ,) (NP (NP (DT a) (JJ large) (NN crowd)) (PP (IN of) (NP (PER (NNPS Palestinians)))))) |ET|
--1 |BT| (NP (NP (PER (NNS Men))) (PP (IN in) (NP (JJ civilian) (NNS clothes))) (PP (IN in) (NP (DT the) (PER (NN crowd))))) |ET|
+1 |BT| (NP (NP (PER (NNS Men))) (PP (IN in) (NP (JJ civilian) (NNS clothes))) (PP (IN in) (NP (DT the) (PER (NN crowd))))) |ET|
 -1 |BT| (S (NP (NP (PER (NNS Men))) (PP (IN in) (NP (JJ civilian) (NNS clothes))) (PP (IN in) (NP (DT the) (NN crowd)))) (VP (VBD began) (NP (NN firing)) (PP (IN with) (NP (WEA (NNP AK-47)))))) |ET|
 -1 |BT| (S (NP (NP (PER (NNS Men))) (PP (IN in) (NP (JJ civilian) (NNS clothes))) (PP (IN in) (NP (DT the) (NN crowd)))) (VP (VBD began) (NP (NN firing)) (PP (IN with) (NP (NNP AK-47) (NN assault) (WEA (NNS rifles)))))) |ET|
 -1 |BT| (S (S (NP (NP (PER (NNS Men))) (PP (IN in) (NP (JJ civilian) (NNS clothes))) (PP (IN in) (NP (DT the) (NN crowd)))) (VP (VBD began) (NP (NN firing)) (PP (IN with) (NP (NNP AK-47) (NN assault) (NNS rifles))))) (CC and) (S (NP (DT a) (JJ 45-minute) (WEA (NN gun))))) |ET|
@@ -5427,22 +5195,14 @@
 -1 |BT| (S (PP (NP (LOC (NNP West) (NNP Bank)))) (, ,) (NP (NP (DT a) (NNP Palestinian)) (VP (VBN identified) (PP (IN as) (NP (PER (NNP Hani) (NNP Marzouq))))))) |ET|
 -1 |BT| (S (PP (NP (LOC (NNP West) (NNP Bank)))) (, ,) (NP (NP (NP (DT a) (NNP Palestinian)) (VP (VBN identified) (PP (IN as) (NP (NNP Hani) (NNP Marzouq))))) (, ,) (NP (CD 37)) (, ,)) (VP (VBD died) (PP (IN in) (NP (DT a) (FAC (NN hospital)))))) |ET|
 -1 |BT| (NP (NP (PER (NNP Palestinian))) (VP (VBN identified) (PP (IN as) (NP (PER (NNP Hani) (NNP Marzouq)))))) |ET|
-<<<<<<< HEAD
-1 |BT| (S (NP (NP (NP (PER (NNP Palestinian))) (VP (VBN identified) (PP (IN as) (NP (NNP Hani) (NNP Marzouq))))) (, ,) (NP (CD 37)) (, ,)) (VP (VBD died) (PP (IN in) (NP (DT a) (FAC (NN hospital)))))) |ET|
-=======
 -1 |BT| (S (NP (NP (NP (PER (NNP Palestinian))) (VP (VBN identified) (PP (IN as) (NP (NNP Hani) (NNP Marzouq))))) (, ,) (NP (CD 37)) (, ,)) (VP (VBD died) (PP (IN in) (NP (DT a) (FAC (NN hospital)))))) |ET|
->>>>>>> origin/master
 -1 |BT| (S (NP (NP (VP (PP (NP (PER (NNP Hani) (NNP Marzouq)))))) (, ,) (NP (CD 37)) (, ,)) (VP (VBD died) (PP (IN in) (NP (DT a) (FAC (NN hospital)))))) |ET|
 -1 |BT| (S (PP (NP (GPE (NNP Hebron)))) (, ,) (NP (NP (NNS thousands)) (PP (IN of) (NP (PER (NNS mourners)))))) |ET|
 -1 |BT| (S (PP (NP (GPE (NNP Hebron)))) (, ,) (NP (NP (NNS thousands)) (PP (IN of) (NP (NNS mourners)))) (VP (VBD crowded) (NP (DT the) (FAC (NNS streets))))) |ET|
 -1 |BT| (S (PP (NP (GPE (NNP Hebron)))) (, ,) (NP (NP (NNS thousands)) (PP (IN of) (NP (NNS mourners)))) (VP (VBD crowded) (NP (DT the) (NNS streets)) (PP (IN for) (NP (NP (DT the) (NN funeral)) (PP (IN of) (NP (PER (NNP Raed) (NNP Mohtaseb)))))))) |ET|
 -1 |BT| (S (PP (NP (GPE (NNP Hebron)))) (, ,) (NP (NP (NNS thousands)) (PP (IN of) (NP (NNS mourners)))) (VP (VBD crowded) (NP (DT the) (NNS streets)) (PP (IN for) (NP (NP (DT the) (NN funeral)) (PP (IN of) (NP (NP (NNP Raed) (NNP Mohtaseb)) (, ,) (NP (CD 27)) (, ,))))) (VP (VBG chanting) (`` ``) (S (NP (NP (DT the) (NN blood)) (PP (IN of) (NP (DT the) (PER (NNS martyrs))))))))) |ET|
 -1 |BT| (S (PP (NP (GPE (NNP Hebron)))) (, ,) (NP (NP (NNS thousands)) (PP (IN of) (NP (NNS mourners)))) (VP (VBD crowded) (NP (DT the) (NNS streets)) (PP (IN for) (NP (NP (DT the) (NN funeral)) (PP (IN of) (NP (NP (NNP Raed) (NNP Mohtaseb)) (, ,) (NP (CD 27)) (, ,))))) (VP (VBG chanting) (`` ``) (S (NP (NP (DT the) (NN blood)) (PP (IN of) (NP (DT the) (NNS martyrs)))) (VP (VBZ is) (VP (VBG calling) (NP (PER (PRP us))))))))) |ET|
-<<<<<<< HEAD
-1 |BT| (S (NP (PP (NP (PER (NNS mourners))))) (VP (VBD crowded) (NP (DT the) (FAC (NNS streets))))) |ET|
-=======
 -1 |BT| (S (NP (PP (NP (PER (NNS mourners))))) (VP (VBD crowded) (NP (DT the) (FAC (NNS streets))))) |ET|
->>>>>>> origin/master
 -1 |BT| (S (NP (PP (NP (PER (NNS mourners))))) (VP (VBD crowded) (NP (DT the) (NNS streets)) (PP (IN for) (NP (NP (DT the) (NN funeral)) (PP (IN of) (NP (PER (NNP Raed) (NNP Mohtaseb)))))))) |ET|
 -1 |BT| (S (NP (PP (NP (PER (NNS mourners))))) (VP (VBD crowded) (NP (DT the) (NNS streets)) (PP (IN for) (NP (NP (DT the) (NN funeral)) (PP (IN of) (NP (NP (NNP Raed) (NNP Mohtaseb)) (, ,) (NP (CD 27)) (, ,))))) (VP (VBG chanting) (`` ``) (S (NP (NP (DT the) (NN blood)) (PP (IN of) (NP (DT the) (PER (NNS martyrs))))))))) |ET|
 -1 |BT| (S (NP (PP (NP (PER (NNS mourners))))) (VP (VBD crowded) (NP (DT the) (NNS streets)) (PP (IN for) (NP (NP (DT the) (NN funeral)) (PP (IN of) (NP (NP (NNP Raed) (NNP Mohtaseb)) (, ,) (NP (CD 27)) (, ,))))) (VP (VBG chanting) (`` ``) (S (NP (NP (DT the) (NN blood)) (PP (IN of) (NP (DT the) (NNS martyrs)))) (VP (VBZ is) (VP (VBG calling) (NP (PER (PRP us))))))))) |ET|
@@ -5620,11 +5380,7 @@
 -1 |BT| (S (NP (NP (PER (NN photographer))) (, ,) (NP (NNP Yola) (NNP Monakhov)) (, ,)) (VP (VBD was) (VP (VP (VBN shot)) (CC and) (VP (VBN wounded) (PP (IN by) (NP (GPE (JJ Israeli)))))))) |ET|
 -1 |BT| (S (NP (NP (PER (NN photographer))) (, ,) (NP (NNP Yola) (NNP Monakhov)) (, ,)) (VP (VBD was) (VP (VP (VBN shot)) (CC and) (VP (VBN wounded) (PP (IN by) (NP (JJ Israeli) (PER (NNS troops)))))))) |ET|
 -1 |BT| (S (NP (NP (PER (NN photographer))) (, ,) (NP (NNP Yola) (NNP Monakhov)) (, ,)) (VP (VBD was) (VP (VP (VBN shot)) (CC and) (VP (VBN wounded) (PP (IN by) (NP (JJ Israeli) (NNS troops))) (SBAR (IN while) (S (VP (VBG covering) (NP (DT a) (WEA (NN stone)))))))))) |ET|
-<<<<<<< HEAD
-1 |BT| (S (NP (NP (PER (NN photographer))) (, ,) (NP (NNP Yola) (NNP Monakhov)) (, ,)) (VP (VBD was) (VP (VP (VBN shot)) (CC and) (VP (VBN wounded) (PP (IN by) (NP (JJ Israeli) (NNS troops))) (SBAR (IN while) (S (VP (VBG covering) (NP (DT a) (NN stone) (NN -throwing) (NN confrontation)) (PP (IN at) (NP (FAC (NP (NNP Rachel) (POS 's)) (NN Tomb))))))))))) |ET|
-=======
 -1 |BT| (S (NP (NP (PER (NN photographer))) (, ,) (NP (NNP Yola) (NNP Monakhov)) (, ,)) (VP (VBD was) (VP (VP (VBN shot)) (CC and) (VP (VBN wounded) (PP (IN by) (NP (JJ Israeli) (NNS troops))) (SBAR (IN while) (S (VP (VBG covering) (NP (DT a) (NN stone) (NN -throwing) (NN confrontation)) (PP (IN at) (NP (FAC (NP (NNP Rachel) (POS 's)) (NN Tomb))))))))))) |ET|
->>>>>>> origin/master
 -1 |BT| (S (NP (NP (PER (NN photographer))) (, ,) (NP (NNP Yola) (NNP Monakhov)) (, ,)) (VP (VBD was) (VP (VP (VBN shot)) (CC and) (VP (VBN wounded) (PP (IN by) (NP (JJ Israeli) (NNS troops))) (SBAR (IN while) (S (VP (VBG covering) (NP (DT a) (NN stone) (NN -throwing) (NN confrontation)) (PP (IN at) (NP (NP (NP (NNP Rachel) (POS 's)) (NN Tomb)) (, ,) (PP (IN near) (NP (GPE (NNP Bethlehem))))))))))))) |ET|
 -1 |BT| (S (S (NP (NP (PER (NN photographer))) (, ,) (NP (NNP Yola) (NNP Monakhov)) (, ,)) (VP (VBD was) (VP (VP (VBN shot)) (CC and) (VP (VBN wounded) (PP (IN by) (NP (JJ Israeli) (NNS troops))) (SBAR (IN while) (S (VP (VBG covering) (NP (DT a) (NN stone) (NN -throwing) (NN confrontation)) (PP (IN at) (NP (NP (NP (NNP Rachel) (POS 's)) (NN Tomb)) (, ,) (PP (IN near) (NP (NNP Bethlehem)))))))))))) (, ,) (NP (GPE (JJ Palestinian)))) |ET|
 -1 |BT| (S (S (NP (NP (PER (NN photographer))) (, ,) (NP (NNP Yola) (NNP Monakhov)) (, ,)) (VP (VBD was) (VP (VP (VBN shot)) (CC and) (VP (VBN wounded) (PP (IN by) (NP (JJ Israeli) (NNS troops))) (SBAR (IN while) (S (VP (VBG covering) (NP (DT a) (NN stone) (NN -throwing) (NN confrontation)) (PP (IN at) (NP (NP (NP (NNP Rachel) (POS 's)) (NN Tomb)) (, ,) (PP (IN near) (NP (NNP Bethlehem)))))))))))) (, ,) (NP (JJ Palestinian) (ORG (NN hospital)))) |ET|
@@ -5675,11 +5431,7 @@
 -1 |BT| (S (S (NP (NP (PP (NP (ORG (NNP Associated) (NNP Press))))) (, ,)) (VP (VBD suffered) (NP (DT a) (JJ fractured) (NN pelvis)))) (, ,) (NP (ORG (NN hospital)))) |ET|
 -1 |BT| (S (S (NP (NP (PP (NP (ORG (NNP Associated) (NNP Press))))) (, ,)) (VP (VBD suffered) (NP (DT a) (JJ fractured) (NN pelvis)))) (, ,) (NP (NN hospital) (PER (NNS officials)))) |ET|
 -1 |BT| (NP (ORG (NN hospital)) (PER (NNS officials))) |ET|
-<<<<<<< HEAD
 -1 |BT| (NP (ORG (NNP Fatah)) (PER (NN leader))) |ET|
-=======
-1 |BT| (NP (ORG (NNP Fatah)) (PER (NN leader))) |ET|
->>>>>>> origin/master
 -1 |BT| (NP (ORG (NNP Fatah)) (NN leader) (PER (NNP Obaiyat))) |ET|
 -1 |BT| (NP (NP (ORG (NNP Fatah)) (NN leader) (NNP Obaiyat)) (, ,) (SBAR (WHNP (PER (WP whom))))) |ET|
 -1 |BT| (NP (NP (ORG (NNP Fatah)) (NN leader) (NNP Obaiyat)) (, ,) (SBAR (WHNP (WP whom)) (S (NP (DT the) (ORG (NN army)))))) |ET|
@@ -5747,11 +5499,7 @@
 -1 |BT| (NP (PER (NNP President)) (PER (NNP Clinton))) |ET|
 -1 |BT| (VP (PP (NP (PP (NP (PER (NNP President)) (NNP Clinton))))) (PP (IN in) (NP (GPE (NNP Washington))))) |ET|
 -1 |BT| (VP (PP (NP (PP (NP (PER (NNP Clinton)))))) (PP (IN in) (NP (GPE (NNP Washington))))) |ET|
-<<<<<<< HEAD
-1 |BT| (NP (NP (PER (NN one))) (ADVP (GPE (RB here)))) |ET|
-=======
 -1 |BT| (NP (NP (PER (NN one))) (ADVP (GPE (RB here)))) |ET|
->>>>>>> origin/master
 -1 |BT| (S (NP (PER (NNP Barak))) (VP (VBD said) (PP (IN on) (NP (NNP Friday))) (, ,) (SBAR (IN before) (S (NP (NP (RB much)) (PP (IN of) (NP (GPE (NNP Israel))))))))) |ET|
 -1 |BT| (S (NP (PER (NNP Barak))) (VP (VP (VBD said) (PP (IN on) (NP (NNP Friday))) (, ,) (SBAR (IN before) (S (NP (NP (RB much)) (PP (IN of) (NP (NNP Israel)))) (VP (VBD closed) (ADVP (RB down)) (PP (IN for) (NP (DT the) (NNP Sabbath))) (, ,) (SBAR (IN that) (S (NP (DT the) (NNS talks)) (VP (MD would) (VP (VB be) (NP (DT an) (NN effort) (S (VP (TO to) (VP (VB end) (NP (DT the) (NN violence)))))))))))))) (, ,) (CC but) (VP (VBD added) (SBAR (S (NP (PER (PRP he)))))))) |ET|
 -1 |BT| (VP (VP (SBAR (S (NP (PP (NP (GPE (NNP Israel))))) (VP (VBD closed) (ADVP (RB down)) (PP (IN for) (NP (DT the) (NNP Sabbath))) (, ,) (SBAR (IN that) (S (NP (DT the) (NNS talks)) (VP (MD would) (VP (VB be) (NP (DT an) (NN effort) (S (VP (TO to) (VP (VB end) (NP (DT the) (NN violence)))))))))))))) (, ,) (CC but) (VP (VBD added) (SBAR (S (NP (PER (PRP he))))))) |ET|
