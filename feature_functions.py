@@ -176,15 +176,15 @@ def chunk_hbnull(coref,corpus):
 
 def chunk_hbfl(coref,corpus):
     chunkline,chunks=chunk_between(coref,corpus)
-    return chunkline.words[chunks[0][0]].heads if len(chunks) ==1 else 'None'
+    return re.subn('\W','_', chunkline.words[chunks[0][0]].heads)[0] if len(chunks) ==1 else 'None'
 
 def chunk_hbf(coref,corpus):
     chunkline,chunks=chunk_between(coref,corpus)
-    return chunkline.words[chunks[0][0]].heads if len(chunks) >1 else 'None'
+    return re.subn('\W','_', chunkline.words[chunks[0][0]].heads)[0] if len(chunks) >1 else 'None'
 
 def chunk_hbl(coref,corpus):
     chunkline,chunks=chunk_between(coref,corpus)
-    return chunkline.words[chunks[-1][0]].heads if len(chunks) >1 else 'None'
+    return re.subn('\W','_', chunkline.words[chunks[-1][0]].heads)[0] if len(chunks) >1 else 'None'
 
 def chunk_hbo(coref,corpus):
     chunkline,chunks=chunk_between(coref,corpus)
@@ -193,21 +193,21 @@ def chunk_hbo(coref,corpus):
 
 def chunk_m1f(coref,corpus):
     chunkline,chunks=chunk_before(coref,corpus)
-    return chunkline.words[chunks[-1][0]].heads if len(chunks) >0 else 'None'
+    return re.subn('\W','_', chunkline.words[chunks[-1][0]].heads)[0] if len(chunks) >0 else 'None'
 
 def chunk_m1l(coref,corpus):
     chunkline,chunks=chunk_before(coref,corpus)
-    return chunkline.words[chunks[-2][0]].heads if len(chunks) >1 else 'None'
+    return re.subn('\W','_', chunkline.words[chunks[-2][0]].heads)[0] if len(chunks) >1 else 'None'
 
 
 
 def chunk_m2f(coref,corpus):
     chunkline,chunks=chunk_after(coref,corpus)
-    return chunkline.words[chunks[0][0]].heads if len(chunks) >0 else 'None'
+    return re.subn('\W','_', chunkline.words[chunks[0][0]].heads)[0] if len(chunks) >0 else 'None'
 
 def chunk_m2l(coref,corpus):
     chunkline,chunks=chunk_after(coref,corpus)
-    return chunkline.words[chunks[1][0]].heads if len(chunks) >1 else 'None'
+    return re.subn('\W','_', chunkline.words[chunks[1][0]].heads)[0] if len(chunks) >1 else 'None'
 
 
 if __name__ == '__main__':
