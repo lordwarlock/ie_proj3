@@ -193,24 +193,20 @@ def chunk_hbo(coref,corpus):
 
 def chunk_m1f(coref,corpus):
     chunkline,chunks=chunk_before(coref,corpus)
-    print chunks
     return chunkline.words[chunks[-1][0]].heads if len(chunks) >0 else 'None'
 
-def chunk_m2l(coref,corpus):
+def chunk_m1l(coref,corpus):
     chunkline,chunks=chunk_before(coref,corpus)
-    print chunks
     return chunkline.words[chunks[-2][0]].heads if len(chunks) >1 else 'None'
 
 
 
 def chunk_m2f(coref,corpus):
     chunkline,chunks=chunk_after(coref,corpus)
-    print chunks
     return chunkline.words[chunks[0][0]].heads if len(chunks) >0 else 'None'
 
 def chunk_m2l(coref,corpus):
     chunkline,chunks=chunk_after(coref,corpus)
-    print chunks
     return chunkline.words[chunks[1][0]].heads if len(chunks) >1 else 'None'
 
 
@@ -219,4 +215,4 @@ if __name__ == '__main__':
     from feature_extraction import FeatureExtraction
     from build_corpus import BuildCorpus
     f_ex=FeatureExtraction(BuildCorpus())
-    f_ex.test(DataSet(r"./project3/data/rel-trainset.gold"),chunk_hbfl)
+    f_ex.test(DataSet(r"./project3/data/rel-trainset.gold"),chunk_m2f)

@@ -51,6 +51,7 @@ class ChunkSent(object):
         else:
             while self.chunk_mapping[first] == -1:
                 first += 1
+                if first >= len(self.chunk_mapping): return []
             first=self.chunk_mapping[first]
 
         if self.chunk_mapping[second] != -1:
@@ -58,25 +59,28 @@ class ChunkSent(object):
         else:
             while self.chunk_mapping[second] == -1:
                 second -= 1
+                if second <0: return []
             second=self.chunk_mapping[second]
 
         return self.chunks[first:second+1]
 
     def chunks_before(self,index):
         if self.chunk_mapping[index] != -1:
-            index=self.chunks[index] -1
+            index=self.chunk_mapping[index] -1
         else:
             while self.chunk_mapping[index] == -1:
                 index -= 1
+                if index <0: return []
             index=self.chunk_mapping[index]
-        return self.chunks[:inde+1]
+        return self.chunks[:index+1]
 
     def chunks_after(self,index):
         if self.chunk_mapping[index] != -1:
-            index=self.chunks[index] +1
+            index=self.chunk_mapping[index] +1
         else:
             while self.chunk_mapping[index] == -1:
                 index += 1
+                if index >= len(self.chunk_mapping): return []
             index=self.chunk_mapping[index]
 
         return self.chunks[index:]
