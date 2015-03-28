@@ -8,7 +8,10 @@ def get_feature_functions():
             hint_at_detection,hint_like_detection,hint_for_detection,
             get_root_production,
             mention_level,
-            svm_EMP_ORG_Employ_Undetermined_reverse]
+            svm_EMP_ORG_Employ_Undetermined_reverse,
+            head_word_m1,head_word_m2,
+            chunk_hbnull,chunk_hbfl,chunk_hbf,chunk_hbl,chunk_m1f,chunk_m1l,
+            chunk_m2f,chunk_m2l]
             #svm_PHYS_Part_Whole,
             #svm_EMP_ORG_Subsidiary,svm_EMP_ORG_Subsidiary_reverse,
             #svm_PER_SOC_Family,svm_PER_SOC_Business]
@@ -54,11 +57,14 @@ def head_word(document,mention,corpus):
         return list[-1][0]
 
 def head_word_m1(coref,corpus):
-    return head_word(coref.document,coref.first,corpus)
+    hw = head_word(coref.document,coref.first,corpus)
+    hw = re.sub('\W','_',hw.lower())
+    return hw
 
 def head_word_m2(coref,corpus):
-    return head_word(coref.document,coref.second,corpus)
-
+    hw = head_word(coref.document,coref.second,corpus)
+    hw = re.sub('\W','_',hw.lower())
+    return hw
 
 def entity_type(coref,corpus):
     return coref.first.ne+'-'+coref.second.ne

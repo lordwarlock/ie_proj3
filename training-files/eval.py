@@ -34,4 +34,4 @@ def evaluate(in_file):
     print 'precision =', precision, 'recall =', recall, 'f1 =', f
 
 if __name__ == '__main__':
-    evaluate('prediction')
+    evaluate('prediction-488')
